@@ -4,14 +4,14 @@
 	<!--Do Not Edit Above Here-->
 
 		<!--Copy From This Line-->
-		<Faction Tag="TBD-A" Founder="TBD">
+		<Faction Tag="GOONS" Founder="Asher">
 			<Id>
 				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
 				<SubtypeId>DSV-S3NPC</SubtypeId> <!--Must Be Unique-->
 			</Id>
 			<DisplayName>Undecided Faction</DisplayName>
 			<IsDefault>true</IsDefault>
-			<DefaultRelation>Neutral</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
 			<AcceptHumans>false</AcceptHumans>
 			<AutoAcceptMember>false</AutoAcceptMember>
 			<StartingBalance>0</StartingBalance>
