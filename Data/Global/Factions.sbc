@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Factions>
+	<!--Do Not Edit Above Here-->
+
+		<!--Copy From This Line-->
+		<Faction Tag="TBD-A" Founder="TBD">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>DSV-S3NPC</SubtypeId> <!--Must Be Unique-->
+			</Id>
+			<DisplayName>Undecided Faction</DisplayName>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Neutral</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>0</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>true</DiscoveredByDefault>
+			<FactionIcon></FactionIcon> <!--Game or Mod Path For Texture File-->
+		</Faction>
+		<!--Copy To This Line And Paste Directly Below-->
+
+	<!--Do Not Edit Below Here-->
+	</Factions>
+</Definitions>
