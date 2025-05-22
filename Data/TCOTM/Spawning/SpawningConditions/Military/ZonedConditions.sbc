@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>Military-Conditions-Default</SubtypeId>
+        <SubtypeId>Military-InZone-Conditions-Default</SubtypeId>
       </Id>
       <Description>
 
@@ -13,11 +13,11 @@
 
         [SpaceCargoShip:true]
 
-        [UseThreatLevelCheck:true]
-        [ThreatLevelCheckRange:15000]
-        [ThreatScoreMinimum:500]
+        [UseThreatLevelCheck:false]
 		
-		    [FactionOwner:GOONS]
+		    [FactionOwner:TCOTM]
+
+        [ZoneConditions:Military-Zoned-Conditions-Default]
 
       </Description>
 

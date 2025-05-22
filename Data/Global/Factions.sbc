@@ -4,7 +4,7 @@
 	<!--Do Not Edit Above Here-->
 
 		<!--Copy From This Line-->
-		<Faction Tag="GOONS" Founder="Asher">
+		<Faction Tag="TCOTM" Founder="Asher">
 			<Id>
 				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
 				<SubtypeId>DSV-S3NPC</SubtypeId> <!--Must Be Unique-->

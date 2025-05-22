@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-Zone-TCOTM</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Zone]
+
+        [PublicName:TCOTM Space]
+
+        [Active:true]
+        [Persistent:true]
+
+        [Coordinates:{X:1 Y:1 Z:1}]
+        [Radius:25000]
+
+        [UseZoneAnnounce:true]
+        [ZoneEnterAnnounce:You have entered The Children of the Maw's Territory]
+        [ZoneLeaveAnnounce:You have left The Children of the Maw's Territory]
+
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>
