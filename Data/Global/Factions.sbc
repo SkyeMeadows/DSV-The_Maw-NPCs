@@ -7,9 +7,9 @@
 		<Faction Tag="TCOTM" Founder="Asher">
 			<Id>
 				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-S3NPC</SubtypeId> <!--Must Be Unique-->
+				<SubtypeId>DSV-TCOTM</SubtypeId> <!--Must Be Unique-->
 			</Id>
-			<DisplayName>Undecided Faction</DisplayName>
+			<DisplayName>The Children Of The Maw</DisplayName>
 			<IsDefault>true</IsDefault>
 			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
 			<AcceptHumans>false</AcceptHumans>
