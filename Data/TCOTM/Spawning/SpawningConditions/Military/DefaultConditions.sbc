@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>Military-LightCraft-Conditions-Default</SubtypeId>
+        <SubtypeId>Military-TinyCraft-Conditions-Default</SubtypeId>
       </Id>
       <Description>
 
