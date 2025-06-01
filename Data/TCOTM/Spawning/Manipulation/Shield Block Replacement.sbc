@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+       <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Standard-Replacement-Shields</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseBlockReplacer:true]
+
+        [ReplaceBlockOld:MyObjectBuilder_CubeBlock/LargeBlockDummyNPCShieldEmitter]
+		    [ReplaceBlockNew:MyObjectBuilder_UpgradeModule/NPCEmitterLB]
+
+        [ReplaceBlockOld:MyObjectBuilder_CubeBlock/LargeBlockDummyNPCShieldController]
+		    [ReplaceBlockNew:MyObjectBuilder_UpgradeModule/NPCControlLB]
+
+	    </Description>
+    </EntityComponent>
+	
+	
+	
+  </EntityComponents>
+</Definitions>

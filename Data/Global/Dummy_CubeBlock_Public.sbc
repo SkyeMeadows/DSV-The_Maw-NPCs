@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockDummyNPCShieldEmitter</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DummyNPCShieldEmitter</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+            <Description>Description_DummyNPCShieldEmitter</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <CubeDefinition>
+                <CubeTopology>Box</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                </Sides>
+            </CubeDefinition>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="SteelPlate" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\SquarePlateConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\SquarePlateConstruction_2.mwm" RandomOrientation="true" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\SquarePlateConstruction_3.mwm" RandomOrientation="true" />
+            </BuildProgressModels>
+            <BlockPairName>DummyNPCShieldEmitter</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <DisassembleRatio>2.5</DisassembleRatio>
+            <NavigationDefinition>Default</NavigationDefinition>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+			<Public>false</Public>
+			<GuiVisible>false</GuiVisible>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockDummyNPCShieldController</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_DummyNPCShieldController</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
+            <Description>Description_DummyNPCShieldController</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <CubeDefinition>
+                <CubeTopology>Box</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                </Sides>
+            </CubeDefinition>
+            <Components>
+                <Component Subtype="SteelPlate" Count="135" />
+                <Component Subtype="MetalGrid" Count="50" />
+                <Component Subtype="SteelPlate" Count="15" />
+            </Components>
+            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySquarePlateConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySquarePlateConstruction_2.mwm" RandomOrientation="true" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavySquarePlateConstruction_3.mwm" RandomOrientation="true" />
+            </BuildProgressModels>
+            <BlockPairName>DummyNPCShieldController</BlockPairName>
+            <DeformationRatio>0.4</DeformationRatio>
+            <EdgeType>Heavy</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DisassembleRatio>3</DisassembleRatio>
+            <!-- <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier> -->
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+			<Public>false</Public>
+			<GuiVisible>false</GuiVisible>
+        </Definition>
+	</CubeBlocks>
+</Definitions>
