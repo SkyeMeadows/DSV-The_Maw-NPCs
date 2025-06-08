@@ -14,5 +14,6 @@ Z = Backwards (+) / Forwards (-)
 ## Used Mods:
 - Aryx Weapon Enterprises (Modified)
 - Deflector Shields
+- Defense Shields
 - Jump Drive Inhibitor
 - AQD Conveyor Expansion

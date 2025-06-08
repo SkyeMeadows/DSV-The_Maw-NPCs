@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>Military-Fleet-Small-01</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[FactionOverride:TCOTM]
+			[ReplenishSystems:true]
+
+			[SpawnConditionsProfiles:Military-Fleet-Conditions-Default]
+
+			[ManipulationProfiles:Standard-Replacement-Shields]
+				
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TCOTM] Drone 01">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>50</Speed>
+					<Behaviour>Military-Drone-Behavior-Default</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Drone 01">
+					<Position>
+						<X>-50.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>50</Speed>
+					<Behaviour>Military-Drone-Behavior-Default</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Drone 01">
+					<Position>
+						<X>50.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>50</Speed>
+					<Behaviour>Military-Drone-Behavior-Default</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Tiny Ship 01">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>100.0</Z>
+					</Position>
+					<Speed>50</Speed>
+					<Behaviour>Military-TinyCraft-Behavior-Default</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+	</SpawnGroups>
+</Definitions>
