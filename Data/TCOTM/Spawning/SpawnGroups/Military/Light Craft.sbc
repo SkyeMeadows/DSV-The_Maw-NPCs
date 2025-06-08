@@ -25,7 +25,7 @@
 			<IsPirate>true</IsPirate> <!--Do not edit-->
 			<Frequency>1.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="[TCOTM] Tiny Craft 01">
+				<Prefab SubtypeId="[TCOTM] Tiny Ship 01">
 					<Position>
 						<X>0.0</X>
 						<Y>0.0</Y>
