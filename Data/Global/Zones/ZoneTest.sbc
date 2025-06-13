@@ -5,23 +5,23 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-Zone-TCOTM</SubtypeId>
+        <SubtypeId>DSV-TCOTM-Zone-Core</SubtypeId>
       </Id>
       <Description>
 
         [MES Zone]
 
-        [PublicName:TCOTM Space]
+        [PublicName:TCOTM Core]
 
         [Active:true]
         [Persistent:true]
 
-        [Coordinates:{X:1 Y:1 Z:1}]
-        [Radius:25000]
+        [Coordinates:{X:0 Y:0 Z:0}]
+        [Radius:350000]
 
         [UseZoneAnnounce:true]
-        [ZoneEnterAnnounce:You have entered The Children of the Maw's Territory]
-        [ZoneLeaveAnnounce:You have left The Children of the Maw's Territory]
+        [ZoneEnterAnnounce:You have entered the core of The Children of the Maw's Territory]
+        [ZoneLeaveAnnounce:You have left the core of The Children of the Maw's Territory]
 
       </Description>
 

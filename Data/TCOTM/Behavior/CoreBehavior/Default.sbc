@@ -4,24 +4,20 @@
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Military-Fleet-Conditions-Default</SubtypeId>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-TinyCraft-Behavior-Default</SubtypeId>
       </Id>
       <Description>
 
-        [MES Spawn Conditions]
+      [RivalAI Behavior]
+      [BehaviorName:CargoShip]
 
-        [SpaceCargoShip:true]
-
-        [UseThreatLevelCheck:true]
-        [ThreatLevelCheckRange:15000]
-        [ThreatScoreMinimum:500]
-		
-		    [FactionOwner:TCOTM]
+      [UsePlayerDistanceTimer:false]
+      [UseRetreatTimer:false]
+      [RetreatDespawnDistance:14000]
 
       </Description>
-
     </EntityComponent>
-
+	
   </EntityComponents>
 </Definitions>

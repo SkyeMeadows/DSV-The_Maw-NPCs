@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>Military-TinyCraft-01-Standard</SubtypeId>
+				<SubtypeId>DSV-TCOTM-TinyCraft-01-Standard</SubtypeId>
 			</Id>
 			<Description>
 
@@ -14,7 +14,7 @@
 			[FactionOverride:TCOTM]
 			[ReplenishSystems:true]
 
-			[SpawnConditionsProfiles:Military-TinyCraft-Conditions-Default]
+			[SpawnConditionsProfiles:DSV-TCOTM-TinyCraft-Conditions-Default]
 
 			[ManipulationProfiles:Standard-Replacement-Shields]
 				
@@ -32,7 +32,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>30</Speed>
-					<Behaviour>Military-TinyCraft-Behavior-Default</Behaviour>
+					<Behaviour>DSV-TCOTM-TinyCraft-Behavior-Default</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>

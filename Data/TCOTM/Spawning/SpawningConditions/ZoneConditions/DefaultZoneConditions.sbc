@@ -5,23 +5,19 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>Military-InZone-Conditions-Default</SubtypeId>
+        <SubtypeId>DSV-TCOTM-ZoneConditions-TCOTM_Core</SubtypeId>
       </Id>
       <Description>
 
-        [MES Spawn Conditions]
+        [MES Zone Conditions]
 
-        [SpaceCargoShip:true]
+        [ZoneName:TCOTM Core]
 
-        [UseThreatLevelCheck:false]
-		
-		    [FactionOwner:TCOTM]
-
-        [ZoneConditions:Military-Zoned-Conditions-Default]
+        [MaxDistanceFromZoneCenter:350000]
 
       </Description>
 
     </EntityComponent>
-
+    
   </EntityComponents>
 </Definitions>
