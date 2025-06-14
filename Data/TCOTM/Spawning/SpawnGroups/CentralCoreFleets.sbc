@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-TCOTM-Drone-01-Standard</SubtypeId>
+				<SubtypeId>DSV-TCOTM-Fleet-CentralCore-01</SubtypeId>
 			</Id>
 			<Description>
 
@@ -14,7 +14,9 @@
 			[FactionOverride:TCOTM]
 			[ReplenishSystems:true]
 
-			[SpawnConditionsProfiles:DSV-TCOTM-Drone-Conditions-Default]
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterCore]
+
+			[ManipulationProfiles:Standard-Replacement-Shields]
 				
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
@@ -23,7 +25,7 @@
 			<IsPirate>true</IsPirate> <!--Do not edit-->
 			<Frequency>1.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="[TCOTM] Drone 01">
+				<Prefab SubtypeId="[TCOTM] Drone 02">
 					<Position>
 						<X>0.0</X>
 						<Y>0.0</Y>

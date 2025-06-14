@@ -5,13 +5,38 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-Zone-Core</SubtypeId>
+        <SubtypeId>DSV-TCOTM-Zone-CentralCore</SubtypeId>
       </Id>
       <Description>
 
         [MES Zone]
 
-        [PublicName:TCOTM Core]
+        [PublicName:TCOTM Central Core]
+
+        [Active:true]
+        [Persistent:true]
+
+        [Coordinates:{X:0 Y:0 Z:0}]
+        [Radius:225000]
+
+        [UseZoneAnnounce:true]
+        [ZoneEnterAnnounce:You have entered the central core of The Children's Territory]
+        [ZoneLeaveAnnounce:You have left the central core of The Children's Territory]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-Zone-InnerCore</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Zone]
+
+        [PublicName:TCOTM Inner Core]
 
         [Active:true]
         [Persistent:true]
@@ -20,8 +45,108 @@
         [Radius:350000]
 
         [UseZoneAnnounce:true]
-        [ZoneEnterAnnounce:You have entered the core of The Children of the Maw's Territory]
-        [ZoneLeaveAnnounce:You have left the core of The Children of the Maw's Territory]
+        [ZoneEnterAnnounce:You have entered the inner core of The Children's Territory]
+        [ZoneLeaveAnnounce:You have left the inner core of The Children's Territory]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-Zone-OuterCore</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Zone]
+
+        [PublicName:TCOTM Outer Core]
+
+        [Active:true]
+        [Persistent:true]
+
+        [Coordinates:{X:0 Y:0 Z:0}]
+        [Radius:500000]
+
+        [UseZoneAnnounce:true]
+        [ZoneEnterAnnounce:You have entered the outer core of The Children's Territory]
+        [ZoneLeaveAnnounce:You have left the outer core of The Children's Territory]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-Zone-InnerTerritory</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Zone]
+
+        [PublicName:TCOTM Inner Territory]
+
+        [Active:true]
+        [Persistent:true]
+
+        [Coordinates:{X:0 Y:0 Z:0}]
+        [Radius:1250000]
+
+        [UseZoneAnnounce:true]
+        [ZoneEnterAnnounce:You have entered the inner parts of The Children's Territory]
+        [ZoneLeaveAnnounce:You have left the inner parts of The Children's Territory]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-Zone-OuterTerritory</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Zone]
+
+        [PublicName:TCOTM Outer Territory]
+
+        [Active:true]
+        [Persistent:true]
+
+        [Coordinates:{X:0 Y:0 Z:0}]
+        [Radius:2500000]
+
+        [UseZoneAnnounce:true]
+        [ZoneEnterAnnounce:You have entered the outer parts of The Children's Territory]
+        [ZoneLeaveAnnounce:You have left the outer parts of The Children's Territory]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-Zone-FarReaches</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Zone]
+
+        [PublicName:TCOTM Far Reaches]
+
+        [Active:true]
+        [Persistent:true]
+
+        [Coordinates:{X:0 Y:0 Z:0}]
+        [Radius:3000000]
+
+        [UseZoneAnnounce:true]
+        [ZoneEnterAnnounce:You have entered the far reaches of The Children]
+        [ZoneLeaveAnnounce:You have left the far reaches of The Children]
 
       </Description>
 

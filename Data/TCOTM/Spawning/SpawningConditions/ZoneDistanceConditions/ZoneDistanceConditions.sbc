@@ -5,13 +5,16 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-SpawnConditions-InZone-TCOTM_CentralCore</SubtypeId>
+        <SubtypeId>DSV-TCOTM-ZoneConditions-TCOTM_CentralCore</SubtypeId>
       </Id>
       <Description>
 
-        [MES Spawn Conditions]
+        [MES Zone Conditions]
 
-        [ZoneConditions:DSV-TCOTM-ZoneConditions-TCOTM_CentralCore]
+        [ZoneName:TCOTM Central Core]
+
+        [MinDistanceFromZoneCenter:50000]
+        [MaxDistanceFromZoneCenter:225000]
 
       </Description>
 
@@ -20,13 +23,16 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-SpawnConditions-InZone-TCOTM_InnerCore</SubtypeId>
+        <SubtypeId>DSV-TCOTM-ZoneConditions-TCOTM_InnerCore</SubtypeId>
       </Id>
       <Description>
 
-        [MES Spawn Conditions]
-        
-        [ZoneConditions:DSV-TCOTM-ZoneConditions-TCOTM_InnerCore]
+        [MES Zone Conditions]
+
+        [ZoneName:TCOTM Inner Core]
+
+        [MinDistanceFromZoneCenter:225000]
+        [MaxDistanceFromZoneCenter:350000]
 
       </Description>
 
@@ -35,13 +41,16 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterCore</SubtypeId>
+        <SubtypeId>DSV-TCOTM-ZoneConditions-TCOTM_OuterCore</SubtypeId>
       </Id>
       <Description>
 
-        [MES Spawn Conditions]
-        
-        [ZoneConditions:DSV-TCOTM-ZoneConditions-TCOTM_OuterCore]
+        [MES Zone Conditions]
+
+        [ZoneName:TCOTM Outer Core]
+
+        [MinDistanceFromZoneCenter:350000]
+        [MaxDistanceFromZoneCenter:500000]
 
       </Description>
 
@@ -50,13 +59,16 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-SpawnConditions-InZone-TCOTM_InnerTerritory</SubtypeId>
+        <SubtypeId>DSV-TCOTM-ZoneConditions-TCOTM_InnerTerritory</SubtypeId>
       </Id>
       <Description>
 
-        [MES Spawn Conditions]
-        
-        [ZoneConditions:DSV-TCOTM-ZoneConditions-TCOTM_InnerTerritory]
+        [MES Zone Conditions]
+
+        [ZoneName:TCOTM Inner Territory]
+
+        [MinDistanceFromZoneCenter:500000]
+        [MaxDistanceFromZoneCenter:1250000]
 
       </Description>
 
@@ -65,13 +77,16 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterTerritory</SubtypeId>
+        <SubtypeId>DSV-TCOTM-ZoneConditions-TCOTM_OuterTerritory</SubtypeId>
       </Id>
       <Description>
 
-        [MES Spawn Conditions]
-        
-        [ZoneConditions:DSV-TCOTM-ZoneConditions-TCOTM_OuterTerritory]
+        [MES Zone Conditions]
+
+        [ZoneName:TCOTM Outer Territory]
+
+        [MinDistanceFromZoneCenter:1250000]
+        [MaxDistanceFromZoneCenter:2500000]
 
       </Description>
 
@@ -80,17 +95,20 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-SpawnConditions-InZone-TCOTM_FarReaches</SubtypeId>
+        <SubtypeId>DSV-TCOTM-ZoneConditions-TCOTM_FarReaches</SubtypeId>
       </Id>
       <Description>
 
-        [MES Spawn Conditions]
-        
-        [ZoneConditions:DSV-TCOTM-ZoneConditions-TCOTM_FarReaches]
+        [MES Zone Conditions]
+
+        [ZoneName:TCOTM Far Reaches]
+
+        [MinDistanceFromZoneCenter:2500000]
+        [MaxDistanceFromZoneCenter:3000000]
 
       </Description>
 
     </EntityComponent>
-
+    
   </EntityComponents>
 </Definitions>
