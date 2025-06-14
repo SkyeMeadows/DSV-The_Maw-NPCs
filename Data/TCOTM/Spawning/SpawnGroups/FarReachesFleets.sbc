@@ -18,6 +18,7 @@
 			[ManipulationProfiles:Standard-Replacement-Shields]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_FarReaches]
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-TESTING]
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
