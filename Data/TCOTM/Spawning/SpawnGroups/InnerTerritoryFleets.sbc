@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-TCOTM-Fleet-CentralCore-01</SubtypeId>
+				<SubtypeId>DSV-TCOTM-InnerTerritory-Fleet-01</SubtypeId>
 			</Id>
 			<Description>
 
@@ -17,7 +17,7 @@
 			[RivalAiReplaceRemoteControl:true]
 			[ManipulationProfiles:Standard-Replacement-Shields]
 
-			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_CentralCore]
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_InnerTerritory]
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
