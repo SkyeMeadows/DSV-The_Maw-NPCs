@@ -5,24 +5,24 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-TinyShip-Action-Scout-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-SmallShip-Action-Patrol-TargetFound</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Action]
       
       [UseChatBroadcast:true]
-      [ChatData:DSV-TCOTM-TinyShip-Chat-Scout-TargetFound]
+      [ChatData:DSV-TCOTM-SmallShip-Chat-Patrol-TargetFound]
 	
       [ChangeBehaviorSubclass:true]
       [NewBehaviorSubclass:Fighter]
       [ChangeAutopilotProfile:true]
-      [AutopilotProfile:DSV-TCOTM-TinyShip-Autopilot-Scout-Fighter]
+      [AutopilotProfile:DSV-TCOTM-SmallShip-Autopilot-Patrol-Fighte]
       [ChangeAutopilotSpeed:true]
-      [NewAutopilotSpeed:300]
+      [NewAutopilotSpeed:250]
 
       [ChangeTargetProfile:true]
-      [NewTargetProfileId:DSV-TCOTM-TinyShip-Target-Fighter]
+      [NewTargetProfileId:DSV-TCOTM-SmallShip-Target-Fighter]
 
       </Description>
       
@@ -31,7 +31,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-TinyShip-Chat-Scout-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-SmallShip-Chat-Patrol-TargetFound</SubtypeId>
       </Id>
       <Description>
 
@@ -69,7 +69,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-TinyShip-Action-Scout-RefreshTarget</SubtypeId>
+          <SubtypeId>DSV-TCOTM-SmallShip-Action-Patrol-RefreshTarget</SubtypeId>
       </Id>
       <Description>
 
@@ -84,13 +84,14 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-TinyShip-Action-Scout-CommandAggressTarget</SubtypeId>
+          <SubtypeId>DSV-TCOTM-SmallShip-Action-Patrol-CommandFocusFire</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Action]
       
-      [SwitchToReceivedTarget:true]
+      [BroadcastCommandProfiles:true]
+      [CommandProfileIds:DSV-TCOTM-SmallShip-Command-Patrol-CommandFocusFire]
 
       </Description>
       

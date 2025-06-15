@@ -24,5 +24,28 @@
       
     </EntityComponent>
 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-TinyShip-Trigger-Scout-CommandRecieve-CommandFocusFire</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+
+      [Type:CommandReceived]
+
+      [CommandReceiveCode:DSV-TCOTM-GLOBAL-CommandCode-AggressTarget]
+
+      [UseTrigger:true]
+      [StartsReady:true]
+
+      [ActionExecution:Sequential]
+      [Actions:DSV-TCOTM-TinyShip-Action-Scout-CommandAggressTarget]
+
+      </Description>
+      
+    </EntityComponent>
+
   </EntityComponents>
 </Definitions>

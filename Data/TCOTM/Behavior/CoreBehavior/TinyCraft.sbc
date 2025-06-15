@@ -41,7 +41,7 @@
       [TargetData:DSV-TCOTM-TinyShip-Target-Patrol]
       [WeaponSystem:DSV-TCOTM-TinyShip-Weapons-Patrol]
       
-
+      [Triggers:DSV-TCOTM-TinyShip-Trigger-Scout-CommandRecieve-CommandFocusFire]
 
       [UseNoTargetTimer:true]
       [NoTargetTimerTrigger:300]
