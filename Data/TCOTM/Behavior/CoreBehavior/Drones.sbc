@@ -16,7 +16,7 @@
       [UseRetreatTimer:false]
       [RetreatDespawnDistance:20000]
 
-      [AutopilotData:DSV-TCOTM-Drone-Autopilot-Scout-Fighter]
+      [AutopilotData:DSV-TCOTM-Drone-Autopilot-General-Fighter]
 
       </Description>
     </EntityComponent>

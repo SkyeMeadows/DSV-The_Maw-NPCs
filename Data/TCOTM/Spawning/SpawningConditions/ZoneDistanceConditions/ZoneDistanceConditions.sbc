@@ -13,7 +13,7 @@
 
         [ZoneName:TCOTM Central Core]
 
-        [MinDistanceFromZoneCenter:50000]
+        [MinDistanceFromZoneCenter:150000]
         [MaxDistanceFromZoneCenter:225000]
 
       </Description>

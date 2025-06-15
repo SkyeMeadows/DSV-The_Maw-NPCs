@@ -18,19 +18,20 @@
 			[ManipulationProfiles:Standard-Replacement-Shields]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterTerritory]
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-TESTING]
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
-			<Frequency>1.0</Frequency>
+			<Frequency>15.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="[TCOTM] Drone 02">
+				<Prefab SubtypeId="[TCOTM] Tiny Ship 01">
 					<Position>
 						<X>0.0</X>
 						<Y>0.0</Y>
 						<Z>0.0</Z>
 					</Position>
-					<Speed>50</Speed>
-					<Behaviour>DSV-TCOTM-Drone-Behavior-Default</Behaviour>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-TinyShip-Behavior-Scout</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>

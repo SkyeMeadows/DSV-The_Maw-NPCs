@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-TinyShip-Trigger-Scout-TargetFound</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+
+      [Type:HasTarget]
+
+      [UseTrigger:true]
+      [StartsReady:true]
+
+      [ActionExecution:Sequential]
+      [Actions:DSV-TCOTM-TinyShip-Action-Scout-TargetFound]
+      [Actions:DSV-TCOTM-TinyShip-Action-Scout-RefreshTarget]
+
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

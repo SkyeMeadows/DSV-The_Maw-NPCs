@@ -5,20 +5,20 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Drone-Autopilot-Scout-CargoShip</SubtypeId>
+          <SubtypeId>DSV-TCOTM-TinyShip-Autopilot-Scout-CargoShip</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Autopilot]
       
       [SlowDownOnWaypointApproach:true]
-      [ExtraSlowDownDistance:150]
+      [ExtraSlowDownDistance:300]
 
       [WaypointWaitTimeTrigger:15]
 
       [UseVelocityCollisionEvasion:true]
-      [CollisionEvasionWaypointDistance:150]
-      [CollisionEvasionResumeDistance:150]
+      [CollisionEvasionWaypointDistance:300]
+      [CollisionEvasionResumeDistance:300]
       [CollisionEvasionResumeTime:15]
 
       [IdealMaxSpeed:30]
@@ -32,7 +32,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Drone-Autopilot-General-Fighter</SubtypeId>
+          <SubtypeId>DSV-TCOTM-TinyShip-Autopilot-Scout-Fighter</SubtypeId>
       </Id>
       <Description>
 
@@ -41,23 +41,14 @@
       [SlowDownOnWaypointApproach:false]
 
       [UseVelocityCollisionEvasion:true]
-      [CollisionEvasionWaypointDistance:150]
-      [CollisionEvasionResumeDistance:150]
+      [CollisionEvasionWaypointDistance:300]
+      [CollisionEvasionResumeDistance:300]
       [CollisionEvasionResumeTime:15]
-
-      [EngageDistanceSpace:10000]
-      [DisengageDistanceSpace:15000]
-
-      [AllowStrafing:true]
-      [StrafeMinDurationMs:3000]
-      [StrafeMaxDurationMs:5000]
-
-      [UseProjectileLeadPrediction:true]
 
       [IdealMaxSpeed:300]
       [IdealMinSpeed:200]
-      [MaxSpeedTolerance:15]
-      
+      [MaxSpeedTolerance:25]
+
       </Description>
       
     </EntityComponent>
