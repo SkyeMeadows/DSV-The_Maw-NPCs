@@ -22,7 +22,7 @@
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
-			<Frequency>1.0</Frequency>
+			<Frequency>20.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="[TCOTM] Drone 02">
 					<Position>
@@ -30,8 +30,8 @@
 						<Y>0.0</Y>
 						<Z>0.0</Z>
 					</Position>
-					<Speed>50</Speed>
-					<Behaviour>DSV-TCOTM-Drone-Behavior-Default</Behaviour>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Drone-Behavior-Scout</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>

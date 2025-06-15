@@ -5,24 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-TinyCraft-Behavior-Default</SubtypeId>
-      </Id>
-      <Description>
-
-      [RivalAI Behavior]
-      [BehaviorName:CargoShip]
-
-      [UsePlayerDistanceTimer:false]
-      [UseRetreatTimer:false]
-      [RetreatDespawnDistance:14000]
-
-      </Description>
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Drone-Behavior-Default</SubtypeId>
+          <SubtypeId>DSV-TCOTM-Drone-Behavior-Fighter</SubtypeId>
       </Id>
       <Description>
 
@@ -31,7 +14,34 @@
 
       [UsePlayerDistanceTimer:false]
       [UseRetreatTimer:false]
-      [RetreatDespawnDistance:14000]
+      [RetreatDespawnDistance:20000]
+
+      [AutopilotData:DSV-TCOTM-Drone-Autopilot-Scout-Fighter]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-Drone-Behavior-Scout</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:CargoShip]
+
+      [AutopilotData:DSV-TCOTM-Drone-Autopilot-Scout-CargoShip]
+      [TargetData:DSV-TCOTM-Drone-Target-Scout]
+      [WeaponSystem:DSV-TCOTM-Drone-Weapons-Scout]
+      
+      [Triggers:DSV-TCOTM-Drone-Trigger-Scout-TargetFound]
+
+      [UseNoTargetTimer:true]
+      [NoTargetTimerTrigger:300]
+      [UsePlayerDistanceTimer:false]
+      [UseRetreatTimer:false]
+      [RetreatDespawnDistance:20000]
 
       </Description>
     </EntityComponent>

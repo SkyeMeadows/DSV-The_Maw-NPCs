@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-TCOTM-Fleet-CentralCore-01</SubtypeId>
+				<SubtypeId>DSV-TCOTM-CentralCore-Fleet-01</SubtypeId>
 			</Id>
 			<Description>
 
