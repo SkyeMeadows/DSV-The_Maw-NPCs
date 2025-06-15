@@ -36,5 +36,57 @@
 			</Prefabs>
 		</SpawnGroup>
 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>DSV-TCOTM-OuterTerritory-Fleet-02</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[FactionOverride:TCOTM]
+			[ReplenishSystems:true]
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+			[ManipulationProfiles:Standard-Replacement-Shields]
+
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterTerritory]
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-TESTING]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>6.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TCOTM] Small Ship 01">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-SmallShip-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Tiny Ship 01">
+					<Position>
+						<X>250.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-TinyShip-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Tiny Ship 01">
+					<Position>
+						<X>-250.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-TinyShip-Behavior-Patrol</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
 	</SpawnGroups>
 </Definitions>

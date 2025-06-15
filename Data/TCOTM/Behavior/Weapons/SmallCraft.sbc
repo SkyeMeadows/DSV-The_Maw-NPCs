@@ -15,26 +15,7 @@
         [UseTurrets:true]
 
         [UseAmmoReplenish:true]
-        [AmmoReplenishClipAmount:5]
-        [MaxAmmoReplenishments:10]
-
-      </Description>
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-TinyShip-Weapons-Patrol</SubtypeId>
-      </Id>
-      <Description>
-
-        [RivalAI Weapons]
-
-        [UseStaticGuns:true]
-        [UseTurrets:true]
-
-        [UseAmmoReplenish:true]
-        [AmmoReplenishClipAmount:5]
+        [AmmoReplenishClipAmount:10]
         [MaxAmmoReplenishments:30]
 
       </Description>

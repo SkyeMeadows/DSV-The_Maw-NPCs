@@ -53,5 +53,56 @@
       
     </EntityComponent>
 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-TinyShip-Autopilot-Patrol-CargoShip</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Autopilot]
+      
+      [SlowDownOnWaypointApproach:true]
+      [ExtraSlowDownDistance:300]
+
+      [WaypointWaitTimeTrigger:15]
+
+      [UseVelocityCollisionEvasion:true]
+      [CollisionEvasionWaypointDistance:300]
+      [CollisionEvasionResumeDistance:300]
+      [CollisionEvasionResumeTime:15]
+
+      [IdealMaxSpeed:30]
+      [IdealMinSpeed:20]
+      [MaxSpeedTolerance:5]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-TinyShip-Autopilot-Patrol-Fighter</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Autopilot]
+      
+      [SlowDownOnWaypointApproach:false]
+
+      [UseVelocityCollisionEvasion:true]
+      [CollisionEvasionWaypointDistance:300]
+      [CollisionEvasionResumeDistance:300]
+      [CollisionEvasionResumeTime:15]
+
+      [IdealMaxSpeed:300]
+      [IdealMinSpeed:200]
+      [MaxSpeedTolerance:25]
+
+      </Description>
+      
+    </EntityComponent>
+
   </EntityComponents>
 </Definitions>

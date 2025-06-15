@@ -9,7 +9,7 @@ Frequency Ranges from 1 [Exotic Spawn] to 20 [Usual Spawn] | All Frequencies are
 Central Core: 225km (~1.0g start) | Spawn Timer: 10 min
 - ???
 
-(Potential) Sub-Inner Core: 300km (0.??g) | Spawn Timer: 20 min
+(Potential) Sub-Inner Core: 300km (0.??g) | Spawn Timer: 10 min
 - Marauder Fleet  (Difficulty 9) {Frequency: 3} [??? Composition] - Heavy duty ships meant to bring down the largest of threats.
 - Advanced Swarm Fleet  (Difficulty 8) {Frequency: 2} [??? Composition] - Powerful but Lighter ships & heavier drones, plentiful in number
 - Swarm Fleet (Difficulty 6) {Frequency: 3} [??? Composition] - Lots of light ships and drones, weak independently, but overwhelming in number
