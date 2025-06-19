@@ -24,6 +24,9 @@
       [ChangeTargetProfile:true]
       [NewTargetProfileId:DSV-TCOTM-SmallShip-Target-Fighter]
 
+      [DisableTriggers:true]
+      [DisableTriggerNames:DSV-TCOTM-SmallShip-Trigger-Patrol-TargetFound]
+
       </Description>
       
     </EntityComponent>

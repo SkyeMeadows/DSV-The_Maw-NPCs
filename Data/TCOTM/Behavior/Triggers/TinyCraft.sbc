@@ -11,10 +11,11 @@
 
       [RivalAI Trigger]
 
-      [Type:SwitchedTarget]
+      [Type:HasTarget]
 
       [UseTrigger:true]
       [StartsReady:true]
+      [MaxActions:1]
 
       [ActionExecution:All]
       [Actions:DSV-TCOTM-TinyShip-Action-Scout-TargetFound]
@@ -63,7 +64,7 @@
       [UseTrigger:true]
       [StartsReady:true]
 
-      [ActionExecution:Sequential]
+      [ActionExecution:All]
       [Actions:DSV-TCOTM-TinyShip-Action-Scout-CommandRecieveAggressTarget]
 
       </Description>

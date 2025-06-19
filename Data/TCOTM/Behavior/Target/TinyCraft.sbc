@@ -73,9 +73,11 @@
       
       [UseCustomTargeting:true]
       [Target:Block]
+      [BlockTargets:Controller]
+      [BlockTargets:Guns]
       [BlockTargets:Turrets]
-      [BlockTargets:Thrusters]
       [BlockTargets:Power]
+      [BlockTargets:JumpDrives]
       
       [MaxDistance:10000]
       [MaxExistingTargetDistance:15000]

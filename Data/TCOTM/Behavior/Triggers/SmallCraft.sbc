@@ -11,7 +11,7 @@
 
       [RivalAI Trigger]
 
-      [Type:SwitchedTarget]
+      [Type:HasTarget]
 
       [UseTrigger:true]
       [StartsReady:true]

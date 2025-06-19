@@ -13,9 +13,11 @@
       
       [CommandCode:DSV-TCOTM-GLOBAL-CommandCode-AggressTarget]
 
-      [IgnoreAntennaRequirement:false]
-      [IgnoreReceiverAntennaRequirement:false]
+      [IgnoreAntennaRequirement:true]
+      [IgnoreReceiverAntennaRequirement:true]
       [MaxRadius:25000]
+
+      [CommandDelayTicks:60]
 
       [SendTargetEntityId:true]
       
