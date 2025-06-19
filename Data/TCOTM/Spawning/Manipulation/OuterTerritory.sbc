@@ -5,13 +5,14 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>MES-Manipulation-PaintingExample</SubtypeId>
+        <SubtypeId>DSV-TCOTM-Manipulation-OuterTerritory-Fleet-02-Loot</SubtypeId>
       </Id>
       <Description>
 
         [MES Manipulation]
 
-        
+        [UseLootProfiles:true]
+        [LootProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Fleet-02-LootProfile-01]
 
       </Description>
 
