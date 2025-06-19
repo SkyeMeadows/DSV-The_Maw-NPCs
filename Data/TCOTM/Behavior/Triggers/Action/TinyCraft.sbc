@@ -24,6 +24,9 @@
       [ChangeTargetProfile:true]
       [NewTargetProfileId:DSV-TCOTM-TinyShip-Target-Fighter]
 
+      [EnableTriggers:true]
+      [EnableTriggerNames:DSV-TCOTM-TinyShip-Trigger-Scout-RefreshTarget]
+
       </Description>
       
     </EntityComponent>
@@ -84,7 +87,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-TinyShip-Action-Scout-CommandAggressTarget</SubtypeId>
+          <SubtypeId>DSV-TCOTM-TinyShip-Action-Scout-CommandRecieveAggressTarget</SubtypeId>
       </Id>
       <Description>
 

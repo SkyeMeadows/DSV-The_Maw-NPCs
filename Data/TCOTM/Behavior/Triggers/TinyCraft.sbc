@@ -11,13 +11,36 @@
 
       [RivalAI Trigger]
 
-      [Type:HasTarget]
+      [Type:SwitchedTarget]
 
       [UseTrigger:true]
       [StartsReady:true]
 
-      [ActionExecution:Sequential]
+      [ActionExecution:All]
       [Actions:DSV-TCOTM-TinyShip-Action-Scout-TargetFound]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-TinyShip-Trigger-Scout-RefreshTarget</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+
+      [Type:Timer]
+
+      [UseTrigger:false]
+      [StartsReady:false]
+
+      [MinCooldownMs:1000]
+      [MaxCooldownMs:2000]
+
+      [ActionExecution:All]
       [Actions:DSV-TCOTM-TinyShip-Action-Scout-RefreshTarget]
 
       </Description>
@@ -41,7 +64,7 @@
       [StartsReady:true]
 
       [ActionExecution:Sequential]
-      [Actions:DSV-TCOTM-TinyShip-Action-Scout-CommandAggressTarget]
+      [Actions:DSV-TCOTM-TinyShip-Action-Scout-CommandRecieveAggressTarget]
 
       </Description>
       

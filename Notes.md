@@ -17,3 +17,7 @@ Z = Backwards (+) / Forwards (-)
 - Defense Shields
 - Jump Drive Inhibitor
 - AQD Conveyor Expansion
+
+
+## Other Notes
+Don't forget to spawn in all NPCs and BP again so they start with full shields

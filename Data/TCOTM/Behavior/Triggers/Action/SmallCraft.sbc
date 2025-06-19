@@ -69,13 +69,17 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-SmallShip-Action-Patrol-RefreshTarget</SubtypeId>
+          <SubtypeId>DSV-TCOTM-SmallShip-Action-Patrol-SpawnRefreshTarget</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Action]
       
       [RefreshTarget:true]
+
+      [DisableTriggers:true]
+      [DisableTriggerNames:DSV-TCOTM-SmallShip-Trigger-Patrol-SpawnRefreshTarget]
+
 
       </Description>
       

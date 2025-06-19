@@ -17,6 +17,7 @@
       [WeaponSystem:DSV-TCOTM-SmallShip-Weapons-Patrol]
       
       [Triggers:DSV-TCOTM-SmallShip-Trigger-Patrol-TargetFound]
+      [Triggers:DSV-TCOTM-SmallShip-Trigger-Patrol-SpawnRefreshTarget]
 
       [UseNoTargetTimer:true]
       [NoTargetTimerTrigger:300]
