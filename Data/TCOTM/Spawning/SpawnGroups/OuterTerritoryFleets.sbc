@@ -16,6 +16,7 @@
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
 			[ManipulationProfiles:Standard-Replacement-Shields]
+			[ManipulationProfiles:Standard-Clear-Authorship]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterTerritory]
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-TESTING]
@@ -50,6 +51,9 @@
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
 			[ManipulationProfiles:Standard-Replacement-Shields]
+			[ManipulationProfiles:Standard-Clear-Authorship]
+
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Fleet-02-Loot]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterTerritory]
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-TESTING]

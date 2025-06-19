@@ -2,7 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
 
-       <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>Standard-Replacement-Shields</SubtypeId>
@@ -21,8 +21,20 @@
 
 	    </Description>
     </EntityComponent>
-	
-	
-	
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Standard-Clear-Authorship</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ClearAuthorship:true]
+        
+	    </Description>
+    </EntityComponent>
+
   </EntityComponents>
 </Definitions>
