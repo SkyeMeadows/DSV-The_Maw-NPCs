@@ -21,6 +21,24 @@
 		</Faction>
 		<!--Copy To This Line And Paste Directly Below-->
 
+		<!--Copy From This Line-->
+		<Faction Tag="LTARI" Founder="Asher">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>DSV-LTARI</SubtypeId> <!--Must Be Unique-->
+			</Id>
+			<DisplayName>Lantari Exchange</DisplayName>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Neutral</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>0</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>true</DiscoveredByDefault>
+			<FactionIcon></FactionIcon> <!--Game or Mod Path For Texture File-->
+		</Faction>
+		<!--Copy To This Line And Paste Directly Below-->
+
 	<!--Do Not Edit Below Here-->
 	</Factions>
 </Definitions>
