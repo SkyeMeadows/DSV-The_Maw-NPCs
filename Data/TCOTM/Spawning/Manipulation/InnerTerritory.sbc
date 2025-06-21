@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-Manipulation-InnerTerritory-Fleet-02-Loot</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [LootProfiles:DSV-TCOTM-Manipulation-InnerTerritory-Fleet-02-LootProfile-01]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-Manipulation-InnerTerritory-Fleet-03-Loot</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [LootProfiles:DSV-TCOTM-Manipulation-InnerTerritory-Fleet-03-LootProfile-01]
+
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>
