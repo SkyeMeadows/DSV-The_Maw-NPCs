@@ -1,0 +1,137 @@
+zones:
+  - name: Sub-Inner Core
+    distance_km: 300
+    gravity: "0.??g"
+    spawn_timer_min: 10
+    fleets:
+      - type: Marauder Fleet
+        difficulty: 9
+        frequency: 3
+        composition: [1 Dreadnought, 2 Large, 5 Tiny]
+        description: Heavy duty ships meant to bring down the largest of threats.
+      - type: Advanced Swarm Fleet
+        difficulty: 8
+        frequency: 2
+        composition: []  # Unknown composition
+        description: Powerful but lighter ships & heavier drones, plentiful in number.
+      - type: Swarm Fleet
+        difficulty: 6
+        frequency: 3
+        composition: []  # Unknown composition
+        description: Lots of light ships and drones, overwhelming in number.
+
+  - name: Inner Core
+    distance_km: 350
+    gravity: "~0.05g"
+    spawn_timer_min: 10
+    fleets:
+      - type: Marauder Fleet
+        difficulty: 9
+        frequency: 1
+        composition: [1 Dreadnought, 2 Large, 5 Tiny]
+        description: Heavy duty ships meant to bring down the largest of threats.
+      - type: Advanced Swarm Fleet
+        difficulty: 8
+        frequency: 2
+        composition: [] # Unknown composition
+        description: Powerful but lighter ships & heavier drones, plentiful in number.
+      - type: Defense Fleet
+        difficulty: 7
+        frequency: 2
+        composition: [1 Large, 2 Medium, 4 Tiny]
+        description: A fleet not to be messed with, but can be overpowered with large assets.
+      - type: Swarm Fleet
+        difficulty: 6
+        frequency: 3
+        composition: [] # Unknown composition
+        description: Lots of light ships and drones, overwhelming in number.
+      - type: Large Patrol
+        difficulty: 5
+        frequency: 4
+        composition: [1 Medium, 2 Small, 2 Tiny]
+        description: Typical heavy-duty patrol.
+      - type: Small Patrol
+        difficulty: 3
+        frequency: 15
+        composition: [1 Small, 2 Tiny]
+        description: Smaller than usual patrol.
+      - type: Scout Craft
+        difficulty: 2
+        frequency: 4
+        composition: [1 Tiny]
+        description: Minimal threat, but may alert reinforcements.
+
+  - name: Outer Core
+    distance_km: 500
+    spawn_timer_min: 15
+    fleets:
+      - type: Advanced Swarm Fleet
+        difficulty: 8
+        frequency: 1
+        composition: [] # Unknown composition
+        description: Powerful but lighter ships & heavier drones, plentiful in number.
+      - type: Swarm Fleet
+        difficulty: 6
+        frequency: 2
+        composition: [] # Unknown composition
+        description: Lots of light ships and drones, overwhelming in number.
+      - type: Large Patrol
+        difficulty: 5
+        frequency: 6
+        composition: [1 Medium, 2 Small, 2 Tiny]
+        description: Typical heavy-duty patrol.
+      - type: Small Patrol
+        difficulty: 3
+        frequency: 12
+        composition: [1 Small, 2 Tiny]
+        description: Smaller than usual patrol.
+      - type: Scout Craft
+        difficulty: 2
+        frequency: 5
+        composition: [1 Tiny]
+        description: Minimal threat, but may alert reinforcements.
+
+  - name: Inner Territory
+    distance_km: 1250
+    spawn_timer_min: 20
+    fleets:
+      - type: Large Patrol
+        difficulty: 5
+        frequency: 1
+        composition: [1 Medium, 2 Small, 2 Tiny]
+        description: Typical heavy-duty patrol.
+      - type: Small Patrol
+        difficulty: 3
+        frequency: 4
+        composition: [1 Small, 2 Tiny]
+        description: Smaller than usual patrol.
+      - type: Scout Craft
+        difficulty: 2
+        frequency: 10
+        composition: [1 Tiny]
+        description: Minimal threat, but may alert reinforcements.
+
+  - name: Outer Territory
+    distance_km: 2500
+    spawn_timer_min: 30
+    fleets:
+      - type: Small Patrol
+        difficulty: 3
+        frequency: 6
+        composition: [1 Small, 2 Tiny]
+        description: Smaller than usual patrol.
+      - type: Scout Craft
+        difficulty: 2
+        frequency: 15
+        composition: [1 Tiny]
+        description: Minimal threat, but may alert reinforcements.
+
+  - name: Far Reaches
+    distance_km: 3000
+    spawn_timer_min: 45
+    fleets:
+      - type: Scout Drone
+        difficulty: 1
+        frequency: 20
+        composition: [1 Drone]
+        description: Minimal threat, but may alert reinforcements.
