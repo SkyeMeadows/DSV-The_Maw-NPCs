@@ -12,18 +12,21 @@ zones:
       - type: Marauder Fleet
         difficulty: 9
         frequency: 3
-        composition: [1 Dreadnought, 2 Large, 5 Tiny]
+        composition: [1 Dreadnought, 2 Battleship, 5 Scout Frigate]
         description: Heavy duty ships meant to bring down the largest of threats.
+        subtypeid:
       - type: Advanced Swarm Fleet
         difficulty: 8
         frequency: 2
         composition: []  # Unknown composition
         description: Powerful but lighter ships & heavier drones, plentiful in number.
+        subtypeid:
       - type: Swarm Fleet
         difficulty: 6
         frequency: 3
         composition: []  # Unknown composition
         description: Lots of light ships and drones, overwhelming in number.
+        subtypeid:
 
   - name: Inner Core
     distance_km: 350
@@ -33,38 +36,45 @@ zones:
       - type: Marauder Fleet
         difficulty: 9
         frequency: 1
-        composition: [1 Dreadnought, 2 Large, 5 Tiny]
+        composition: [1 Dreadnought, 2 Battleship, 5 Scout Frigate]
         description: Heavy duty ships meant to bring down the largest of threats.
+        subtypeid:
       - type: Advanced Swarm Fleet
         difficulty: 8
         frequency: 2
         composition: [] # Unknown composition
         description: Powerful but lighter ships & heavier drones, plentiful in number.
+        subtypeid:
       - type: Defense Fleet
         difficulty: 7
         frequency: 2
-        composition: [1 Large, 2 Medium, 4 Tiny]
+        composition: [1 Battleship, 2 Battlecruiser, 4 Scout Frigate]
         description: A fleet not to be messed with, but can be overpowered with large assets.
+        subtypeid:
       - type: Swarm Fleet
         difficulty: 6
         frequency: 3
         composition: [] # Unknown composition
         description: Lots of light ships and drones, overwhelming in number.
+        subtypeid:
       - type: Large Patrol
         difficulty: 5
         frequency: 4
-        composition: [1 Medium, 2 Small, 2 Tiny]
+        composition: [1 Battlecruiser, 2 Destroyers, 2 Scout Frigates]
         description: Typical heavy-duty patrol.
+        subtypeid:
       - type: Small Patrol
         difficulty: 3
         frequency: 15
-        composition: [1 Small, 2 Tiny]
+        composition: [1 Destroyer, 2 Scout Frigates]
         description: Smaller than usual patrol.
+        subtypeid:
       - type: Scout Craft
         difficulty: 2
         frequency: 4
-        composition: [1 Tiny]
+        composition: [1 Scout Frigate]
         description: Minimal threat, but may alert reinforcements.
+        subtypeid:
 
   - name: Outer Core
     distance_km: 500
@@ -75,26 +85,31 @@ zones:
         frequency: 1
         composition: [] # Unknown composition
         description: Powerful but lighter ships & heavier drones, plentiful in number.
+        subtypeid:
       - type: Swarm Fleet
         difficulty: 6
         frequency: 2
         composition: [] # Unknown composition
         description: Lots of light ships and drones, overwhelming in number.
+        subtypeid:
       - type: Large Patrol
         difficulty: 5
         frequency: 6
-        composition: [1 Medium, 2 Small, 2 Tiny]
+        composition: [1 Battlecruiser, 2 Destroyers, 2 Scout Frigates]
         description: Typical heavy-duty patrol.
+        subtypeid:
       - type: Small Patrol
         difficulty: 3
         frequency: 12
-        composition: [1 Small, 2 Tiny]
+        composition: [1 Destroyer, 2 Scout Frigates]
         description: Smaller than usual patrol.
+        subtypeid:
       - type: Scout Craft
         difficulty: 2
         frequency: 5
-        composition: [1 Tiny]
+        composition: [1 Scout Frigate]
         description: Minimal threat, but may alert reinforcements.
+        subtypeid: 
 
   - name: Inner Territory
     distance_km: 1250
@@ -103,18 +118,21 @@ zones:
       - type: Large Patrol
         difficulty: 5
         frequency: 1
-        composition: [1 Medium, 2 Small, 2 Tiny]
+        composition: [1 Battlecruiser, 2 Destroyers, 2 Scout Frigates]
         description: Typical heavy-duty patrol.
+        subtypeid: 
       - type: Small Patrol
         difficulty: 3
         frequency: 4
-        composition: [1 Small, 2 Tiny]
+        composition: [1 Destroyer, 2 Scout Frigates]
         description: Smaller than usual patrol.
+        subtypeid: 
       - type: Scout Craft
         difficulty: 2
         frequency: 10
-        composition: [1 Tiny]
+        composition: [1 Scout Frigate]
         description: Minimal threat, but may alert reinforcements.
+        subtypeid: 
 
   - name: Outer Territory
     distance_km: 2500
@@ -123,7 +141,7 @@ zones:
       - type: Small Patrol
         difficulty: 3
         frequency: 6
-        composition: [1 Small, 2 Tiny]
+        composition: [1 Destroyer, 2 Scout Frigates]
         description: Smaller than usual patrol.
         subtypeid: DSV-TCOTM-OuterTerritory-SmallPatrol
       - type: Scout Craft
