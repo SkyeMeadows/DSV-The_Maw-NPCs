@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-ScoutFrigate-Behavior-Scout</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:CargoShip]
+
+      [AutopilotData:DSV-TCOTM-ScoutFrigate-Autopilot-Scout-CargoShip]
+      [TargetData:DSV-TCOTM-ScoutFrigate-Target-Scout]
+      [WeaponSystem:DSV-TCOTM-ScoutFrigate-Weapons-Scout]
+      
+      [Triggers:DSV-TCOTM-ScoutFrigate-Trigger-Scout-TargetFound]
+
+      [UseNoTargetTimer:true]
+      [NoTargetTimerTrigger:300]
+      [UsePlayerDistanceTimer:false]
+      [UseRetreatTimer:false]
+      [RetreatDespawnDistance:20000]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:CargoShip]
+
+      [AutopilotData:DSV-TCOTM-ScoutFrigate-Autopilot-Patrol-CargoShip]
+      [TargetData:DSV-TCOTM-ScoutFrigate-Target-Patrol]
+      [WeaponSystem:DSV-TCOTM-ScoutFrigate-Weapons-Patrol]
+      
+      [Triggers:DSV-TCOTM-ScoutFrigate-Trigger-Scout-CommandRecieve-CommandFocusFire]
+
+      [UseNoTargetTimer:true]
+      [NoTargetTimerTrigger:300]
+      [UsePlayerDistanceTimer:false]
+      [UseRetreatTimer:false]
+      [RetreatDespawnDistance:20000]
+
+      </Description>
+    </EntityComponent>
+	
+  </EntityComponents>
+</Definitions>

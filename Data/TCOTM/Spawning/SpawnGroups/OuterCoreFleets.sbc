@@ -16,7 +16,7 @@
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
 			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-Clear-Authorship]
+			[ManipulationProfiles:Standard-ClearAuthorship]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterCore]
 

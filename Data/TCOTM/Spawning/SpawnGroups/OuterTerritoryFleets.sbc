@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-TCOTM-OuterTerritory-Fleet-01</SubtypeId>
+				<SubtypeId>DSV-TCOTM-OuterTerritory-ScoutFrigate</SubtypeId>
 			</Id>
 			<Description>
 
@@ -16,7 +16,7 @@
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
 			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-Clear-Authorship]
+			[ManipulationProfiles:Standard-ClearAuthorship]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterTerritory]
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-TESTING]
@@ -25,14 +25,14 @@
 			<IsPirate>true</IsPirate> <!--Do not edit-->
 			<Frequency>15.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="[TCOTM] Tiny Ship 01">
+				<Prefab SubtypeId="[TCOTM] Scout Frigate">
 					<Position>
 						<X>0.0</X>
 						<Y>0.0</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-TinyShip-Behavior-Scout</Behaviour>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Scout</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
@@ -40,7 +40,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-TCOTM-OuterTerritory-Fleet-02</SubtypeId>
+				<SubtypeId>DSV-TCOTM-OuterTerritory-SmallPatrol</SubtypeId>
 			</Id>
 			<Description>
 
@@ -51,7 +51,7 @@
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
 			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-Clear-Authorship]
+			[ManipulationProfiles:Standard-ClearAuthorship]
 
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Fleet-02-Loot]
 
@@ -62,32 +62,32 @@
 			<IsPirate>true</IsPirate> <!--Do not edit-->
 			<Frequency>6.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="[TCOTM] Small Ship 01">
+				<Prefab SubtypeId="[TCOTM] Destroyer">
 					<Position>
 						<X>0.0</X>
 						<Y>0.0</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-SmallShip-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
 				</Prefab>
-				<Prefab SubtypeId="[TCOTM] Tiny Ship 01">
+				<Prefab SubtypeId="[TCOTM] Scout Frigate">
 					<Position>
 						<X>250.0</X>
 						<Y>0.0</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-TinyShip-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
 				</Prefab>
-				<Prefab SubtypeId="[TCOTM] Tiny Ship 01">
+				<Prefab SubtypeId="[TCOTM] Scout Frigate">
 					<Position>
 						<X>-250.0</X>
 						<Y>0.0</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-TinyShip-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>

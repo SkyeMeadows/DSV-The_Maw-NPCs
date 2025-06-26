@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-Battlecruiser-Behavior-Patrol</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:CargoShip]
+
+      [AutopilotData:DSV-TCOTM-Battlecruiser-Autopilot-Patrol-CargoShip]
+      [TargetData:DSV-TCOTM-Battlecruiser-Target-Patrol]
+      [WeaponSystem:DSV-TCOTM-Battlecruiser-Weapons-Patrol]
+      
+      [Triggers:DSV-TCOTM-Battlecruiser-Trigger-Patrol-TargetFound]
+      [Triggers:DSV-TCOTM-Battlecruiser-Trigger-Patrol-SpawnRefreshTarget]
+
+      [UseNoTargetTimer:true]
+      [NoTargetTimerTrigger:300]
+      [UsePlayerDistanceTimer:false]
+      [UseRetreatTimer:false]
+      [RetreatDespawnDistance:20000]
+
+      </Description>
+    </EntityComponent>
+	
+  </EntityComponents>
+</Definitions>

@@ -25,7 +25,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>Standard-Clear-Authorship</SubtypeId>
+        <SubtypeId>Standard-ClearAuthorship</SubtypeId>
       </Id>
       <Description>
 

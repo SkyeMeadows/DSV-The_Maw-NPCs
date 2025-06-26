@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-ScoutFrigate-Action-Scout-TargetFound</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      
+      [UseChatBroadcast:true]
+      [ChatData:DSV-TCOTM-ScoutFrigate-Chat-Scout-TargetFound]
+	
+      [ChangeBehaviorSubclass:true]
+      [NewBehaviorSubclass:Fighter]
+      [ChangeAutopilotProfile:true]
+      [AutopilotProfile:DSV-TCOTM-ScoutFrigate-Autopilot-Scout-Fighter]
+      [ChangeAutopilotSpeed:true]
+      [NewAutopilotSpeed:300]
+
+      [ChangeTargetProfile:true]
+      [NewTargetProfileId:DSV-TCOTM-ScoutFrigate-Target-Fighter]
+
+      [EnableTriggers:true]
+      [EnableTriggerNames:DSV-TCOTM-ScoutFrigate-Trigger-Scout-RefreshTarget]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-ScoutFrigate-Chat-Scout-TargetFound</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+      
+      [UseChat:true]
+      [StartsReady:true]
+      [Chance:100]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+      
+      [Author:TCOTM Ship]
+      [Color:Red]
+      
+      [ChatMessages:Enemy detected, engaging.]
+      [ChatAudio:ArcDroneSmallStart]
+      [BroadcastChatType:Chat]
+      
+      [ChatMessages:Hostile found, eliminating.]
+      [ChatAudio:ArcDroneSmallStart]
+      [BroadcastChatType:Chat]
+
+      [ChatMessages:Hostile located, executing.]
+      [ChatAudio:ArcDroneSmallStart]
+      [BroadcastChatType:Chat]
+
+      [ChatMessages:Enemy located, removing.]
+      [ChatAudio:ArcDroneSmallStart]
+      [BroadcastChatType:Chat]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-ScoutFrigate-Action-Scout-RefreshTarget</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      
+      [RefreshTarget:true]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-ScoutFrigate-Action-Scout-CommandRecieveAggressTarget</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      
+      [SwitchToReceivedTarget:true]
+
+      [ChangeBehaviorSubclass:true]
+      [NewBehaviorSubclass:Fighter]
+      [ChangeAutopilotProfile:true]
+      [AutopilotProfile:DSV-TCOTM-ScoutFrigate-Autopilot-Patrol-Fighter]
+      [ChangeAutopilotSpeed:true]
+      [NewAutopilotSpeed:300]
+
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

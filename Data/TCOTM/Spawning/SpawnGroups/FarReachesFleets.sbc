@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-TCOTM-FarReaches-Fleet-01</SubtypeId>
+				<SubtypeId>DSV-TCOTM-FarReaches-ScoutDrone</SubtypeId>
 			</Id>
 			<Description>
 
@@ -16,7 +16,7 @@
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
 			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-Clear-Authorship]
+			[ManipulationProfiles:Standard-ClearAuthorship]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_FarReaches]
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-TESTING]
@@ -25,7 +25,7 @@
 			<IsPirate>true</IsPirate> <!--Do not edit-->
 			<Frequency>20.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="[TCOTM] Drone 02">
+				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
 					<Position>
 						<X>0.0</X>
 						<Y>0.0</Y>

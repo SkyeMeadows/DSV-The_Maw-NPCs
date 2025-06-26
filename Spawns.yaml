@@ -1,5 +1,10 @@
+#Spawn Timers are not final
+#Difficulty Ranges from 1 [Trivial] to 10 [Boss-like] and is not necessarily linear
+#Frequency Ranges from 1 [Exotic Spawn] to 20 [Usual Spawn] | All Frequencies are relative to their zone
+#*Spawns do not count Drones, as those spawn ship-by-ship*
+
 zones:
-  - name: Sub-Inner Core
+  - name: Sub-Inner Core # may not exist, as it's higher gravity than NPC ships may be able to handle
     distance_km: 300
     gravity: "0.??g"
     spawn_timer_min: 10
@@ -120,11 +125,13 @@ zones:
         frequency: 6
         composition: [1 Small, 2 Tiny]
         description: Smaller than usual patrol.
+        subtypeid: DSV-TCOTM-OuterTerritory-SmallPatrol
       - type: Scout Craft
         difficulty: 2
         frequency: 15
         composition: [1 Tiny]
         description: Minimal threat, but may alert reinforcements.
+        subtypeid: DSV-TCOTM-OuterTerritory-ScoutFrigate
 
   - name: Far Reaches
     distance_km: 3000
@@ -135,3 +142,4 @@ zones:
         frequency: 20
         composition: [1 Drone]
         description: Minimal threat, but may alert reinforcements.
+        subtpyeid: DSV-TCOTM-FarReaches-ScoutDrone

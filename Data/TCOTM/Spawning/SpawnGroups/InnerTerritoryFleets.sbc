@@ -16,7 +16,7 @@
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
 			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-Clear-Authorship]
+			[ManipulationProfiles:Standard-ClearAuthorship]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_InnerTerritory]
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-TESTING]
@@ -32,7 +32,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-TinyShip-Behavior-Scout</Behaviour>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Scout</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
@@ -51,7 +51,7 @@
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
 			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-Clear-Authorship]
+			[ManipulationProfiles:Standard-ClearAuthorship]
 
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerTerritory-Fleet-02-Loot]
 
@@ -69,7 +69,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-SmallShip-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Tiny Ship 01">
 					<Position>
@@ -78,7 +78,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-TinyShip-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Tiny Ship 01">
 					<Position>
@@ -87,7 +87,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-TinyShip-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
@@ -106,7 +106,7 @@
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
 			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-Clear-Authorship]
+			[ManipulationProfiles:Standard-ClearAuthorship]
 
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerTerritory-Fleet-03-Loot]
 
@@ -124,7 +124,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-MediumShip-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-Battlecruiser-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Small Ship 01">
 					<Position>
@@ -133,7 +133,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-SmallShip-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Small Ship 01">
 					<Position>
@@ -142,7 +142,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-SmallShip-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Tiny Ship 01">
 					<Position>
@@ -151,7 +151,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-TinyShip-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Tiny Ship 01">
 					<Position>
@@ -160,7 +160,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-TinyShip-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
