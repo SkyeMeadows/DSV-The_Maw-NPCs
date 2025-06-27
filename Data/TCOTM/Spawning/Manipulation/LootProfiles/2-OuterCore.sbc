@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-Manipulation-OuterCore-LootProfile-Common</SubtypeId>
+      </Id>
+      <Description>
+
+      [MES Loot]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+      [ContainerTypes:DSV-TCOTM-Manipulation-OuterCore-LootTable-Common]
+      [MinBlocks:2]
+      [MaxBlocks:4]
+      
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

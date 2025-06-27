@@ -5,18 +5,11 @@
 		<ContainerType CountMin="1" CountMax="2">
 			<Id>
 				<TypeId>ContainerTypeDefinition</TypeId>
-				<SubtypeId>DSV-TCOTM-Manipulation-OuterTerritory-LootTable-Basic-Common</SubtypeId>
+				<SubtypeId>DSV-TCOTM-Manipulation-OuterTerritory-LootTable-Common</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="500" AmountMax="1000">
+				<Item AmountMin="1" AmountMax="1">
 					<Frequency>1.0</Frequency>
-					<Id>
-						<TypeId>Ingot</TypeId>
-						<SubtypeId>Uranium</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="2500" AmountMax="5000">
-					<Frequency>0.2</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>Uranium</SubtypeId>
