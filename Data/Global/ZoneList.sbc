@@ -5,31 +5,6 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-Zone-CentralCore</SubtypeId>
-      </Id>
-      <Description>
-
-        [MES Zone]
-
-        [PublicName:TCOTM Central Core]
-
-        [Active:true]
-        [Persistent:true]
-
-        [Coordinates:{X:0 Y:0 Z:0}]
-        [Radius:225000]
-
-        [UseZoneAnnounce:true]
-        [ZoneEnterAnnounce:You have entered the central core of The Children's Territory]
-        [ZoneLeaveAnnounce:You have left the central core of The Children's Territory]
-
-      </Description>
-
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
         <SubtypeId>DSV-TCOTM-Zone-InnerCore</SubtypeId>
       </Id>
       <Description>

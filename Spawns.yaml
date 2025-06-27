@@ -4,30 +4,6 @@
 #*Spawns do not count Drones, as those spawn ship-by-ship*
 
 zones:
-  - name: Central Core # may not exist, as it's higher gravity than NPC ships may be able to handle
-    distance_km: 300
-    gravity: "0.??g"
-    spawn_timer_min: 10
-    fleets:
-      - type: Marauder Fleet
-        difficulty: 9
-        frequency: 3
-        composition: [1 Dreadnought, 2 Battleship, 5 Scout Frigate]
-        description: Heavy duty ships meant to bring down the largest of threats.
-        subtypeid:
-      - type: Advanced Swarm Fleet
-        difficulty: 8
-        frequency: 2
-        composition: []  # Unknown composition
-        description: Powerful but lighter ships & heavier drones, plentiful in number.
-        subtypeid:
-      - type: Swarm Fleet
-        difficulty: 6
-        frequency: 3
-        composition: []  # Unknown composition
-        description: Lots of light ships and drones, overwhelming in number.
-        subtypeid:
-
   - name: Inner Core
     distance_km: 350
     gravity: "~0.05g"

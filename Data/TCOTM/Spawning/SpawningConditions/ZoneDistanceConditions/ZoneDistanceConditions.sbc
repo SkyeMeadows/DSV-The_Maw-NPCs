@@ -5,24 +5,6 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-ZoneConditions-TCOTM_CentralCore</SubtypeId>
-      </Id>
-      <Description>
-
-        [MES Zone Conditions]
-
-        [ZoneName:TCOTM Central Core]
-
-        [MinDistanceFromZoneCenter:150000]
-        [MaxDistanceFromZoneCenter:225000]
-
-      </Description>
-
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
         <SubtypeId>DSV-TCOTM-ZoneConditions-TCOTM_InnerCore</SubtypeId>
       </Id>
       <Description>
@@ -31,7 +13,7 @@
 
         [ZoneName:TCOTM Inner Core]
 
-        [MinDistanceFromZoneCenter:225000]
+        [MinDistanceFromZoneCenter:200000]
         [MaxDistanceFromZoneCenter:350000]
 
       </Description>

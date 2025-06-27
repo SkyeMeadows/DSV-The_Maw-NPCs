@@ -5,21 +5,6 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-SpawnConditions-InZone-TCOTM_CentralCore</SubtypeId>
-      </Id>
-      <Description>
-
-        [MES Spawn Conditions]
-
-        [ZoneConditions:DSV-TCOTM-ZoneConditions-TCOTM_CentralCore]
-
-      </Description>
-
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
         <SubtypeId>DSV-TCOTM-SpawnConditions-InZone-TCOTM_InnerCore</SubtypeId>
       </Id>
       <Description>
