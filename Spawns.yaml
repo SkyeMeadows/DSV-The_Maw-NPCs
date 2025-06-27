@@ -4,7 +4,7 @@
 #*Spawns do not count Drones, as those spawn ship-by-ship*
 
 zones:
-  - name: Sub-Inner Core # may not exist, as it's higher gravity than NPC ships may be able to handle
+  - name: Central Core # may not exist, as it's higher gravity than NPC ships may be able to handle
     distance_km: 300
     gravity: "0.??g"
     spawn_timer_min: 10
@@ -120,19 +120,19 @@ zones:
         frequency: 1
         composition: [1 Battlecruiser, 2 Destroyers, 2 Scout Frigates]
         description: Typical heavy-duty patrol.
-        subtypeid: 
+        subtypeid: DSV-TCOTM-InnerTerritory-LargePatrol
       - type: Small Patrol
         difficulty: 3
         frequency: 4
         composition: [1 Destroyer, 2 Scout Frigates]
         description: Smaller than usual patrol.
-        subtypeid: 
+        subtypeid: DSV-TCOTM-InnerTerritory-SmallPatrol
       - type: Scout Craft
         difficulty: 2
         frequency: 10
         composition: [1 Scout Frigate]
         description: Minimal threat, but may alert reinforcements.
-        subtypeid: 
+        subtypeid: DSV-TCOTM-InnerTerritory-ScoutCraft
 
   - name: Outer Territory
     distance_km: 2500

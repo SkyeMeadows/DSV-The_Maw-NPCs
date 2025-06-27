@@ -5,14 +5,14 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-Manipulation-InnerTerritory-Fleet-02-Loot</SubtypeId>
+        <SubtypeId>DSV-TCOTM-Manipulation-InnerTerritory-SmallPatrol-Loot</SubtypeId>
       </Id>
       <Description>
 
         [MES Manipulation]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-Manipulation-InnerTerritory-Fleet-02-LootProfile-01]
+        [LootProfiles:DSV-TCOTM-Manipulation-InnerTerritory-SmallPatrol-LootProfile-Basic]
 
       </Description>
 
@@ -21,14 +21,14 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-Manipulation-InnerTerritory-Fleet-03-Loot</SubtypeId>
+        <SubtypeId>DSV-TCOTM-Manipulation-InnerTerritory-LargePatrol-Loot</SubtypeId>
       </Id>
       <Description>
 
         [MES Manipulation]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-Manipulation-InnerTerritory-Fleet-03-LootProfile-01]
+        [LootProfiles:DSV-TCOTM-Manipulation-InnerTerritory-LargePatrol-LootProfile-Baic]
 
       </Description>
 

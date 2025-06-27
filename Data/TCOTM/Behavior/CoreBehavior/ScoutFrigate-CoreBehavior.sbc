@@ -14,7 +14,7 @@
 
       [AutopilotData:DSV-TCOTM-ScoutFrigate-Autopilot-Scout-CargoShip]
       [TargetData:DSV-TCOTM-ScoutFrigate-Target-Scout]
-      [WeaponSystem:DSV-TCOTM-ScoutFrigate-Weapons-Scout]
+      [WeaponSystem:DSV-TCOTM-ScoutFrigate-Weapons]
       
       [Triggers:DSV-TCOTM-ScoutFrigate-Trigger-Scout-TargetFound]
 
@@ -39,7 +39,7 @@
 
       [AutopilotData:DSV-TCOTM-ScoutFrigate-Autopilot-Patrol-CargoShip]
       [TargetData:DSV-TCOTM-ScoutFrigate-Target-Patrol]
-      [WeaponSystem:DSV-TCOTM-ScoutFrigate-Weapons-Patrol]
+      [WeaponSystem:DSV-TCOTM-ScoutFrigate-Weapons-]
       
       [Triggers:DSV-TCOTM-ScoutFrigate-Trigger-Scout-CommandRecieve-CommandFocusFire]
 

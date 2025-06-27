@@ -5,25 +5,6 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Drone-Behavior-Fighter</SubtypeId>
-      </Id>
-      <Description>
-
-      [RivalAI Behavior]
-      [BehaviorName:Fighter]
-
-      [UsePlayerDistanceTimer:false]
-      [UseRetreatTimer:false]
-      [RetreatDespawnDistance:20000]
-
-      [AutopilotData:DSV-TCOTM-Drone-Autopilot-General-Fighter]
-
-      </Description>
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-          <TypeId>Inventory</TypeId>
           <SubtypeId>DSV-TCOTM-Drone-Behavior-Scout</SubtypeId>
       </Id>
       <Description>
@@ -33,7 +14,7 @@
 
       [AutopilotData:DSV-TCOTM-Drone-Autopilot-Scout-CargoShip]
       [TargetData:DSV-TCOTM-Drone-Target-Scout]
-      [WeaponSystem:DSV-TCOTM-Drone-Weapons-Scout]
+      [WeaponSystem:DSV-TCOTM-Drone-Weapons]
       
       [Triggers:DSV-TCOTM-Drone-Trigger-Scout-TargetFound]
 

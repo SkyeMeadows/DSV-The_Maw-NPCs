@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Manipulation-OuterTerritory-Fleet-02-LootProfile-01</SubtypeId>
+          <SubtypeId>DSV-TCOTM-Manipulation-OuterTerritory-SmallPatrol-LootProfile-Basic</SubtypeId>
       </Id>
       <Description>
 
@@ -13,7 +13,7 @@
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
-      [ContainerTypes:DSV-TCOTM-Manipulation-OuterTerritory-LootTable-01]
+      [ContainerTypes:DSV-TCOTM-Manipulation-OuterTerritory-LootTable-Basic-Common]
       [MinBlocks:2]
       [MaxBlocks:4]
       

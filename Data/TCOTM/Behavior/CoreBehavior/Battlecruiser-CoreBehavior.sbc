@@ -14,7 +14,7 @@
 
       [AutopilotData:DSV-TCOTM-Battlecruiser-Autopilot-Patrol-CargoShip]
       [TargetData:DSV-TCOTM-Battlecruiser-Target-Patrol]
-      [WeaponSystem:DSV-TCOTM-Battlecruiser-Weapons-Patrol]
+      [WeaponSystem:DSV-TCOTM-Battlecruiser]
       
       [Triggers:DSV-TCOTM-Battlecruiser-Trigger-Patrol-TargetFound]
       [Triggers:DSV-TCOTM-Battlecruiser-Trigger-Patrol-SpawnRefreshTarget]

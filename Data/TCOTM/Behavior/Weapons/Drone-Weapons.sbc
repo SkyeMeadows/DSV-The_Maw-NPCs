@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-Drone-Weapons-Scout</SubtypeId>
+        <SubtypeId>DSV-TCOTM-Drone-Weapons</SubtypeId>
       </Id>
       <Description>
 
@@ -14,7 +14,9 @@
         [UseStaticGuns:true]
         [UseTurrets:false]
 
-        [UseAmmoReplenish:false]
+        [UseAmmoReplenish:true]
+        [AmmoReplenishClipAmount:5]
+        [MaxAmmoReplenishments:5]
 
       </Description>
     </EntityComponent>

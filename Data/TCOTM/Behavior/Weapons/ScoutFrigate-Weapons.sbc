@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-ScoutFrigate-Weapons-Scout</SubtypeId>
+        <SubtypeId>DSV-TCOTM-ScoutFrigate-Weapons</SubtypeId>
       </Id>
       <Description>
 
@@ -15,27 +15,8 @@
         [UseTurrets:true]
 
         [UseAmmoReplenish:true]
-        [AmmoReplenishClipAmount:5]
-        [MaxAmmoReplenishments:10]
-
-      </Description>
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-ScoutFrigate-Weapons-Patrol</SubtypeId>
-      </Id>
-      <Description>
-
-        [RivalAI Weapons]
-
-        [UseStaticGuns:true]
-        [UseTurrets:true]
-
-        [UseAmmoReplenish:true]
-        [AmmoReplenishClipAmount:5]
-        [MaxAmmoReplenishments:30]
+        [AmmoReplenishClipAmount:10]
+        [MaxAmmoReplenishments:15]
 
       </Description>
     </EntityComponent>

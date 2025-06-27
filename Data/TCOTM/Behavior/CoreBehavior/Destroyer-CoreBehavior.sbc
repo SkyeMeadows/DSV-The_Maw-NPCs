@@ -14,7 +14,7 @@
 
       [AutopilotData:DSV-TCOTM-Destroyer-Autopilot-Patrol-CargoShip]
       [TargetData:DSV-TCOTM-Destroyer-Target-Patrol]
-      [WeaponSystem:DSV-TCOTM-Destroyer-Weapons-Patrol]
+      [WeaponSystem:DSV-TCOTM-Destroyer]
       
       [Triggers:DSV-TCOTM-Destroyer-Trigger-Patrol-TargetFound]
       [Triggers:DSV-TCOTM-Destroyer-Trigger-Patrol-SpawnRefreshTarget]
