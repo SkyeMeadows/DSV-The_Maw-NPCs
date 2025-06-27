@@ -53,7 +53,7 @@
 			[ManipulationProfiles:Standard-Replacement-Shields]
 			[ManipulationProfiles:Standard-ClearAuthorship]
 
-			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-SmallPatrol-Loot]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Loot-Common]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterTerritory]
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-TESTING]

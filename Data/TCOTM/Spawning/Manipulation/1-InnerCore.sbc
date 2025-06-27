@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-Manipulation-InnerCore-Loot-Common</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [LootProfiles:DSV-TCOTM-Manipulation-InnerCore-LootProfile-Common]
+
+        [ManipulationChance:95]
+
+        [ManipulationAllowedPrefabNames:[TCOTM] Scout Frigate]
+        [ManipulationAllowedPrefabNames:[TCOTM] Destroyer]
+        [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
+        [ManipulationAllowedPrefabNames:[TCOTM] Battleship]
+        [ManipulationAllowedPrefabNames:[TCOTM] Dreadnought]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-Manipulation-InnerCore-Loot-Uncommon</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [LootProfiles:DSV-TCOTM-Manipulation-InnerCore-LootProfile-Uncommon]
+
+        [ManipulationChance:70]
+
+        [ManipulationAllowedPrefabNames:[TCOTM] Destroyer]
+        [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
+        [ManipulationAllowedPrefabNames:[TCOTM] Battleship]
+        [ManipulationAllowedPrefabNames:[TCOTM] Dreadnought]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-Manipulation-InnerCore-Loot-Rare</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [LootProfiles:DSV-TCOTM-Manipulation-InnerCore-LootProfile-Rare]
+
+        [ManipulationChance:45]
+
+        [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
+        [ManipulationAllowedPrefabNames:[TCOTM] Battleship]
+        [ManipulationAllowedPrefabNames:[TCOTM] Dreadnought]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-Manipulation-InnerCore-Loot-Exotic</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [LootProfiles:DSV-TCOTM-Manipulation-InnerCore-LootProfile-Exotic]
+
+        [ManipulationChance:10]
+
+        [ManipulationAllowedPrefabNames:[TCOTM] Battleship]
+        [ManipulationAllowedPrefabNames:[TCOTM] Dreadnought]
+
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

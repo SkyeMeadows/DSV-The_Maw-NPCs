@@ -14,8 +14,8 @@
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
       [ContainerTypes:DSV-TCOTM-Manipulation-OuterCore-LootTable-Common]
-      [MinBlocks:2]
-      [MaxBlocks:4]
+      [MinBlocks:1]
+      [MaxBlocks:10]
       
       </Description>
       
@@ -33,8 +33,8 @@
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
       [ContainerTypes:DSV-TCOTM-Manipulation-OuterCore-LootTable-Uncommon]
-      [MinBlocks:2]
-      [MaxBlocks:4]
+      [MinBlocks:1]
+      [MaxBlocks:10]
       
       </Description>
       
@@ -52,8 +52,8 @@
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
       [ContainerTypes:DSV-TCOTM-Manipulation-OuterCore-LootTable-Rare]
-      [MinBlocks:2]
-      [MaxBlocks:4]
+      [MinBlocks:1]
+      [MaxBlocks:10]
       
       </Description>
       
@@ -71,8 +71,8 @@
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
       [ContainerTypes:DSV-TCOTM-Manipulation-OuterCore-LootTable-Exotic]
-      [MinBlocks:2]
-      [MaxBlocks:4]
+      [MinBlocks:1]
+      [MaxBlocks:10]
       
       </Description>
       
