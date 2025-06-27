@@ -21,5 +21,62 @@
       
     </EntityComponent>
 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-Manipulation-OuterTerritory-LootProfile-Uncommon</SubtypeId>
+      </Id>
+      <Description>
+
+      [MES Loot]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+      [ContainerTypes:DSV-TCOTM-Manipulation-OuterTerritory-LootTable-Uncommon]
+      [MinBlocks:2]
+      [MaxBlocks:4]
+      
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-Manipulation-OuterTerritory-LootProfile-Rare</SubtypeId>
+      </Id>
+      <Description>
+
+      [MES Loot]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+      [ContainerTypes:DSV-TCOTM-Manipulation-OuterTerritory-LootTable-Rare]
+      [MinBlocks:2]
+      [MaxBlocks:4]
+      
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-Manipulation-OuterTerritory-LootProfile-Exotic</SubtypeId>
+      </Id>
+      <Description>
+
+      [MES Loot]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+      [ContainerTypes:DSV-TCOTM-Manipulation-OuterTerritory-LootTable-Exotic]
+      [MinBlocks:2]
+      [MaxBlocks:4]
+      
+      </Description>
+      
+    </EntityComponent>
+
   </EntityComponents>
 </Definitions>
