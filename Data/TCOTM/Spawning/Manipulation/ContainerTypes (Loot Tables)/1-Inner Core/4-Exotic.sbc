@@ -2,7 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ContainerTypes>
 	
-		<ContainerType CountMin="7" CountMax="12">
+		<ContainerType CountMin="5" CountMax="10">
 			<Id>
 				<TypeId>ContainerTypeDefinition</TypeId>
 				<SubtypeId>DSV-TCOTM-Manipulation-InnerCore-LootTable-Exotic</SubtypeId>
@@ -120,7 +120,7 @@
 						<SubtypeId>PrototechCapacitor</SubtypeId>
 					</Id>
 				</Item>
-				<Item AmountMin="40" AmountMax="60">
+				<Item AmountMin="20" AmountMax="30">
 					<Frequency>0.75</Frequency>
 					<Id>
 						<TypeId>Component</TypeId>
@@ -134,7 +134,7 @@
 						<SubtypeId>PrototechCircuitry</SubtypeId>
 					</Id>
 				</Item>
-				<Item AmountMin="40" AmountMax="60">
+				<Item AmountMin="25" AmountMax="40">
 					<Frequency>0.75</Frequency>
 					<Id>
 						<TypeId>Component</TypeId>
