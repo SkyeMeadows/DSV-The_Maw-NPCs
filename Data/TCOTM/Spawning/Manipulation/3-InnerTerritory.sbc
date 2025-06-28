@@ -62,7 +62,7 @@
         [UseLootProfiles:true]
         [LootProfiles:DSV-TCOTM-Manipulation-InnerTerritory-LootProfile-Rare]
 
-        [ManipulationChance:45]
+        [ManipulationChance:35]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Destroyer]
         [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]

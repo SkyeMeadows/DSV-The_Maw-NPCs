@@ -61,7 +61,7 @@
         [UseLootProfiles:true]
         [LootProfiles:DSV-TCOTM-Manipulation-OuterCore-LootProfile-Rare]
 
-        [ManipulationChance:45]
+        [ManipulationChance:35]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
         [ManipulationAllowedPrefabNames:[TCOTM] Battleship]
