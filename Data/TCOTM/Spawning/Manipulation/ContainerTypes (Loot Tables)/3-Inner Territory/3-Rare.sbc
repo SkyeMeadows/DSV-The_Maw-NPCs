@@ -2,14 +2,91 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ContainerTypes>
 	
-		<ContainerType CountMin="1" CountMax="2">
+		<ContainerType CountMin="4" CountMax="10">
 			<Id>
 				<TypeId>ContainerTypeDefinition</TypeId>
 				<SubtypeId>DSV-TCOTM-Manipulation-InnerTerritory-LootTable-Rare</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="1" AmountMax="1">
+				<Item AmountMin="800" AmountMax="2200">
+					<Frequency>2.5</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-HardenedPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="20">
 					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-KarnyxiumCore</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="10">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-KarnyxiumCore</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="25" AmountMax="40">
+					<Frequency>1.25</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-JumpCatalyst</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1000" AmountMax="2000">
+					<Frequency>0.75</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-EchoSeal</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="150" AmountMax="200">
+					<Frequency>1.5</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-GravityConduit</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="150" AmountMax="200">
+					<Frequency>1.5</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-CatalystCapactior</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="150" AmountMax="200">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-EntropyMatrix</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="10">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-SpaceTimeDisruptorComponent</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="10" AmountMax="25">
+					<Frequency>0.15</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-SpaceTimeDisruptorComponent</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="5000">
+					<Frequency>0.75</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>Uranium</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="3000" AmountMax="6000">
+					<Frequency>0.8</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>Uranium</SubtypeId>
