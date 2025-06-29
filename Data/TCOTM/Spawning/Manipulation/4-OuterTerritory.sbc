@@ -14,7 +14,7 @@
         [UseLootProfiles:true]
         [LootProfiles:DSV-TCOTM-Manipulation-OuterTerritory-LootProfile-Common]
 
-        [ManipulationChance:95]
+        [ManipulationChance:90]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Scout Frigate]
         [ManipulationAllowedPrefabNames:[TCOTM] Destroyer]
@@ -38,7 +38,7 @@
         [UseLootProfiles:true]
         [LootProfiles:DSV-TCOTM-Manipulation-OuterTerritory-LootProfile-Uncommon]
 
-        [ManipulationChance:70]
+        [ManipulationChance:40]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Scout Frigate]
         [ManipulationAllowedPrefabNames:[TCOTM] Destroyer]
@@ -62,7 +62,7 @@
         [UseLootProfiles:true]
         [LootProfiles:DSV-TCOTM-Manipulation-OuterTerritory-LootProfile-Rare]
 
-        [ManipulationChance:35]
+        [ManipulationChance:20]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Destroyer]
         [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
@@ -85,7 +85,7 @@
         [UseLootProfiles:true]
         [LootProfiles:DSV-TCOTM-Manipulation-OuterTerritory-LootProfile-Exotic]
 
-        [ManipulationChance:10]
+        [ManipulationChance:5]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Destroyer]
         [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
