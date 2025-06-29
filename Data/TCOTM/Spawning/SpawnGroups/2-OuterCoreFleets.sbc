@@ -18,6 +18,11 @@
 			[ManipulationProfiles:Standard-Replacement-Shields]
 			[ManipulationProfiles:Standard-ClearAuthorship]
 
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Common]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Uncommon]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Rare]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Exotic]
+
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterCore]
 
 			</Description>

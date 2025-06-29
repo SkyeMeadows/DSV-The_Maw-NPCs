@@ -18,6 +18,11 @@
 			[ManipulationProfiles:Standard-Replacement-Shields]
 			[ManipulationProfiles:Standard-ClearAuthorship]
 
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Loot-Common]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Loot-Uncommon]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Loot-Rare]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Loot-Exotic]
+
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterTerritory]
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-TESTING]
 
@@ -54,6 +59,9 @@
 			[ManipulationProfiles:Standard-ClearAuthorship]
 
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Loot-Common]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Loot-Uncommon]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Loot-Rare]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Loot-Exotic]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterTerritory]
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-TESTING]

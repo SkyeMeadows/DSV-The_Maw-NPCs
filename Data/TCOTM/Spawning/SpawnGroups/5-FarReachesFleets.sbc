@@ -18,6 +18,11 @@
 			[ManipulationProfiles:Standard-Replacement-Shields]
 			[ManipulationProfiles:Standard-ClearAuthorship]
 
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-FarReaches-Loot-Common]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-FarReaches-Loot-Uncommon]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-FarReaches-Loot-Rare]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-FarReaches-Loot-Exotic]
+
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_FarReaches]
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-TESTING]
 
