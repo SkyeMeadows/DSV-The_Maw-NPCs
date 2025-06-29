@@ -69,7 +69,6 @@
       [MES Loot]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
-      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
       [ContainerTypes:DSV-TCOTM-Manipulation-FarReaches-LootTable-Exotic]
       [MinBlocks:1]
       [MaxBlocks:10]
