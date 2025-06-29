@@ -2,7 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ContainerTypes>
 	
-		<ContainerType CountMin="1" CountMax="2">
+		<ContainerType CountMin="3" CountMax="7">
 			<Id>
 				<TypeId>ContainerTypeDefinition</TypeId>
 				<SubtypeId>DSV-TCOTM-Manipulation-InnerTerritory-LootTable-Uncommon</SubtypeId>
