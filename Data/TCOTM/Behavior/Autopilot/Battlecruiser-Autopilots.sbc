@@ -32,7 +32,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Battlecruiser-Autopilot-Patrol-Fighter</SubtypeId>
+          <SubtypeId>DSV-TCOTM-Battlecruiser-Autopilot-Patrol-Horsefly</SubtypeId>
       </Id>
       <Description>
 
@@ -48,9 +48,7 @@
       [EngageDistanceSpace:10000]
       [DisengageDistanceSpace:15000]
 
-      [AllowStrafing:true]
-      [StrafeMinDurationMs:3000]
-      [StrafeMaxDurationMs:5000]
+      [OffsetSpaceMinDistFromTarget:2000]
 
       [UseProjectileLeadPrediction:true]
 

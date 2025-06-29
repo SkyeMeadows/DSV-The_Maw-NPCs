@@ -15,9 +15,9 @@
       [ChatData:DSV-TCOTM-Battlecruiser-Chat-Patrol-TargetFound]
 	
       [ChangeBehaviorSubclass:true]
-      [NewBehaviorSubclass:Fighter]
+      [NewBehaviorSubclass:Horsefly]
       [ChangeAutopilotProfile:true]
-      [AutopilotProfile:DSV-TCOTM-Battlecruiser-Autopilot-Patrol-Fighter]
+      [AutopilotProfile:DSV-TCOTM-Battlecruiser-Autopilot-Patrol-Horsefly]
       [ChangeAutopilotSpeed:true]
       [NewAutopilotSpeed:200]
 
