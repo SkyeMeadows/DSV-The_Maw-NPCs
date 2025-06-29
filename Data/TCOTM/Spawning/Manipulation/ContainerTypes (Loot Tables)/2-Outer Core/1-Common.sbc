@@ -2,14 +2,77 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ContainerTypes>
 	
-		<ContainerType CountMin="1" CountMax="2">
+		<ContainerType CountMin="2" CountMax="4">
 			<Id>
 				<TypeId>ContainerTypeDefinition</TypeId>
 				<SubtypeId>DSV-TCOTM-Manipulation-OuterCore-LootTable-Common</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="1" AmountMax="1">
+				<Item AmountMin="400" AmountMax="6000">
+					<Frequency>3.5</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-HardenedPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>0.75</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-KarnyxiumCore</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="10">
+					<Frequency>2.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-KarnyxiumCore</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="30">
 					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-JumpCatalyst</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1000" AmountMax="1200">
+					<Frequency>0.75</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-EchoSeal</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="50" AmountMax="100">
+					<Frequency>1.5</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-GravityConduit</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="50" AmountMax="100">
+					<Frequency>1.5</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-CatalystCapactior</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="50" AmountMax="100">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-EntropyMatrix</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="500" AmountMax="1000">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>Uranium</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="3000">
+					<Frequency>0.75</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>Uranium</SubtypeId>
