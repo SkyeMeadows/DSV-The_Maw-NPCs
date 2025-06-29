@@ -43,6 +43,7 @@
       [WeaponSystem:DSV-TCOTM-Destroyer-Weapons]
       
       [Triggers:DSV-TCOTM-Destroyer-Trigger-Patrol-SpawnRefreshTarget]
+      [Triggers:DSV-TCOTM-Destroyer-Trigger-Scout-CommandReceive-CommandFocusFire]
 
       [UseNoTargetTimer:true]
       [NoTargetTimerTrigger:300]
