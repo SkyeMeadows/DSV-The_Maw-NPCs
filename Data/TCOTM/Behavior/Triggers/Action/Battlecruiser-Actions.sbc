@@ -5,27 +5,27 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Destroyer-Action-Patrol-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-Battlecruiser-Action-Patrol-TargetFound</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Action]
       
       [UseChatBroadcast:true]
-      [ChatData:DSV-TCOTM-Destroyer-Chat-Patrol-TargetFound]
+      [ChatData:DSV-TCOTM-Battlecruiser-Chat-Patrol-TargetFound]
 	
       [ChangeBehaviorSubclass:true]
       [NewBehaviorSubclass:Fighter]
       [ChangeAutopilotProfile:true]
-      [AutopilotProfile:DSV-TCOTM-Destroyer-Autopilot-Patrol-Fighte]
+      [AutopilotProfile:DSV-TCOTM-Battlecruiser-Autopilot-Patrol-Fighter]
       [ChangeAutopilotSpeed:true]
-      [NewAutopilotSpeed:250]
+      [NewAutopilotSpeed:200]
 
       [ChangeTargetProfile:true]
-      [NewTargetProfileId:DSV-TCOTM-Destroyer-Target-Fighter]
+      [NewTargetProfileId:DSV-TCOTM-Battlecruiser-Target-Fighter]
 
       [DisableTriggers:true]
-      [DisableTriggerNames:DSV-TCOTM-Destroyer-Trigger-Patrol-TargetFound]
+      [DisableTriggerNames:DSV-TCOTM-Battlecruiser-Trigger-Patrol-TargetFound]
 
       </Description>
       
@@ -34,7 +34,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Destroyer-Chat-Patrol-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-Battlecruiser-Chat-Patrol-TargetFound</SubtypeId>
       </Id>
       <Description>
 
@@ -46,7 +46,7 @@
       [MaxChats:1]
       [BroadcastRandomly:true]
       
-      [Author:TCOTM Destroyer]
+      [Author:TCOTM Battlecruiser]
       [Color:Red]
       
       [ChatMessages:Enemy detected, engaging.]
@@ -72,7 +72,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Destroyer-Action-Patrol-SpawnRefreshTarget</SubtypeId>
+          <SubtypeId>DSV-TCOTM-Battlecruiser-Action-Patrol-SpawnRefreshTarget</SubtypeId>
       </Id>
       <Description>
 
@@ -81,7 +81,7 @@
       [RefreshTarget:true]
 
       [DisableTriggers:true]
-      [DisableTriggerNames:DSV-TCOTM-Destroyer-Trigger-Patrol-SpawnRefreshTarget]
+      [DisableTriggerNames:DSV-TCOTM-Battlecruiser-Trigger-Patrol-SpawnRefreshTarget]
 
 
       </Description>
@@ -91,36 +91,14 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Destroyer-Action-Patrol-CommandFocusFire</SubtypeId>
+          <SubtypeId>DSV-TCOTM-Battlecruiser-Action-Patrol-CommandFocusFire</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Action]
       
       [BroadcastCommandProfiles:true]
-      [CommandProfileIds:DSV-TCOTM-Destroyer-Command-Patrol-CommandFocusFire]
-
-      </Description>
-      
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Destroyer-Action-Scout-CommandReceiveAggressTarget</SubtypeId>
-      </Id>
-      <Description>
-
-      [RivalAI Action]
-      
-      [SwitchToReceivedTarget:true]
-
-      [ChangeBehaviorSubclass:true]
-      [NewBehaviorSubclass:Fighter]
-      [ChangeAutopilotProfile:true]
-      [AutopilotProfile:DSV-TCOTM-Destroyer-Autopilot-Patrol-Fighter]
-      [ChangeAutopilotSpeed:true]
-      [NewAutopilotSpeed:300]
+      [CommandProfileIds:DSV-TCOTM-Battlecruiser-Command-Patrol-CommandFocusFire]
 
       </Description>
       

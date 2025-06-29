@@ -51,7 +51,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-ScoutFrigate-Trigger-Scout-CommandRecieve-CommandFocusFire</SubtypeId>
+          <SubtypeId>DSV-TCOTM-ScoutFrigate-Trigger-Scout-CommandReceive-CommandFocusFire</SubtypeId>
       </Id>
       <Description>
 
@@ -65,7 +65,7 @@
       [StartsReady:true]
 
       [ActionExecution:All]
-      [Actions:DSV-TCOTM-ScoutFrigate-Action-Scout-CommandRecieveAggressTarget]
+      [Actions:DSV-TCOTM-ScoutFrigate-Action-Scout-CommandReceiveAggressTarget]
 
       </Description>
       

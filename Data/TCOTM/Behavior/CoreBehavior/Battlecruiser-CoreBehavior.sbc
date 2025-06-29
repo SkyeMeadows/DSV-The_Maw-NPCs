@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Battlecruiser-Behavior-Patrol</SubtypeId>
+          <SubtypeId>DSV-TCOTM-Battlecruiser-Behavior-Patrol-Lead</SubtypeId>
       </Id>
       <Description>
 
@@ -14,7 +14,7 @@
 
       [AutopilotData:DSV-TCOTM-Battlecruiser-Autopilot-Patrol-CargoShip]
       [TargetData:DSV-TCOTM-Battlecruiser-Target-Patrol]
-      [WeaponSystem:DSV-TCOTM-Battlecruiser]
+      [WeaponSystem:DSV-TCOTM-Battlecruiser-Weapons]
       
       [Triggers:DSV-TCOTM-Battlecruiser-Trigger-Patrol-TargetFound]
       [Triggers:DSV-TCOTM-Battlecruiser-Trigger-Patrol-SpawnRefreshTarget]

@@ -39,9 +39,9 @@
 
       [AutopilotData:DSV-TCOTM-ScoutFrigate-Autopilot-Patrol-CargoShip]
       [TargetData:DSV-TCOTM-ScoutFrigate-Target-Patrol]
-      [WeaponSystem:DSV-TCOTM-ScoutFrigate-Weapons-]
+      [WeaponSystem:DSV-TCOTM-ScoutFrigate-Weapons]
       
-      [Triggers:DSV-TCOTM-ScoutFrigate-Trigger-Scout-CommandRecieve-CommandFocusFire]
+      [Triggers:DSV-TCOTM-ScoutFrigate-Trigger-Scout-CommandReceive-CommandFocusFire]
 
       [UseNoTargetTimer:true]
       [NoTargetTimerTrigger:300]
