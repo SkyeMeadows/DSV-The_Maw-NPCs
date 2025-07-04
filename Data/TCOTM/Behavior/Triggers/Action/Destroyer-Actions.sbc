@@ -16,8 +16,10 @@
 	
       [ChangeBehaviorSubclass:true]
       [NewBehaviorSubclass:Fighter]
+
       [ChangeAutopilotProfile:true]
-      [AutopilotProfile:DSV-TCOTM-Destroyer-Autopilot-Patrol-Fighte]
+      [AutopilotProfile:Secondary]
+      
       [ChangeAutopilotSpeed:true]
       [NewAutopilotSpeed:250]
 
@@ -45,6 +47,8 @@
       [Chance:100]
       [MaxChats:1]
       [BroadcastRandomly:true]
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:20000]
       
       [Author:TCOTM Destroyer]
       [Color:Red]
@@ -117,8 +121,10 @@
 
       [ChangeBehaviorSubclass:true]
       [NewBehaviorSubclass:Fighter]
+
       [ChangeAutopilotProfile:true]
-      [AutopilotProfile:DSV-TCOTM-Destroyer-Autopilot-Patrol-Fighter]
+      [AutopilotProfile:Secondary]
+      
       [ChangeAutopilotSpeed:true]
       [NewAutopilotSpeed:300]
 

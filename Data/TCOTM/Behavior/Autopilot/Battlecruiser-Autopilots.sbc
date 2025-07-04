@@ -50,6 +50,8 @@
 
       [OffsetSpaceMinDistFromTarget:2000]
 
+      [PadDistanceFromTarget:2000]
+
       [UseProjectileLeadPrediction:true]
 
       [IdealMaxSpeed:150]

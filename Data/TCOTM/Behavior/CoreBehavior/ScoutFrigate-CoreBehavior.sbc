@@ -13,6 +13,7 @@
       [BehaviorName:CargoShip]
 
       [AutopilotData:DSV-TCOTM-ScoutFrigate-Autopilot-Scout-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-ScoutFrigate-Autopilot-Patrol-Fighter]
       [TargetData:DSV-TCOTM-ScoutFrigate-Target-Scout]
       [WeaponSystem:DSV-TCOTM-ScoutFrigate-Weapons]
       
@@ -38,6 +39,7 @@
       [BehaviorName:CargoShip]
 
       [AutopilotData:DSV-TCOTM-ScoutFrigate-Autopilot-Patrol-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-ScoutFrigate-Autopilot-Patrol-Fighter]
       [TargetData:DSV-TCOTM-ScoutFrigate-Target-Patrol]
       [WeaponSystem:DSV-TCOTM-ScoutFrigate-Weapons]
       

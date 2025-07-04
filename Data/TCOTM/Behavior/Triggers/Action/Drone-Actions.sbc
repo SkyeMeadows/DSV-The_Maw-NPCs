@@ -37,6 +37,8 @@
       [Chance:100]
       [MaxChats:1]
       [BroadcastRandomly:true]
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:20000]
       
       [Author:TCOTM Drone]
       [Color:Red]

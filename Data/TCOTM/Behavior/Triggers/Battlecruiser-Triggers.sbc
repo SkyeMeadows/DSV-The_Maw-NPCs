@@ -16,7 +16,6 @@
       [UseTrigger:true]
       [StartsReady:true]
 
-      [ActionExecution:All]
       [Actions:DSV-TCOTM-Battlecruiser-Action-Patrol-TargetFound]
       [Actions:DSV-TCOTM-Battlecruiser-Action-Patrol-CommandFocusFire]
 
@@ -41,7 +40,6 @@
       [MinCooldownMs:1000]
       [MaxCooldownMs:2000]
 
-      [ActionExecution:All]
       [Actions:DSV-TCOTM-Battlecruiser-Action-Patrol-SpawnRefreshTarget]
 
       </Description>

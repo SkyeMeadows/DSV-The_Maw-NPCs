@@ -13,6 +13,7 @@
       [BehaviorName:CargoShip]
 
       [AutopilotData:DSV-TCOTM-Battlecruiser-Autopilot-Patrol-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-Battlecruiser-Autopilot-Patrol-Horsefly]
       [TargetData:DSV-TCOTM-Battlecruiser-Target-Patrol]
       [WeaponSystem:DSV-TCOTM-Battlecruiser-Weapons]
       

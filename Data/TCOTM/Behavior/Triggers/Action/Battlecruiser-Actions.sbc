@@ -10,22 +10,25 @@
       <Description>
 
       [RivalAI Action]
-      
+
+      [ChangeAutopilotProfile:true]
+      [AutopilotProfile:Secondary]
+
       [UseChatBroadcast:true]
       [ChatData:DSV-TCOTM-Battlecruiser-Chat-Patrol-TargetFound]
-	
+
       [ChangeBehaviorSubclass:true]
       [NewBehaviorSubclass:Horsefly]
-      [ChangeAutopilotProfile:true]
-      [AutopilotProfile:DSV-TCOTM-Battlecruiser-Autopilot-Patrol-Horsefly]
+
       [ChangeAutopilotSpeed:true]
-      [NewAutopilotSpeed:200]
+      [NewAutopilotSpeed:150]
 
       [ChangeTargetProfile:true]
       [NewTargetProfileId:DSV-TCOTM-Battlecruiser-Target-Fighter]
 
       [DisableTriggers:true]
       [DisableTriggerNames:DSV-TCOTM-Battlecruiser-Trigger-Patrol-TargetFound]
+
 
       </Description>
       
@@ -45,6 +48,9 @@
       [Chance:100]
       [MaxChats:1]
       [BroadcastRandomly:true]
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:20000]
+
       
       [Author:TCOTM Battlecruiser]
       [Color:Red]
