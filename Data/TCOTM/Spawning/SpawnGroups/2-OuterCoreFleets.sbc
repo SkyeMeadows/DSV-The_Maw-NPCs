@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-TCOTM-OuterCore-Fleet-01</SubtypeId>
+				<SubtypeId>DSV-TCOTM-OuterCore-ScoutCraft</SubtypeId>
 			</Id>
 			<Description>
 
@@ -24,19 +24,356 @@
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Exotic]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterCore]
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-TESTING]
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
-			<Frequency>1.0</Frequency>
+			<Frequency>5.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="[TCOTM] Drone 02">
+				<Prefab SubtypeId="[TCOTM] Scout Frigate">
 					<Position>
 						<X>0.0</X>
 						<Y>0.0</Y>
 						<Z>0.0</Z>
 					</Position>
-					<Speed>50</Speed>
-					<Behaviour>DSV-TCOTM-Drone-Behavior-Default</Behaviour>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Scout</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>DSV-TCOTM-OuterCore-SmallPatrol</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[FactionOverride:TCOTM]
+			[ReplenishSystems:true]
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+			[ManipulationProfiles:Standard-Replacement-Shields]
+			[ManipulationProfiles:Standard-ClearAuthorship]
+
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Common]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Uncommon]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Rare]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Exotic]
+
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterCore]
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-TESTING]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>12.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TCOTM] Destroyer">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol-Lead</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Scout Frigate">
+					<Position>
+						<X>250.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Scout Frigate">
+					<Position>
+						<X>-250.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>DSV-TCOTM-OuterCore-LargePatrol</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[FactionOverride:TCOTM]
+			[ReplenishSystems:true]
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+			[ManipulationProfiles:Standard-Replacement-Shields]
+			[ManipulationProfiles:Standard-ClearAuthorship]
+
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Common]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Uncommon]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Rare]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Exotic]
+
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterCore]
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-TESTING]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>6.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TCOTM] Battlecruiser">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Battlecruiser-Behavior-Patrol-Lead</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Destroyer">
+					<Position>
+						<X>0.0</X>
+						<Y>-250.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Destroyer">
+					<Position>
+						<X>0.0</X>
+						<Y>250.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Scout Frigate">
+					<Position>
+						<X>250.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Scout Frigate">
+					<Position>
+						<X>-250.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>DSV-TCOTM-OuterCore-SwarmFleet</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[FactionOverride:TCOTM]
+			[ReplenishSystems:true]
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+			[ManipulationProfiles:Standard-Replacement-Shields]
+			[ManipulationProfiles:Standard-ClearAuthorship]
+
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Common]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Uncommon]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Rare]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Exotic]
+
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterCore]
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-TESTING]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>2.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TCOTM] Destroyer">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol-Lead</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Scout Frigate">
+					<Position>
+						<X>200.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Scout Frigate">
+					<Position>
+						<X>200.0</X>
+						<Y>250.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Scout Frigate">
+					<Position>
+						<X>200.0</X>
+						<Y>-250.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Scout Frigate">
+					<Position>
+						<X>-200.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Scout Frigate">
+					<Position>
+						<X>-200.0</X>
+						<Y>-250.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Scout Frigate">
+					<Position>
+						<X>-200.0</X>
+						<Y>250.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+					<Position>
+						<X>-350.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+					<Position>
+						<X>-350.0</X>
+						<Y>50.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+					<Position>
+						<X>-350.0</X>
+						<Y>-50.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+					<Position>
+						<X>-400.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+					<Position>
+						<X>-400.0</X>
+						<Y>50.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+					<Position>
+						<X>-400.0</X>
+						<Y>-50.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+					<Position>
+						<X>350.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+					<Position>
+						<X>350.0</X>
+						<Y>50.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+					<Position>
+						<X>350.0</X>
+						<Y>-50.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+					<Position>
+						<X>400.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+					<Position>
+						<X>400.0</X>
+						<Y>50.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+					<Position>
+						<X>400.0</X>
+						<Y>-50.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>

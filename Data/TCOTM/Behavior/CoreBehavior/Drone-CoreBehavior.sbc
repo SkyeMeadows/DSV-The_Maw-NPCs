@@ -26,6 +26,31 @@
 
       </Description>
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-Drone-Behavior-Patrol</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:CargoShip]
+
+      [AutopilotData:DSV-TCOTM-Drone-Autopilot-Patrol-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-Drone-Autopilot-General-Fighter]
+      [TargetData:DSV-TCOTM-Drone-Target-Scout]
+      [WeaponSystem:DSV-TCOTM-Drone-Weapons]
+
+      [Triggers:DSV-TCOTM-Drone-Trigger-Scout-CommandReceive-CommandFocusFire]
+
+      [UseNoTargetTimer:false]
+      [UsePlayerDistanceTimer:false]
+      [UseRetreatTimer:false]
+      [RetreatDespawnDistance:20000]
+
+      </Description>
+    </EntityComponent>
 	
   </EntityComponents>
 </Definitions>

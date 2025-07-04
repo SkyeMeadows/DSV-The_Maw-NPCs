@@ -21,3 +21,9 @@ Z = Backwards (+) / Forwards (-)
 
 ## Other Notes
 Don't forget to spawn in all NPCs and BP again so they start with full shields
+
+
+
+## Ideas for "Smart" Actions
+- Call For reinforcements when taking too much damage (threshold, could be multi-layered and/or set up on a delay)
+- Switch between strafe and orbiting attack patterns

@@ -63,5 +63,29 @@
       
     </EntityComponent>
 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-Drone-Action-Scout-CommandReceiveAggressTarget</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+
+      [ChangeTargetProfile:true]
+      [NewTargetProfileId:DSV-TCOTM-Drone-Target-Fighter]
+      
+      [SwitchToReceivedTarget:true]
+
+      [ChangeBehaviorSubclass:true]
+      [NewBehaviorSubclass:Fighter]
+      
+      [ChangeAutopilotProfile:true]
+      [AutopilotProfile:Secondary]
+
+      </Description>
+      
+    </EntityComponent>
+
   </EntityComponents>
 </Definitions>

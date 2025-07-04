@@ -32,6 +32,33 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-Drone-Autopilot-Patrol-CargoShip</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Autopilot]
+      
+      [SlowDownOnWaypointApproach:true]
+      [ExtraSlowDownDistance:150]
+
+      [WaypointWaitTimeTrigger:15]
+
+      [UseVelocityCollisionEvasion:true]
+      [CollisionEvasionWaypointDistance:150]
+      [CollisionEvasionResumeDistance:150]
+      [CollisionEvasionResumeTime:15]
+
+      [IdealMaxSpeed:30]
+      [IdealMinSpeed:20]
+      [MaxSpeedTolerance:5]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
           <SubtypeId>DSV-TCOTM-Drone-Autopilot-General-Fighter</SubtypeId>
       </Id>
       <Description>
