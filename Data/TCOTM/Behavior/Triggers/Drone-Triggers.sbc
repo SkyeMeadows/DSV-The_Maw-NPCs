@@ -26,7 +26,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Drone-Trigger-Scout-CommandReceive-CommandFocusFire</SubtypeId>
+          <SubtypeId>DSV-TCOTM-Drone-Trigger-Patrol-CommandReceive-CommandFocusFire</SubtypeId>
       </Id>
       <Description>
 
@@ -39,8 +39,7 @@
       [UseTrigger:true]
       [StartsReady:true]
 
-      [ActionExecution:All]
-      [Actions:DSV-TCOTM-Drone-Action-Scout-CommandReceiveAggressTarget]
+      [Actions:DSV-TCOTM-Drone-Action-Patrol-CommandReceiveAggressTarget]
 
       </Description>
       

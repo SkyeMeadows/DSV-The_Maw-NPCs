@@ -42,7 +42,7 @@
       [TargetData:DSV-TCOTM-Drone-Target-Scout]
       [WeaponSystem:DSV-TCOTM-Drone-Weapons]
 
-      [Triggers:DSV-TCOTM-Drone-Trigger-Scout-CommandReceive-CommandFocusFire]
+      [Triggers:DSV-TCOTM-Drone-Trigger-Patrol-CommandReceive-CommandFocusFire]
 
       [UseNoTargetTimer:false]
       [UsePlayerDistanceTimer:false]
