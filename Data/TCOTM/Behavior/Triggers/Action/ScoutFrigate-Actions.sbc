@@ -108,9 +108,6 @@
       [ChangeAutopilotProfile:true]
       [AutopilotProfile:Secondary]
 
-      [ChangeAutopilotSpeed:true]
-      [NewAutopilotSpeed:300]
-
       </Description>
       
     </EntityComponent>

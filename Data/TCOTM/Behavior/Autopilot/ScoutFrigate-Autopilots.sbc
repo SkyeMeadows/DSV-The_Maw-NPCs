@@ -45,6 +45,21 @@
       [CollisionEvasionResumeDistance:300]
       [CollisionEvasionResumeTime:15]
 
+      [PadDistanceFromTarget:1000]
+      [OffsetSpaceMinDistFromTarget:1000]
+
+      [EngageDistanceSpace:15000]
+      [DisengageDistanceSpace:18000]
+
+      [AllowStrafing:true]
+      [StrafeMinDurationMs:10000]
+      [StrafeMaxDurationMs:15000]
+
+      [StrafeMinCooldownMs:20000]
+      [StrafeMaxCooldownMs:30000]
+
+      [StrafeMinimumTargetDistance:500]
+
       [IdealMaxSpeed:300]
       [IdealMinSpeed:200]
       [MaxSpeedTolerance:25]
@@ -95,6 +110,21 @@
       [CollisionEvasionWaypointDistance:300]
       [CollisionEvasionResumeDistance:300]
       [CollisionEvasionResumeTime:15]
+
+      [PadDistanceFromTarget:1000]
+      [OffsetSpaceMinDistFromTarget:1000]
+
+      [EngageDistanceSpace:15000]
+      [DisengageDistanceSpace:18000]
+
+      [AllowStrafing:true]
+      [StrafeMinDurationMs:10000]
+      [StrafeMaxDurationMs:15000]
+
+      [StrafeMinCooldownMs:20000]
+      [StrafeMaxCooldownMs:30000]
+
+      [StrafeMinimumTargetDistance:500]
 
       [IdealMaxSpeed:300]
       [IdealMinSpeed:200]

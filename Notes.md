@@ -1,6 +1,6 @@
 ## Troubleshooting in game:
 /MES.Info.GetAllProfiles
-
+/MES.Info.GetGridBehavior
 
 
 ## MES Offset
