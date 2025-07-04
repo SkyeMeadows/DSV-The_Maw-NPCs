@@ -47,6 +47,7 @@
 
       [PadDistanceFromTarget:1500]
       [OffsetSpaceMinDistFromTarget:1500]
+      [OffsetSpaceMaxDistFromTarget:5000]
 
       [EngageDistanceSpace:15000]
       [DisengageDistanceSpace:18000]
