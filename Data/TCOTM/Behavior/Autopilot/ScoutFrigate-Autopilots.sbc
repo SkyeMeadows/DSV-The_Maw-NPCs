@@ -107,13 +107,13 @@
       [SlowDownOnWaypointApproach:false]
 
       [UseVelocityCollisionEvasion:true]
-      [CollisionEvasionWaypointDistance:300]
-      [CollisionEvasionResumeDistance:300]
+      [CollisionEvasionWaypointDistance:200]
+      [CollisionEvasionResumeDistance:100]
       [CollisionEvasionResumeTime:15]
 
       [PadDistanceFromTarget:1000]
       [OffsetSpaceMinDistFromTarget:1000]
-      [OffsetSpaceMaxDistFromTarget:5000]
+      [OffsetSpaceMaxDistFromTarget:3000]
 
       [EngageDistanceSpace:15000]
       [DisengageDistanceSpace:18000]
@@ -126,6 +126,8 @@
       [StrafeMaxCooldownMs:30000]
 
       [StrafeMinimumTargetDistance:500]
+
+      [UseProjectileLeadPrediction:true]
 
       [IdealMaxSpeed:300]
       [IdealMinSpeed:200]

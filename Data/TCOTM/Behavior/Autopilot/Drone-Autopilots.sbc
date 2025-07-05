@@ -68,12 +68,13 @@
       [SlowDownOnWaypointApproach:false]
 
       [UseVelocityCollisionEvasion:true]
-      [CollisionEvasionWaypointDistance:500]
-      [CollisionEvasionResumeDistance:300]
-      [CollisionEvasionResumeTime:30]
+      [CollisionEvasionWaypointDistance:100]
+      [CollisionEvasionResumeDistance:100]
+      [CollisionEvasionResumeTime:10]
 
-      [PadDistanceFromTarget:500]
-      [OffsetSpaceMinDistFromTarget:500]
+      [PadDistanceFromTarget:200]
+      [OffsetSpaceMinDistFromTarget:300]
+      [OffsetSpaceMaxDistFromTarget:1000]
 
       [EngageDistanceSpace:10000]
       [DisengageDistanceSpace:15000]
