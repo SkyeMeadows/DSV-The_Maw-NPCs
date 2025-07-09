@@ -267,7 +267,7 @@
 					<Speed>20</Speed>
 					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
 				</Prefab>
-				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
 						<X>-350.0</X>
 						<Y>0.0</Y>
@@ -276,7 +276,7 @@
 					<Speed>20</Speed>
 					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
-				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
 						<X>-350.0</X>
 						<Y>50.0</Y>
@@ -285,7 +285,7 @@
 					<Speed>20</Speed>
 					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
-				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
 						<X>-350.0</X>
 						<Y>-50.0</Y>
@@ -294,7 +294,7 @@
 					<Speed>20</Speed>
 					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
-				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
 						<X>-400.0</X>
 						<Y>0.0</Y>
@@ -303,7 +303,7 @@
 					<Speed>20</Speed>
 					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
-				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
 						<X>-400.0</X>
 						<Y>50.0</Y>
@@ -312,7 +312,7 @@
 					<Speed>20</Speed>
 					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
-				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
 						<X>-400.0</X>
 						<Y>-50.0</Y>
@@ -321,7 +321,7 @@
 					<Speed>20</Speed>
 					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
-				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
 						<X>350.0</X>
 						<Y>0.0</Y>
@@ -330,7 +330,7 @@
 					<Speed>20</Speed>
 					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
-				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
 						<X>350.0</X>
 						<Y>50.0</Y>
@@ -339,7 +339,7 @@
 					<Speed>20</Speed>
 					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
-				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
 						<X>350.0</X>
 						<Y>-50.0</Y>
@@ -348,7 +348,7 @@
 					<Speed>20</Speed>
 					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
-				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
 						<X>400.0</X>
 						<Y>0.0</Y>
@@ -357,7 +357,7 @@
 					<Speed>20</Speed>
 					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
-				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
 						<X>400.0</X>
 						<Y>50.0</Y>
@@ -366,7 +366,7 @@
 					<Speed>20</Speed>
 					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
-				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
 						<X>400.0</X>
 						<Y>-50.0</Y>

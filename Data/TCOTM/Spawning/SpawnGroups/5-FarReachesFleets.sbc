@@ -30,7 +30,7 @@
 			<IsPirate>true</IsPirate> <!--Do not edit-->
 			<Frequency>20.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="[TCOTM] Drone - Space - Small - Light">
+				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
 						<X>0.0</X>
 						<Y>0.0</Y>
