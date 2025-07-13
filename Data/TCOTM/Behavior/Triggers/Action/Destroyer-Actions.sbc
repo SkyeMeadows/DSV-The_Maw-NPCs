@@ -15,7 +15,7 @@
       [ChatData:DSV-TCOTM-Destroyer-Chat-Patrol-TargetFound]
 	
       [ChangeBehaviorSubclass:true]
-      [NewBehaviorSubclass:Fighter]
+      [NewBehaviorSubclass:Horsefly]
 
       [ChangeAutopilotProfile:true]
       [AutopilotProfile:Secondary]
@@ -120,7 +120,7 @@
       [SwitchToReceivedTarget:true]
 
       [ChangeBehaviorSubclass:true]
-      [NewBehaviorSubclass:Fighter]
+      [NewBehaviorSubclass:Horsefly]
 
       [ChangeAutopilotProfile:true]
       [AutopilotProfile:Secondary]

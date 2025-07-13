@@ -38,34 +38,20 @@
 
       [RivalAI Autopilot]
       
-      [SlowDownOnWaypointApproach:false]
+      [IdealMaxSpeed:200]
+      [IdealMinSpeed:170]
+      [MaxSpeedTolerance:20]
 
-      [UseVelocityCollisionEvasion:true]
-      [CollisionEvasionWaypointDistance:400]
-      [CollisionEvasionResumeDistance:400]
-      [CollisionEvasionResumeTime:15]
-
-      [PadDistanceFromTarget:1500]
-      [OffsetSpaceMinDistFromTarget:1500]
-      [OffsetSpaceMaxDistFromTarget:5000]
-
-      [EngageDistanceSpace:15000]
-      [DisengageDistanceSpace:18000]
-
+      [OffsetSpaceMinDistFromTarget:2000]
+      [OffsetSpaceMaxDistFromTarget:4000]
+      
+      [SlowDownOnWaypointApproach:true]
+      [ExtraSlowDownDistance:2500]
+      [FlyLevelWithGravity:false]
+      
       [AllowStrafing:true]
-      [StrafeMinDurationMs:5000]
-      [StrafeMaxDurationMs:10000]
-
-      [StrafeMinCooldownMs:20000]
-      [StrafeMaxCooldownMs:30000]
-
-      [StrafeMinimumTargetDistance:750]
-
-      [UseProjectileLeadPrediction:true]
-
-      [IdealMaxSpeed:250]
-      [IdealMinSpeed:200]
-      [MaxSpeedTolerance:15]
+      [StrafeMinDurationMs:1000]
+      [StrafeMaxDurationMs:1500]
       
       </Description>
       
