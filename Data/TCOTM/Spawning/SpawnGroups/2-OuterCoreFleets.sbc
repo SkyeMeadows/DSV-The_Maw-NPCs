@@ -378,5 +378,99 @@
 			</Prefabs>
 		</SpawnGroup>
 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>DSV-TCOTM-OuterCore-DefenseFleet</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[FactionOverride:TCOTM]
+			[ReplenishSystems:true]
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+			[ManipulationProfiles:Standard-Replacement-Shields]
+			[ManipulationProfiles:Standard-ClearAuthorship]
+
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Common]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Uncommon]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Rare]
+			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Exotic]
+
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterCore]
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-TESTING]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>2.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TCOTM] Battleship Hyd">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Battleship-Behavior-Scout</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Battlecruiser">
+					<Position>
+						<X>200.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Battlecruiser-Behavior-Scout</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Battlecruiser">
+					<Position>
+						<X>-200.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-Battlecruiser-Behavior-Scout</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
+					<Position>
+						<X>-200.0</X>
+						<Y>-200.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Scout</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
+					<Position>
+						<X>-200.0</X>
+						<Y>200.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Scout</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
+					<Position>
+						<X>200.0</X>
+						<Y>-200.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Scout</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
+					<Position>
+						<X>200.0</X>
+						<Y>200.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Scout</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
 	</SpawnGroups>
 </Definitions>
