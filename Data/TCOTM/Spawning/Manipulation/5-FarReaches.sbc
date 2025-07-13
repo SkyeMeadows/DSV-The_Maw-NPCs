@@ -16,10 +16,10 @@
 
         [ManipulationChance:90]
 
-        [ManipulationAllowedPrefabNames:[TCOTM] Scout Frigate]
-        [ManipulationAllowedPrefabNames:[TCOTM] Destroyer]
+        [ManipulationAllowedPrefabNames:[TCOTM] Frigate Hyd]
+        [ManipulationAllowedPrefabNames:[TCOTM] Destroyer Hyd]
         [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
-        [ManipulationAllowedPrefabNames:[TCOTM] Battleship]
+        [ManipulationAllowedPrefabNames:[TCOTM] Battleship Hyd]
         [ManipulationAllowedPrefabNames:[TCOTM] Dreadnought]
 
       </Description>
@@ -40,10 +40,10 @@
 
         [ManipulationChance:40]
 
-        [ManipulationAllowedPrefabNames:[TCOTM] Scout Frigate]
-        [ManipulationAllowedPrefabNames:[TCOTM] Destroyer]
+        [ManipulationAllowedPrefabNames:[TCOTM] Frigate Hyd]
+        [ManipulationAllowedPrefabNames:[TCOTM] Destroyer Hyd]
         [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
-        [ManipulationAllowedPrefabNames:[TCOTM] Battleship]
+        [ManipulationAllowedPrefabNames:[TCOTM] Battleship Hyd]
         [ManipulationAllowedPrefabNames:[TCOTM] Dreadnought]
 
       </Description>
@@ -64,10 +64,10 @@
 
         [ManipulationChance:20]
 
-        [ManipulationAllowedPrefabNames:[TCOTM] Scout Frigate]
-        [ManipulationAllowedPrefabNames:[TCOTM] Destroyer]
+        [ManipulationAllowedPrefabNames:[TCOTM] Frigate Hyd]
+        [ManipulationAllowedPrefabNames:[TCOTM] Destroyer Hyd]
         [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
-        [ManipulationAllowedPrefabNames:[TCOTM] Battleship]
+        [ManipulationAllowedPrefabNames:[TCOTM] Battleship Hyd]
         [ManipulationAllowedPrefabNames:[TCOTM] Dreadnought]
 
       </Description>
@@ -88,9 +88,9 @@
 
         [ManipulationChance:5]
 
-        [ManipulationAllowedPrefabNames:[TCOTM] Destroyer]
+        [ManipulationAllowedPrefabNames:[TCOTM] Destroyer Hyd]
         [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
-        [ManipulationAllowedPrefabNames:[TCOTM] Battleship]
+        [ManipulationAllowedPrefabNames:[TCOTM] Battleship Hyd]
         [ManipulationAllowedPrefabNames:[TCOTM] Dreadnought]
 
       </Description>
