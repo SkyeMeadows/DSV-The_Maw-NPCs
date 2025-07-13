@@ -465,7 +465,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Battleship-Behavior-Scout</Behaviour>
+					<Behaviour>DSV-TCOTM-Battleship-Behavior-Patrol-Lead</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Battlecruiser">
 					<Position>
@@ -474,7 +474,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Battlecruiser-Behavior-Scout</Behaviour>
+					<Behaviour>DSV-TCOTM-Battlecruiser-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Battlecruiser">
 					<Position>
@@ -483,7 +483,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Battlecruiser-Behavior-Scout</Behaviour>
+					<Behaviour>DSV-TCOTM-Battlecruiser-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -492,7 +492,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Scout</Behaviour>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -501,7 +501,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Scout</Behaviour>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -510,7 +510,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Scout</Behaviour>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -519,7 +519,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Scout</Behaviour>
+					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>

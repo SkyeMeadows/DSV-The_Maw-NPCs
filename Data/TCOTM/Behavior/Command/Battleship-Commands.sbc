@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-Battleship-Command-Patrol-CommandFocusFire</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Command]
+      
+      [CommandCode:DSV-TCOTM-GLOBAL-CommandCode-AggressTarget]
+
+      [IgnoreAntennaRequirement:true]
+      [IgnoreReceiverAntennaRequirement:true]
+      [MaxRadius:25000]
+
+      [CommandDelayTicks:60]
+
+      [SendTargetEntityId:true]
+      
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

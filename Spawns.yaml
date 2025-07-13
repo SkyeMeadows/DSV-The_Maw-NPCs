@@ -55,11 +55,11 @@ zones:
     distance_km: 500
     spawn_timer_min: 15
     fleets:
-      - type: Advanced Swarm Fleet
-        difficulty: 8
-        frequency: 1
-        composition: [] # Unknown composition
-        description: Powerful but lighter ships & heavier drones, plentiful in number.
+      - type: Defense Fleet
+        difficulty: 7
+        frequency: 2
+        composition: [1 Battleship, 2 Battlecruiser, 4 Scout Frigate]
+        description: A fleet not to be messed with, but can be overpowered with large assets.
         subtypeid:
       - type: Swarm Fleet
         difficulty: 6
