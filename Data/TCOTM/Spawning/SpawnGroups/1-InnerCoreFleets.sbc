@@ -434,7 +434,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-TCOTM-InnerCore-ScoutCraft</SubtypeId>
+				<SubtypeId>DSV-TCOTM-InnerCore-DefenseFleet</SubtypeId>
 			</Id>
 			<Description>
 
