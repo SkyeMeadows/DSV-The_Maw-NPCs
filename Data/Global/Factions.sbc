@@ -4,7 +4,7 @@
 	<!--Do Not Edit Above Here-->
 
 		<!--Copy From This Line-->
-		<Faction Tag="TCOTM" Founder="Asher">
+		<Faction Tag="TCOTM" Founder="Upholder of Anubis">
 			<Id>
 				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
 				<SubtypeId>DSV-TCOTM</SubtypeId> <!--Must Be Unique-->
@@ -22,7 +22,7 @@
 		<!--Copy To This Line And Paste Directly Below-->
 
 		<!--Copy From This Line-->
-		<Faction Tag="LNTRI" Founder="Asher">
+		<Faction Tag="LNTRI" Founder="Captain Geary">
 			<Id>
 				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
 				<SubtypeId>DSV-LNTRI</SubtypeId> <!--Must Be Unique-->
