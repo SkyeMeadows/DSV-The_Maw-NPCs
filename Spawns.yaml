@@ -17,7 +17,7 @@ zones:
       - type: Advanced Swarm Fleet
         difficulty: 8
         frequency: 2
-        composition: [] # Unknown composition
+        composition: [1 Battlecruiser, 8 Destroyers]
         description: Powerful but lighter ships & heavier drones, plentiful in number.
         subtypeid:
       - type: Defense Fleet
@@ -122,7 +122,7 @@ zones:
       - type: Scout Craft
         difficulty: 2
         frequency: 15
-        composition: [1 Tiny]
+        composition: [1 Scout Frigate]
         description: Minimal threat, but may alert reinforcements.
         subtypeid: DSV-TCOTM-OuterTerritory-ScoutFrigate
 
