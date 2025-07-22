@@ -22,10 +22,10 @@
 		<!--Copy To This Line And Paste Directly Below-->
 
 		<!--Copy From This Line-->
-		<Faction Tag="LTARI" Founder="Asher">
+		<Faction Tag="LNTRI" Founder="Asher">
 			<Id>
 				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-LTARI</SubtypeId> <!--Must Be Unique-->
+				<SubtypeId>DSV-LNTRI</SubtypeId> <!--Must Be Unique-->
 			</Id>
 			<DisplayName>Lantari Exchange</DisplayName>
 			<IsDefault>true</IsDefault>
