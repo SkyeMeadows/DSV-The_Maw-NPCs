@@ -5,13 +5,15 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-SpawnConditions-TESTING</SubtypeId>
+        <SubtypeId>DSV-TCOTM-SpawnConditions-Space</SubtypeId>
       </Id>
       <Description>
 
         [MES Spawn Conditions]
 
         [SpaceCargoShip:true]
+
+        [MaxGravity:0.04]
 
         [UseThreatLevelCheck:false]
 		
