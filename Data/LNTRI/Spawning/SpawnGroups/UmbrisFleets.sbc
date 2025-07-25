@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-LNTRI-Umbris-LoneHauler</SubtypeId>
+				<SubtypeId>DSV-LNTRI-Umbris-EscortedHauler</SubtypeId>
 			</Id>
 			<Description>
 
@@ -32,7 +32,16 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>50</Speed>
-					<Behaviour></Behaviour>
+					<Behaviour>DSV-LNTRI-Hauler-Behavior-CargoShip</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[LNTRI] Frigate">
+					<Position>
+						<X>0.0</X>
+						<Y>-50.0</Y>
+						<Z>400.0</Z>
+					</Position>
+					<Speed>50</Speed>
+					<Behaviour>DSV-LNTRI-Frigate-Behavior-EscortCargo</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>

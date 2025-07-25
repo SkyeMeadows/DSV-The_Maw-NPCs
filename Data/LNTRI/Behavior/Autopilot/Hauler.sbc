@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-LNTRI-Hauler-Autopilot-CargoShip</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Autopilot]
+      
+      [SlowDownOnWaypointApproach:true]
+      [ExtraSlowDownDistance:150]
+
+      [UseVelocityCollisionEvasion:true]
+      [CollisionEvasionWaypointDistance:150]
+      [CollisionEvasionResumeDistance:150]
+      [CollisionEvasionResumeTime:15]
+
+      [IdealMaxSpeed:60]
+      [IdealMinSpeed:40]
+      [MaxSpeedTolerance:5]
+
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

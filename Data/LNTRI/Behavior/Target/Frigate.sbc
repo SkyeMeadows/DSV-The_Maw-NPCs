@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-LNTRI-Frigate-Target</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Target]
+      
+      [UseCustomTargeting:true]
+      [Target:Block]
+      [BlockTargets:Controller]
+      [BlockTargets:Guns]
+      [BlockTargets:Turrets]
+      [BlockTargets:Power]
+      [BlockTargets:JumpDrives]
+      
+      [MaxDistance:8000]
+      [MaxExistingTargetDistance:10000]
+      
+      [MatchAllFilters:OutsideOfSafezone]
+      [MatchAllFilters:Relation]
+      [GetTargetBy:ClosestDistance]
+
+      [Relations:Enemy]
+
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>
