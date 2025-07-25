@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-LNTRI-Frigate-Behavior-Patrol-Lead</SubtypeId>
+          <SubtypeId>DSV-LNTRI-Frigate-Behavior-EscortCargo</SubtypeId>
       </Id>
       <Description>
 
