@@ -126,6 +126,52 @@
       </Description>
 
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-LNTRI-Zone-TherosTradeStation</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Zone]
+
+        [PublicName:LNTRI Theros Trade Station]
+
+        [Active:true]
+        [Persistent:true]
+
+        [Coordinates:{X:2487854 Y:-956699 Z:-859778}]
+        [Radius:50000]
+
+        [UseZoneAnnounce:false]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-LNTRI-Zone-UmbrisTradeStation</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Zone]
+
+        [PublicName:LNTRI Umbris Trade Station]
+
+        [Active:true]
+        [Persistent:true]
+
+        [Coordinates:{X:2689172 Y:-809940 Z:-625011}]
+        [Radius:50000]
+
+        [UseZoneAnnounce:false]
+
+      </Description>
+
+    </EntityComponent>
     
   </EntityComponents>
 </Definitions>

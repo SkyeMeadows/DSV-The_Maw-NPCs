@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-LNTRI-ZoneConditions-LNTIR_UmbrisTradeStation</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Zone Conditions]
+
+        [ZoneName:LNTRI Umbris Trade Station]
+
+        [MinDistanceFromZoneCenter:5000]
+        [MaxDistanceFromZoneCenter:40000]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-LNTRI-ZoneConditions-LNTRI_TherosTradeStation</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Zone Conditions]
+
+        [ZoneName:LNTRI Theros Trade Station]
+
+        [MinDistanceFromZoneCenter:5000]
+        [MaxDistanceFromZoneCenter:40000]
+
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

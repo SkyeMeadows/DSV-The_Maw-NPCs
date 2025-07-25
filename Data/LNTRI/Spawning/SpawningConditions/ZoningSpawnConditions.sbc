@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-LNTRI-SpawnConditions-InZone-LNTRI_UmbrisTradeStation</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+        
+        [ZoneConditions:DSV-LNTRI-ZoneConditions-LNTRI_UmbrisTradeStation]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-SpawnConditions-InZone-LNTRI_TherosTradeStation</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+        
+        [ZoneConditions:DSV-LNTRI-ZoneConditions-LNTRI_TherosTradeStation]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>
