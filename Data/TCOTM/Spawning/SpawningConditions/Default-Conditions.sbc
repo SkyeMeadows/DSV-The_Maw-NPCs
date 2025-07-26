@@ -15,8 +15,10 @@
 
         [MaxGravity:0.04]
 
-        [UseThreatLevelCheck:false]
-		
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:15000]
+        [ThreatScoreMinimum:300]
+
 		    [FactionOwner:TCOTM]
 
       </Description>
