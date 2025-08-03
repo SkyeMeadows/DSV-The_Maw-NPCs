@@ -28,13 +28,59 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-SpawnConditions-InZone-LNTRI_TherosTradeStation</SubtypeId>
+        <SubtypeId>DSV-LNTRI-SpawnConditions-InZone-LNTRI_TherosTradeStation</SubtypeId>
       </Id>
       <Description>
 
         [MES Spawn Conditions]
         
         [ZoneConditions:DSV-LNTRI-ZoneConditions-LNTRI_TherosTradeStation]
+
+        [SpaceCargoShip:true]
+
+        [MaxGravity:0.04]
+
+        [UseThreatLevelCheck:false]
+		
+		    [FactionOwner:LNTRI]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-LNTRI-SpawnConditions-InZone-TharsisAsteroidCluster</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+        
+        [ZoneConditions:DSV-LNTRI-ZoneConditions-TharsisAsteroidCluster]
+
+        [SpaceCargoShip:true]
+
+        [MaxGravity:0.04]
+
+        [UseThreatLevelCheck:false]
+		
+		    [FactionOwner:LNTRI]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-LNTRI-SpawnConditions-InZone-TherosAsteroidCluster</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+        
+        [ZoneConditions:DSV-LNTRI-ZoneConditions-TherosAsteroidCluster]
 
         [SpaceCargoShip:true]
 

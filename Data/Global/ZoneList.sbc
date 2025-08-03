@@ -172,6 +172,52 @@
       </Description>
 
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-LNTRI-Zone-UmbrisTradeStation</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Zone]
+
+        [PublicName:Tharsis Asteroid Cluster]
+
+        [Active:true]
+        [Persistent:true]
+
+        [Coordinates:{X:-1582480 Y:-342020 Z:-2498095}]
+        [Radius:100000]
+
+        [UseZoneAnnounce:false]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-LNTRI-Zone-UmbrisTradeStation</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Zone]
+
+        [PublicName:Theros Asteroid Cluster]
+
+        [Active:true]
+        [Persistent:true]
+
+        [Coordinates:{X:2126798 Y:-268855 Z:-581516}]
+        [Radius:100000]
+
+        [UseZoneAnnounce:false]
+
+      </Description>
+
+    </EntityComponent>
     
   </EntityComponents>
 </Definitions>

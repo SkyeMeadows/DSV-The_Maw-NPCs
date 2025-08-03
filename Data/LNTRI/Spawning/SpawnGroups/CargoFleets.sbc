@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-LNTRI-Theros-EscortedHauler</SubtypeId>
+				<SubtypeId>DSV-LNTRI-Cargo-EscortedHauler</SubtypeId>
 			</Id>
 			<Description>
 
@@ -19,6 +19,9 @@
 			[ManipulationProfiles:Standard-ClearAuthorship]
 
 			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-LNTRI-TherosTradeStation]
+			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-LNTRI-TharsisTradeStation]
+			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-TharsisAsteroidCluster]
+			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-TherosAsteroidCluster]
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->

@@ -37,6 +37,42 @@
       </Description>
 
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-LNTRI-ZoneConditions-TharisAsteroidCluster</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Zone Conditions]
+
+        [ZoneName:Tharsis Asteroid Cluster]
+
+        [MinDistanceFromZoneCenter:3000]
+        [MaxDistanceFromZoneCenter:100000]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-LNTRI-ZoneConditions-TherosAsteroidCluster</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Zone Conditions]
+
+        [ZoneName:Theros Asteroid Cluster]
+
+        [MinDistanceFromZoneCenter:3000]
+        [MaxDistanceFromZoneCenter:100000]
+
+      </Description>
+
+    </EntityComponent>
     
   </EntityComponents>
 </Definitions>
