@@ -19,7 +19,6 @@
 			[ManipulationProfiles:Standard-ClearAuthorship]
 
 			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-LNTRI-TherosTradeStation]
-			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-Space]
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->

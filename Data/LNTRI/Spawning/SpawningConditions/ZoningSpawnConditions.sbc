@@ -13,6 +13,14 @@
         
         [ZoneConditions:DSV-LNTRI-ZoneConditions-LNTRI_UmbrisTradeStation]
 
+        [SpaceCargoShip:true]
+
+        [MaxGravity:0.04]
+
+        [UseThreatLevelCheck:false]
+		
+		    [FactionOwner:LNTRI]
+
       </Description>
 
     </EntityComponent>
@@ -27,6 +35,14 @@
         [MES Spawn Conditions]
         
         [ZoneConditions:DSV-LNTRI-ZoneConditions-LNTRI_TherosTradeStation]
+
+        [SpaceCargoShip:true]
+
+        [MaxGravity:0.04]
+
+        [UseThreatLevelCheck:false]
+		
+		    [FactionOwner:LNTRI]
 
       </Description>
 

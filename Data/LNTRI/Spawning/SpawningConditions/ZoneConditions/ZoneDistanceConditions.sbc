@@ -13,8 +13,8 @@
 
         [ZoneName:LNTRI Umbris Trade Station]
 
-        [MinDistanceFromZoneCenter:5000]
-        [MaxDistanceFromZoneCenter:40000]
+        [MinDistanceFromZoneCenter:3000]
+        [MaxDistanceFromZoneCenter:60000]
 
       </Description>
 
@@ -31,8 +31,8 @@
 
         [ZoneName:LNTRI Theros Trade Station]
 
-        [MinDistanceFromZoneCenter:5000]
-        [MaxDistanceFromZoneCenter:40000]
+        [MinDistanceFromZoneCenter:3000]
+        [MaxDistanceFromZoneCenter:60000]
 
       </Description>
 
