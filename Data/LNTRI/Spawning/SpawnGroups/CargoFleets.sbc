@@ -17,6 +17,7 @@
 			[RivalAiReplaceRemoteControl:true]
 			[ManipulationProfiles:Standard-Replacement-Shields]
 			[ManipulationProfiles:Standard-ClearAuthorship]
+			[ManipulationProfiles:DSV-LNTRI-Manipulation-LootProfile-Common]
 
 			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-LNTRI-TherosTradeStation]
 			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-LNTRI-TharsisTradeStation]
