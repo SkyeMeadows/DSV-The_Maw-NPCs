@@ -13,6 +13,15 @@
         
         [ZoneConditions:DSV-TCOTM-ZoneConditions-TCOTM_InnerCore]
 
+        [SpaceCargoShip:true]
+
+        [MaxGravity:0.04]
+
+        [UseThreatLevelCheck:true]
+        [ThreatScoreMinimum:500]
+		
+		    [FactionOwner:TCOTM]
+
       </Description>
 
     </EntityComponent>
@@ -27,6 +36,15 @@
         [MES Spawn Conditions]
         
         [ZoneConditions:DSV-TCOTM-ZoneConditions-TCOTM_OuterCore]
+
+        [SpaceCargoShip:true]
+
+        [MaxGravity:0.04]
+
+        [UseThreatLevelCheck:true]
+        [ThreatScoreMinimum:500]
+		
+		    [FactionOwner:TCOTM]
 
       </Description>
 
@@ -43,6 +61,15 @@
         
         [ZoneConditions:DSV-TCOTM-ZoneConditions-TCOTM_InnerTerritory]
 
+        [SpaceCargoShip:true]
+
+        [MaxGravity:0.04]
+
+        [UseThreatLevelCheck:true]
+        [ThreatScoreMinimum:500]
+		
+		    [FactionOwner:TCOTM]
+
       </Description>
 
     </EntityComponent>
@@ -58,6 +85,15 @@
         
         [ZoneConditions:DSV-TCOTM-ZoneConditions-TCOTM_OuterTerritory]
 
+        [SpaceCargoShip:true]
+
+        [MaxGravity:0.04]
+
+        [UseThreatLevelCheck:true]
+        [ThreatScoreMinimum:500]
+		
+		    [FactionOwner:TCOTM]
+
       </Description>
 
     </EntityComponent>
@@ -72,6 +108,15 @@
         [MES Spawn Conditions]
         
         [ZoneConditions:DSV-TCOTM-ZoneConditions-TCOTM_FarReaches]
+
+        [SpaceCargoShip:true]
+
+        [MaxGravity:0.04]
+
+        [UseThreatLevelCheck:true]
+        [ThreatScoreMinimum:500]
+		
+		    [FactionOwner:TCOTM]
 
       </Description>
 

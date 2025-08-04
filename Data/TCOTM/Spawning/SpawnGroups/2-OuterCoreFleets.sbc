@@ -24,7 +24,6 @@
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Exotic]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterCore]
-			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-Space]
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
@@ -64,7 +63,6 @@
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Exotic]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterCore]
-			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-Space]
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
@@ -122,8 +120,6 @@
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Exotic]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterCore]
-			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-Space]
-
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
 			<Frequency>6.0</Frequency>
@@ -198,7 +194,6 @@
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Exotic]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterCore]
-			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-Space]
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
@@ -400,7 +395,6 @@
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterCore-Loot-Exotic]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterCore]
-			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-Space]
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->

@@ -24,7 +24,6 @@
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Loot-Exotic]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterTerritory]
-			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-Space]
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
@@ -64,7 +63,6 @@
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Loot-Exotic]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterTerritory]
-			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-Space]
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
