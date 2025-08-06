@@ -24,7 +24,6 @@
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerTerritory-Loot-Exotic]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_InnerTerritory]
-			
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
@@ -64,7 +63,6 @@
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerTerritory-Loot-Exotic]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-InnerTerritory]
-			
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
@@ -122,8 +120,6 @@
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerTerritory-Loot-Exotic]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-InnerTerritory]
-			
-
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
 			<Frequency>6.0</Frequency>

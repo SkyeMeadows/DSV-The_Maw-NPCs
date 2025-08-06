@@ -24,7 +24,6 @@
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-FarReaches-Loot-Exotic]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_FarReaches]
-			
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
