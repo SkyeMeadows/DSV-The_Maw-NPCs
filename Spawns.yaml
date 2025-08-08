@@ -60,31 +60,31 @@ zones:
         frequency: 2
         composition: [1 Battleship, 2 Battlecruiser, 4 Scout Frigate]
         description: A fleet not to be messed with, but can be overpowered with large assets.
-        subtypeid:
+        subtypeid: DSV-TCOTM-OuterCore-DefenseFleet
       - type: Swarm Fleet
         difficulty: 6
         frequency: 2
         composition: [1 Destroyer, 6 Scout Frigates, 12 Light Drones]
         description: Lots of light ships and drones, overwhelming in number.
-        subtypeid:
+        subtypeid: DSV-TCOTM-OuterCore-SwarmFleet
       - type: Large Patrol
         difficulty: 5
         frequency: 6
         composition: [1 Battlecruiser, 2 Destroyers, 2 Scout Frigates]
         description: Typical heavy-duty patrol.
-        subtypeid:
+        subtypeid: DSV-TCOTM-OuterCore-LargePatrol
       - type: Small Patrol
         difficulty: 3
         frequency: 12
         composition: [1 Destroyer, 2 Scout Frigates]
         description: Smaller than usual patrol.
-        subtypeid:
+        subtypeid: DSV-TCOTM-OuterCore-SmallPatrol
       - type: Scout Craft
         difficulty: 2
         frequency: 5
         composition: [1 Scout Frigate]
         description: Minimal threat, but may alert reinforcements.
-        subtypeid: 
+        subtypeid: DSV-TCOTM-OuterCore-ScoutCraft
 
   - name: Inner Territory
     distance_km: 1250
