@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-LNTRI-ZoneConditions-LNTIR_UmbrisTradeStation</SubtypeId>
+        <SubtypeId>DSV-LNTRI-ZoneConditions-LNTRI_UmbrisTradeStation</SubtypeId>
       </Id>
       <Description>
 

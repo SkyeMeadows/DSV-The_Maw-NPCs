@@ -176,7 +176,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-LNTRI-Zone-UmbrisTradeStation</SubtypeId>
+        <SubtypeId>DSV-LNTRI-Zone-TharsisAsteroidCluster</SubtypeId>
       </Id>
       <Description>
 
@@ -199,7 +199,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-LNTRI-Zone-UmbrisTradeStation</SubtypeId>
+        <SubtypeId>DSV-LNTRI-Zone-TherosAsteroidCluster</SubtypeId>
       </Id>
       <Description>
 
