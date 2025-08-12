@@ -15,7 +15,7 @@
 
         [SpaceCargoShip:true]
 
-        [MaxGravity:0.04]
+        [MaxGravity:0.25]
 
         [UseThreatLevelCheck:true]
         [ThreatScoreMinimum:500]
@@ -39,7 +39,7 @@
 
         [SpaceCargoShip:true]
 
-        [MaxGravity:0.04]
+        [MaxGravity:0.25]
 
         [UseThreatLevelCheck:true]
         [ThreatScoreMinimum:500]
@@ -63,7 +63,7 @@
 
         [SpaceCargoShip:true]
 
-        [MaxGravity:0.04]
+        [MaxGravity:0.10]
 
         [UseThreatLevelCheck:true]
         [ThreatScoreMinimum:500]
@@ -87,7 +87,7 @@
 
         [SpaceCargoShip:true]
 
-        [MaxGravity:0.04]
+        [MaxGravity:0.10]
 
         [UseThreatLevelCheck:true]
         [ThreatScoreMinimum:500]
@@ -111,7 +111,7 @@
 
         [SpaceCargoShip:true]
 
-        [MaxGravity:0.04]
+        [MaxGravity:0.10]
 
         [UseThreatLevelCheck:true]
         [ThreatScoreMinimum:500]
