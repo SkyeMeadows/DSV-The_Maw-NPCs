@@ -12,10 +12,30 @@
       [MES Loot]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
-      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeContainer]
       [ContainerTypes:DSV-LNTRI-Manipulation-LootTable-Common]
       [MinBlocks:1]
       [MaxBlocks:10]
+      
+      </Description>
+      
+    </EntityComponent>
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-LNTRI-Manipulation-LootProfile-Rare</SubtypeId>
+      </Id>
+      <Description>
+
+      [MES Loot]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeContainer]
+      [ContainerTypes:DSV-LNTRI-Manipulation-LootTable-Rare]
+      [MinBlocks:3]
+      [MaxBlocks:3]
       
       </Description>
       

@@ -14,9 +14,29 @@
         [UseLootProfiles:true]
         [LootProfiles:DSV-LNTRI-Manipulation-LootProfile-Common]
 
-        [ManipulationChance:90]
+        [ManipulationChance:85]
 
         [ManipulationAllowedPrefabNames:[LNTRI] Hauler]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-LNTRI-Manipulation-Loot-Rare</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [LootProfiles:DSV-LNTRI-Manipulation-LootProfile-Rare]
+
+        [ManipulationChance:95]
+
+        [ManipulationAllowedPrefabNames:[LNTRI] Rapid Hauler]
 
       </Description>
 
