@@ -16,6 +16,9 @@
         [SpaceCargoShip:true]
         [AtmosphericCargoShip:true]
         [LunarCargoShip:true]
+        [GravityCargoShip:true]
+
+        [MaxGravity:1.0]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:15000]
@@ -41,6 +44,9 @@
         [SpaceCargoShip:true]
         [AtmosphericCargoShip:true]
         [LunarCargoShip:true]
+        [GravityCargoShip:true]
+
+        [MaxGravity:0.5]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:15000]
