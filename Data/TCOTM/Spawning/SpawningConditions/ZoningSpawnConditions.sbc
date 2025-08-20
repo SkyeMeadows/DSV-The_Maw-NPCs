@@ -14,10 +14,12 @@
         [ZoneConditions:DSV-TCOTM-ZoneConditions-TCOTM_InnerCore]
 
         [SpaceCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [LunarCargoShip:true]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:15000]
-        [ThreatScoreMinimum:500]
+        [ThreatScoreMinimum:100]
 		
 		    [FactionOwner:TCOTM]
 
@@ -37,9 +39,12 @@
         [ZoneConditions:DSV-TCOTM-ZoneConditions-TCOTM_OuterCore]
 
         [SpaceCargoShip:true]
+        [AtmosphericCargoShip:true]
+        [LunarCargoShip:true]
 
         [UseThreatLevelCheck:true]
-        [ThreatScoreMinimum:500]
+        [ThreatLevelCheckRange:15000]
+        [ThreatScoreMinimum:200]
 		
 		    [FactionOwner:TCOTM]
 
@@ -63,7 +68,8 @@
         [MaxGravity:0.04]
 
         [UseThreatLevelCheck:true]
-        [ThreatScoreMinimum:500]
+        [ThreatLevelCheckRange:15000]
+        [ThreatScoreMinimum:300]
 
 		    [FactionOwner:TCOTM]
 
@@ -87,7 +93,8 @@
         [MaxGravity:0.04]
 
         [UseThreatLevelCheck:true]
-        [ThreatScoreMinimum:500]
+        [ThreatLevelCheckRange:15000]
+        [ThreatScoreMinimum:400]
 		
 		    [FactionOwner:TCOTM]
 
@@ -111,6 +118,7 @@
         [MaxGravity:0.04]
 
         [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:15000]
         [ThreatScoreMinimum:500]
 		
 		    [FactionOwner:TCOTM]
