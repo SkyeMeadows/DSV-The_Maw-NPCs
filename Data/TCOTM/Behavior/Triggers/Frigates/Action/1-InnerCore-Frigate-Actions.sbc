@@ -5,14 +5,14 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-ScoutFrigate-Action-Scout-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Frigate-Action-Scout-TargetFound</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Action]
       
       [UseChatBroadcast:true]
-      [ChatData:DSV-TCOTM-ScoutFrigate-Chat-Scout-TargetFound]
+      [ChatData:DSV-TCOTM-InnerCore-Frigate-Chat-Scout-TargetFound]
 	
       [ChangeBehaviorSubclass:true]
       [NewBehaviorSubclass:Fighter]
@@ -24,10 +24,10 @@
       [NewAutopilotSpeed:300]
 
       [ChangeTargetProfile:true]
-      [NewTargetProfileId:DSV-TCOTM-ScoutFrigate-Target-Fighter]
+      [NewTargetProfileId:DSV-TCOTM-InnerCore-Frigate-Target-Fighter]
 
       [EnableTriggers:true]
-      [EnableTriggerNames:DSV-TCOTM-ScoutFrigate-Trigger-Scout-RefreshTarget]
+      [EnableTriggerNames:DSV-TCOTM-InnerCore-Frigate-Trigger-Scout-RefreshTarget]
 
       </Description>
       
@@ -36,7 +36,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-ScoutFrigate-Chat-Scout-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Frigate-Chat-Scout-TargetFound</SubtypeId>
       </Id>
       <Description>
 
@@ -76,7 +76,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-ScoutFrigate-Action-Scout-RefreshTarget</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Frigate-Action-Scout-RefreshTarget</SubtypeId>
       </Id>
       <Description>
 
@@ -91,14 +91,14 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-ScoutFrigate-Action-Scout-CommandReceiveAggressTarget</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Frigate-Action-Scout-CommandReceiveAggressTarget</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Action]
 
       [ChangeTargetProfile:true]
-      [NewTargetProfileId:DSV-TCOTM-ScoutFrigate-Target-Fighter]
+      [NewTargetProfileId:DSV-TCOTM-Frigate-Target-Fighter]
       
       [SwitchToReceivedTarget:true]
 

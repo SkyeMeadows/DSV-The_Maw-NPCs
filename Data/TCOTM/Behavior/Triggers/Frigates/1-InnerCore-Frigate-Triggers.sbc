@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-ScoutFrigate-Trigger-Scout-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Frigate-Trigger-Scout-TargetFound</SubtypeId>
       </Id>
       <Description>
 
@@ -18,7 +18,7 @@
       [MaxActions:1]
 
       [ActionExecution:All]
-      [Actions:DSV-TCOTM-ScoutFrigate-Action-Scout-TargetFound]
+      [Actions:DSV-TCOTM-InnerCore-Frigate-Action-Scout-TargetFound]
 
       </Description>
       
@@ -27,7 +27,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-ScoutFrigate-Trigger-Scout-RefreshTarget</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Frigate-Trigger-Scout-RefreshTarget</SubtypeId>
       </Id>
       <Description>
 
@@ -42,7 +42,7 @@
       [MaxCooldownMs:2000]
 
       [ActionExecution:All]
-      [Actions:DSV-TCOTM-ScoutFrigate-Action-Scout-RefreshTarget]
+      [Actions:DSV-TCOTM-InnerCore-Frigate-Action-Scout-RefreshTarget]
 
       </Description>
       
@@ -51,7 +51,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-ScoutFrigate-Trigger-Scout-CommandReceive-CommandFocusFire</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Frigate-Trigger-Scout-CommandReceive-CommandFocusFire</SubtypeId>
       </Id>
       <Description>
 
@@ -65,7 +65,7 @@
       [StartsReady:true]
 
       [ActionExecution:All]
-      [Actions:DSV-TCOTM-ScoutFrigate-Action-Scout-CommandReceiveAggressTarget]
+      [Actions:DSV-TCOTM-InnerCore-Frigate-Action-Scout-CommandReceiveAggressTarget]
 
       </Description>
       

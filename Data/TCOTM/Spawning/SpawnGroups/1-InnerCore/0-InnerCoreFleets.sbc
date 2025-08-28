@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-TCOTM-InnerCore-ScoutCraft</SubtypeId>
+				<SubtypeId>DSV-TCOTM-InnerCore-Frigate</SubtypeId>
 			</Id>
 			<Description>
 
@@ -15,13 +15,13 @@
 			[ReplenishSystems:true]
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
-			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-ClearAuthorship]
+			[ManipulationProfiles:GLOBAL-Manipulation]
+			
 
-			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerCore-Loot-Common]
-			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerCore-Loot-Uncommon]
-			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerCore-Loot-Rare]
-			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerCore-Loot-Exotic]
+			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Frigate-Loot-Common]
+			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Frigate-Loot-Uncommon]
+			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Frigate-Loot-Rare]
+			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Frigate-Loot-Exotic]
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_InnerCore]
 
@@ -36,7 +36,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Scout</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Scout</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
@@ -54,8 +54,8 @@
 			[ReplenishSystems:true]
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
-			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-ClearAuthorship]
+			[ManipulationProfiles:GLOBAL-Manipulation]
+			
 
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerCore-Loot-Common]
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerCore-Loot-Uncommon]
@@ -75,7 +75,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol-Lead</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Destroyer-Behavior-Patrol-Lead</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -84,7 +84,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -93,7 +93,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
@@ -111,8 +111,8 @@
 			[ReplenishSystems:true]
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
-			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-ClearAuthorship]
+			[ManipulationProfiles:GLOBAL-Manipulation]
+			
 
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerCore-Loot-Common]
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerCore-Loot-Uncommon]
@@ -132,7 +132,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Battlecruiser-Behavior-Patrol-Lead</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Battlecruiser-Behavior-Patrol-Lead</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Destroyer Hyd">
 					<Position>
@@ -141,7 +141,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Destroyer-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Destroyer Hyd">
 					<Position>
@@ -150,7 +150,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Destroyer-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -159,7 +159,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -168,7 +168,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
@@ -186,8 +186,8 @@
 			[ReplenishSystems:true]
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
-			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-ClearAuthorship]
+			[ManipulationProfiles:GLOBAL-Manipulation]
+			
 
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerCore-Loot-Common]
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerCore-Loot-Uncommon]
@@ -207,7 +207,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol-Lead</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Destroyer-Behavior-Patrol-Lead</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -216,7 +216,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -225,7 +225,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -234,7 +234,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -243,7 +243,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -252,7 +252,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -261,7 +261,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
@@ -270,7 +270,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
@@ -279,7 +279,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
@@ -288,7 +288,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
@@ -297,7 +297,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
@@ -306,7 +306,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
@@ -315,7 +315,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
@@ -324,7 +324,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
@@ -333,7 +333,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
@@ -342,7 +342,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
@@ -351,7 +351,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
@@ -360,7 +360,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Drone Hyd">
 					<Position>
@@ -369,7 +369,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Drone-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Drone-Behavior-Patrol</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
@@ -387,8 +387,8 @@
 			[ReplenishSystems:true]
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
-			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-ClearAuthorship]
+			[ManipulationProfiles:GLOBAL-Manipulation]
+			
 
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerCore-Loot-Common]
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerCore-Loot-Uncommon]
@@ -408,7 +408,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Battleship-Behavior-Patrol-Lead</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Battleship-Behavior-Patrol-Lead</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Battlecruiser">
 					<Position>
@@ -417,7 +417,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Battlecruiser-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Battlecruiser-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Battlecruiser">
 					<Position>
@@ -426,7 +426,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Battlecruiser-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Battlecruiser-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -435,7 +435,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -444,7 +444,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -453,7 +453,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -462,7 +462,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
@@ -480,8 +480,8 @@
 			[ReplenishSystems:true]
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
-			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-ClearAuthorship]
+			[ManipulationProfiles:GLOBAL-Manipulation]
+			
 
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerCore-Loot-Common]
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerCore-Loot-Uncommon]
@@ -501,7 +501,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Battlecruiser-Behavior-Patrol-Lead</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Battlecruiser-Behavior-Patrol-Lead</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Destroyer Hyd">
 					<Position>
@@ -510,7 +510,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Destroyer-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Destroyer Hyd">
 					<Position>
@@ -519,7 +519,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Destroyer-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Destroyer Hyd">
 					<Position>
@@ -528,7 +528,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Destroyer-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Destroyer Hyd">
 					<Position>
@@ -537,7 +537,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Destroyer-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Destroyer Hyd">
 					<Position>
@@ -546,7 +546,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Destroyer-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Destroyer Hyd">
 					<Position>
@@ -555,7 +555,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Destroyer-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Destroyer Hyd">
 					<Position>
@@ -564,7 +564,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Destroyer-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Destroyer Hyd">
 					<Position>
@@ -573,7 +573,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Destroyer-Behavior-Patrol</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>

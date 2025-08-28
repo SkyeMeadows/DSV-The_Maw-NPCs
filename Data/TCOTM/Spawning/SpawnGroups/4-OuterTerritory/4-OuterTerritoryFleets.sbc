@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-TCOTM-OuterTerritory-ScoutFrigate</SubtypeId>
+				<SubtypeId>DSV-TCOTM-OuterTerritory-Frigate</SubtypeId>
 			</Id>
 			<Description>
 
@@ -15,8 +15,8 @@
 			[ReplenishSystems:true]
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
-			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-ClearAuthorship]
+			[ManipulationProfiles:GLOBAL-Manipulation]
+			
 
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Loot-Common]
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Loot-Uncommon]
@@ -36,7 +36,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Scout</Behaviour>
+					<Behaviour>DSV-TCOTM-OuterTerritory-Frigate-Behavior-Scout</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
@@ -54,8 +54,8 @@
 			[ReplenishSystems:true]
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
-			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-ClearAuthorship]
+			[ManipulationProfiles:GLOBAL-Manipulation]
+			
 
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Loot-Common]
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-OuterTerritory-Loot-Uncommon]
@@ -75,7 +75,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol-Lead</Behaviour>
+					<Behaviour>DSV-TCOTM-OuterTerritory-Destroyer-Behavior-Patrol-Lead</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -84,7 +84,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-OuterTerritory-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -93,7 +93,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-OuterTerritory-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>

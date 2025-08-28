@@ -15,8 +15,8 @@
 			[ReplenishSystems:true]
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
-			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-ClearAuthorship]
+			[ManipulationProfiles:GLOBAL-Manipulation]
+			
 
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerTerritory-Loot-Common]
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerTerritory-Loot-Uncommon]
@@ -36,7 +36,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Scout</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerTerritory-Frigate-Behavior-Scout</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
@@ -54,8 +54,8 @@
 			[ReplenishSystems:true]
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
-			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-ClearAuthorship]
+			[ManipulationProfiles:GLOBAL-Manipulation]
+			
 
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerTerritory-Loot-Common]
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerTerritory-Loot-Uncommon]
@@ -75,7 +75,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol-Lead</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerTerritory-Destroyer-Behavior-Patrol-Lead</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -84,7 +84,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerTerritory-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -93,7 +93,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerTerritory-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
@@ -111,8 +111,8 @@
 			[ReplenishSystems:true]
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
-			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-ClearAuthorship]
+			[ManipulationProfiles:GLOBAL-Manipulation]
+			
 
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerTerritory-Loot-Common]
 			[ManipulationProfiles:DSV-TCOTM-Manipulation-InnerTerritory-Loot-Uncommon]
@@ -131,7 +131,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Battlecruiser-Behavior-Patrol-Lead</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerTerritory-Battlecruiser-Behavior-Patrol-Lead</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Destroyer Hyd">
 					<Position>
@@ -140,7 +140,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerTerritory-Destroyer-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Destroyer Hyd">
 					<Position>
@@ -149,7 +149,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-Destroyer-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerTerritory-Destroyer-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -158,7 +158,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerTerritory-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
@@ -167,7 +167,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-ScoutFrigate-Behavior-Patrol</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerTerritory-Frigate-Behavior-Patrol</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>

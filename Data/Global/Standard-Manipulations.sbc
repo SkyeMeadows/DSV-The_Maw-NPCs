@@ -5,11 +5,13 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>Standard-Replacement-Shields</SubtypeId>
+        <SubtypeId>GLOBAL-Manipulation</SubtypeId>
       </Id>
       <Description>
 
         [MES Manipulation]
+
+        [ClearAuthorship:true]
 
         [UseBlockReplacer:true]
 
@@ -21,20 +23,6 @@
 
 	    </Description>
     </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Standard-ClearAuthorship</SubtypeId>
-      </Id>
-      <Description>
-
-        [MES Manipulation]
-
-        [ClearAuthorship:true]
-        
-	    </Description>
-    </EntityComponent>
-
+    
   </EntityComponents>
 </Definitions>

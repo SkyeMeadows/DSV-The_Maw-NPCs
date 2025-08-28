@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-ScoutFrigate-Target-Scout</SubtypeId>
+          <SubtypeId>DSV-TCOTM-Frigate-Target-Scout</SubtypeId>
       </Id>
       <Description>
 
@@ -34,7 +34,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-ScoutFrigate-Target-Fighter</SubtypeId>
+          <SubtypeId>DSV-TCOTM-Frigate-Target-Fighter</SubtypeId>
       </Id>
       <Description>
 
@@ -65,7 +65,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-ScoutFrigate-Target-Patrol</SubtypeId>
+          <SubtypeId>DSV-TCOTM-Frigate-Target-Patrol</SubtypeId>
       </Id>
       <Description>
 

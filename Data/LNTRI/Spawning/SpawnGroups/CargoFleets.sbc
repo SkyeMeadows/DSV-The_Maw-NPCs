@@ -15,8 +15,8 @@
 			[ReplenishSystems:true]
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
-			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-ClearAuthorship]
+			[ManipulationProfiles:GLOBAL-Manipulation]
+			
 			[ManipulationProfiles:DSV-LNTRI-Manipulation-Loot-Common]
 
 			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-LNTRI-TherosTradeStation]
@@ -62,8 +62,8 @@
 			[ReplenishSystems:true]
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
-			[ManipulationProfiles:Standard-Replacement-Shields]
-			[ManipulationProfiles:Standard-ClearAuthorship]
+			[ManipulationProfiles:GLOBAL-Manipulation]
+			
 			[ManipulationProfiles:DSV-LNTRI-Manipulation-Loot-Rare]
 
 			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-LNTRI-TherosTradeStation]
