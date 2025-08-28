@@ -5,45 +5,6 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-TCOTM-InnerCore-Frigate</SubtypeId>
-			</Id>
-			<Description>
-
-			[Modular Encounters SpawnGroup]
-				
-			[FactionOverride:TCOTM]
-			[ReplenishSystems:true]
-			[UseRivalAi:true]
-			[RivalAiReplaceRemoteControl:true]
-			[ManipulationProfiles:GLOBAL-Manipulation]
-			
-
-			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Frigate-Loot-Common]
-			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Frigate-Loot-Uncommon]
-			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Frigate-Loot-Rare]
-			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Frigate-Loot-Exotic]
-
-			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_InnerCore]
-
-			</Description>
-			<IsPirate>true</IsPirate> <!--Do not edit-->
-			<Frequency>4.0</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
-					<Position>
-						<X>0.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Scout</Behaviour>
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>
-
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
 				<SubtypeId>DSV-TCOTM-InnerCore-SmallPatrol</SubtypeId>
 			</Id>
 			<Description>
