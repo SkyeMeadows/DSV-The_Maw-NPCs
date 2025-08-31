@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>DSV-TCOTM-InnerCore-DefenseFleet</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[FactionOverride:TCOTM]
+			[ReplenishSystems:true]
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+			[ManipulationProfiles:GLOBAL-Manipulation]
+			
+
+			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Frigate-Loot-Common]
+			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Frigate-Loot-Uncommon]
+			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Frigate-Loot-Rare]
+
+			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-Loot-Common]
+			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-Loot-Uncommon]
+			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-Loot-Rare]
+
+			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Battleship-Loot-Common]
+			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Battleship-Loot-Uncommon]
+			
+
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_InnerCore]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>2.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TCOTM] Battleship Hyd">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-InnerCore-Battleship-Behavior-Patrol-Lead</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Battlecruiser">
+					<Position>
+						<X>300.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-InnerCore-Battlecruiser-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Battlecruiser">
+					<Position>
+						<X>-300.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-InnerCore-Battlecruiser-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
+					<Position>
+						<X>-200.0</X>
+						<Y>-200.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
+					<Position>
+						<X>-200.0</X>
+						<Y>200.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
+					<Position>
+						<X>200.0</X>
+						<Y>-200.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
+					<Position>
+						<X>200.0</X>
+						<Y>200.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+	</SpawnGroups>
+</Definitions>

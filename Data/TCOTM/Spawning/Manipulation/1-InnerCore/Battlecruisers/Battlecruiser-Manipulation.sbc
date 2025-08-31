@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-Loot-Common</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationChance:90]
+
+        [UseLootProfiles:true]
+        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-LootProfile-Common]
+
+        [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-Loot-Uncommon</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationChance:40]
+
+        [UseLootProfiles:true]
+        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-LootProfile-Uncommon]
+
+        [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-Loot-Rare</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationChance:20]
+
+        [UseLootProfiles:true]
+        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-LootProfile-Rare]
+
+        [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-Loot-Exotic</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationChance:5]
+
+        [UseLootProfiles:true]
+        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-LootProfile-Exotic]
+
+        [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
+
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

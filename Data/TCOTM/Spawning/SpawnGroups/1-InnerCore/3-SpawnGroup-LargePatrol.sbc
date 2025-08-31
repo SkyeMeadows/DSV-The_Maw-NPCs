@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-TCOTM-InnerCore-SpawnGroup-SmallPatrol</SubtypeId>
+				<SubtypeId>DSV-TCOTM-InnerCore-LargePatrol</SubtypeId>
 			</Id>
 			<Description>
 
@@ -16,6 +16,7 @@
 			[UseRivalAi:true]
 			[RivalAiReplaceRemoteControl:true]
 			[ManipulationProfiles:GLOBAL-Manipulation]
+			
 
 			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Frigate-Loot-Common]
 			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Frigate-Loot-Uncommon]
@@ -23,22 +24,44 @@
 
 			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Destroyer-Loot-Common]
 			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Destroyer-Loot-Uncommon]
+			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Destroyer-Loot-Rare]
+
+			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-Loot-Common]
+			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-Loot-Uncommon]
 
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_InnerCore]
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
-			<Frequency>15.0</Frequency>
+			<Frequency>4.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="[TCOTM] Destroyer Hyd">
+				<Prefab SubtypeId="[TCOTM] Battlecruiser">
 					<Position>
 						<X>0.0</X>
 						<Y>0.0</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-InnerCore-Destroyer-Behavior-Patrol-Lead</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerCore-Battlecruiser-Behavior-Patrol-Lead</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Destroyer Hyd">
+					<Position>
+						<X>0.0</X>
+						<Y>-250.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-InnerCore-Destroyer-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Destroyer Hyd">
+					<Position>
+						<X>0.0</X>
+						<Y>250.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-InnerCore-Destroyer-Behavior-Patrol</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>

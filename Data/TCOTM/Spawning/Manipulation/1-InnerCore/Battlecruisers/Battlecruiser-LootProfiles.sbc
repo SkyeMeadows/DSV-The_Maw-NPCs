@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-LootProfile-Common</SubtypeId>
+      </Id>
+      <Description>
+
+      [MES Loot]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
+      [ContainerTypes:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-LootTable-Common]
+      [MinBlocks:3]
+      [MaxBlocks:10]
+      
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-LootProfile-Uncommon</SubtypeId>
+      </Id>
+      <Description>
+
+      [MES Loot]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
+      [ContainerTypes:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-LootTable-Uncommon]
+      [MinBlocks:3]
+      [MaxBlocks:10]
+      
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-LootProfile-Rare</SubtypeId>
+      </Id>
+      <Description>
+
+      [MES Loot]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
+      [ContainerTypes:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-LootTable-Rare]
+      [MinBlocks:3]
+      [MaxBlocks:10]
+      
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-LootProfile-Exotic</SubtypeId>
+      </Id>
+      <Description>
+
+      [MES Loot]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeContainer]
+      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
+      [ContainerTypes:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-LootTable-Exotic]
+      [MinBlocks:2]
+      [MaxBlocks:10]
+      
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>
