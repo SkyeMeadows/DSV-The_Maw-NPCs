@@ -5,7 +5,7 @@
 		<ContainerType CountMin="4" CountMax="10">
 			<Id>
 				<TypeId>ContainerTypeDefinition</TypeId>
-				<SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Destroyer-LootTable-Rare</SubtypeId>
+				<SubtypeId>DSV-TCOTM-OuterTerritory-Manipulation-Destroyer-LootTable-Rare</SubtypeId>
 			</Id>
 			<Items>
 				<Item AmountMin="100" AmountMax="500">

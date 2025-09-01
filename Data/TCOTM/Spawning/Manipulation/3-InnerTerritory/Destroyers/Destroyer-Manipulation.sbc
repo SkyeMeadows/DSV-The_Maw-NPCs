@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Destroyer-Loot-Common</SubtypeId>
+        <SubtypeId>DSV-TCOTM-InnerTerritory-Manipulation-Destroyer-Loot-Common</SubtypeId>
       </Id>
       <Description>
 
@@ -14,7 +14,7 @@
         [ManipulationChance:90]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Destroyer-LootProfile-Common]
+        [LootProfiles:DSV-TCOTM-InnerTerritory-Manipulation-Destroyer-LootProfile-Common]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Destroyer Hyd]
 
@@ -25,7 +25,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Destroyer-Loot-Uncommon</SubtypeId>
+        <SubtypeId>DSV-TCOTM-InnerTerritory-Manipulation-Destroyer-Loot-Uncommon</SubtypeId>
       </Id>
       <Description>
 
@@ -34,7 +34,7 @@
         [ManipulationChance:40]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Destroyer-LootProfile-Uncommon]
+        [LootProfiles:DSV-TCOTM-InnerTerritory-Manipulation-Destroyer-LootProfile-Uncommon]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Destroyer Hyd]
 
@@ -45,7 +45,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Destroyer-Loot-Rare</SubtypeId>
+        <SubtypeId>DSV-TCOTM-InnerTerritory-Manipulation-Destroyer-Loot-Rare</SubtypeId>
       </Id>
       <Description>
 
@@ -54,7 +54,7 @@
         [ManipulationChance:20]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Destroyer-LootProfile-Rare]
+        [LootProfiles:DSV-TCOTM-InnerTerritory-Manipulation-Destroyer-LootProfile-Rare]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Destroyer Hyd]
 
@@ -65,7 +65,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Destroyer-Loot-Exotic</SubtypeId>
+        <SubtypeId>DSV-TCOTM-InnerTerritory-Manipulation-Destroyer-Loot-Exotic</SubtypeId>
       </Id>
       <Description>
 
@@ -74,7 +74,7 @@
         [ManipulationChance:5]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Destroyer-LootProfile-Exotic]
+        [LootProfiles:DSV-TCOTM-InnerTerritory-Manipulation-Destroyer-LootProfile-Exotic]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Destroyer Hyd]
 

@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battleship-LootProfile-Common</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Manipulation-Battleship-LootProfile-Common</SubtypeId>
       </Id>
       <Description>
 
@@ -13,7 +13,7 @@
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
-      [ContainerTypes:DSV-TCOTM-InnerCore-Manipulation-Battleship-LootTable-Common]
+      [ContainerTypes:DSV-TCOTM-OuterTerritory-Manipulation-Battleship-LootTable-Common]
       [MinBlocks:5]
       [MaxBlocks:10]
       
@@ -24,7 +24,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battleship-LootProfile-Uncommon</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Manipulation-Battleship-LootProfile-Uncommon</SubtypeId>
       </Id>
       <Description>
 
@@ -32,7 +32,7 @@
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
-      [ContainerTypes:DSV-TCOTM-InnerCore-Manipulation-Battleship-LootTable-Uncommon]
+      [ContainerTypes:DSV-TCOTM-OuterTerritory-Manipulation-Battleship-LootTable-Uncommon]
       [MinBlocks:5]
       [MaxBlocks:10]
       
@@ -43,7 +43,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battleship-LootProfile-Rare</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Manipulation-Battleship-LootProfile-Rare</SubtypeId>
       </Id>
       <Description>
 
@@ -51,7 +51,7 @@
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
-      [ContainerTypes:DSV-TCOTM-InnerCore-Manipulation-Battleship-LootTable-Rare]
+      [ContainerTypes:DSV-TCOTM-OuterTerritory-Manipulation-Battleship-LootTable-Rare]
       [MinBlocks:5]
       [MaxBlocks:10]
       
@@ -62,7 +62,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battleship-LootProfile-Exotic</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Manipulation-Battleship-LootProfile-Exotic</SubtypeId>
       </Id>
       <Description>
 
@@ -70,7 +70,7 @@
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
-      [ContainerTypes:DSV-TCOTM-InnerCore-Manipulation-Battleship-LootTable-Exotic]
+      [ContainerTypes:DSV-TCOTM-OuterTerritory-Manipulation-Battleship-LootTable-Exotic]
       [MinBlocks:5]
       [MaxBlocks:10]
       

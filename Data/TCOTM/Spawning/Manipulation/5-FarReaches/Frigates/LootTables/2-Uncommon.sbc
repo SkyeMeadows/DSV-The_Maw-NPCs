@@ -5,7 +5,7 @@
 		<ContainerType CountMin="3" CountMax="7">
 			<Id>
 				<TypeId>ContainerTypeDefinition</TypeId>
-				<SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Frigate-LootTable-Uncommon</SubtypeId>
+				<SubtypeId>DSV-TCOTM-FarReaches-Manipulation-Frigate-LootTable-Uncommon</SubtypeId>
 			</Id>
 			<Items>
 				<Item AmountMin="50" AmountMax="250">

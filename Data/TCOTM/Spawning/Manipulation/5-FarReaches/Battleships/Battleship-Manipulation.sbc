@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battleship-Loot-Common</SubtypeId>
+        <SubtypeId>DSV-TCOTM-FarReaches-Manipulation-Battleship-Loot-Common</SubtypeId>
       </Id>
       <Description>
 
@@ -14,7 +14,7 @@
         [ManipulationChance:90]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Battleship-LootProfile-Common]
+        [LootProfiles:DSV-TCOTM-FarReaches-Manipulation-Battleship-LootProfile-Common]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Battleship Hyd]
 
@@ -25,7 +25,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battleship-Loot-Uncommon</SubtypeId>
+        <SubtypeId>DSV-TCOTM-FarReaches-Manipulation-Battleship-Loot-Uncommon</SubtypeId>
       </Id>
       <Description>
 
@@ -34,7 +34,7 @@
         [ManipulationChance:40]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Battleship-LootProfile-Uncommon]
+        [LootProfiles:DSV-TCOTM-FarReaches-Manipulation-Battleship-LootProfile-Uncommon]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Battleship Hyd]
 
@@ -45,7 +45,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battleship-Loot-Rare</SubtypeId>
+        <SubtypeId>DSV-TCOTM-FarReaches-Manipulation-Battleship-Loot-Rare</SubtypeId>
       </Id>
       <Description>
 
@@ -54,7 +54,7 @@
         [ManipulationChance:20]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Battleship-LootProfile-Rare]
+        [LootProfiles:DSV-TCOTM-FarReaches-Manipulation-Battleship-LootProfile-Rare]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Battleship Hyd]
 
@@ -65,7 +65,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battleship-Loot-Exotic</SubtypeId>
+        <SubtypeId>DSV-TCOTM-FarReaches-Manipulation-Battleship-Loot-Exotic</SubtypeId>
       </Id>
       <Description>
 
@@ -74,7 +74,7 @@
         [ManipulationChance:5]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Battleship-LootProfile-Exotic]
+        [LootProfiles:DSV-TCOTM-FarReaches-Manipulation-Battleship-LootProfile-Exotic]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Battleship Hyd]
 

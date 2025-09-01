@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-Loot-Common</SubtypeId>
+        <SubtypeId>DSV-TCOTM-OuterTerritory-Manipulation-Battlecruiser-Loot-Common</SubtypeId>
       </Id>
       <Description>
 
@@ -14,7 +14,7 @@
         [ManipulationChance:90]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-LootProfile-Common]
+        [LootProfiles:DSV-TCOTM-OuterTerritory-Manipulation-Battlecruiser-LootProfile-Common]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
 
@@ -25,7 +25,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-Loot-Uncommon</SubtypeId>
+        <SubtypeId>DSV-TCOTM-OuterTerritory-Manipulation-Battlecruiser-Loot-Uncommon</SubtypeId>
       </Id>
       <Description>
 
@@ -34,7 +34,7 @@
         [ManipulationChance:40]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-LootProfile-Uncommon]
+        [LootProfiles:DSV-TCOTM-OuterTerritory-Manipulation-Battlecruiser-LootProfile-Uncommon]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
 
@@ -45,7 +45,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-Loot-Rare</SubtypeId>
+        <SubtypeId>DSV-TCOTM-OuterTerritory-Manipulation-Battlecruiser-Loot-Rare</SubtypeId>
       </Id>
       <Description>
 
@@ -54,7 +54,7 @@
         [ManipulationChance:20]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-LootProfile-Rare]
+        [LootProfiles:DSV-TCOTM-OuterTerritory-Manipulation-Battlecruiser-LootProfile-Rare]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
 
@@ -65,7 +65,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-Loot-Exotic</SubtypeId>
+        <SubtypeId>DSV-TCOTM-OuterTerritory-Manipulation-Battlecruiser-Loot-Exotic</SubtypeId>
       </Id>
       <Description>
 
@@ -74,7 +74,7 @@
         [ManipulationChance:5]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-LootProfile-Exotic]
+        [LootProfiles:DSV-TCOTM-OuterTerritory-Manipulation-Battlecruiser-LootProfile-Exotic]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Battlecruiser]
 

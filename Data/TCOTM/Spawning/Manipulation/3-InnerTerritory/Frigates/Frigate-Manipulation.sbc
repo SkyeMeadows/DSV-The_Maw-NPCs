@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Frigate-Loot-Common</SubtypeId>
+        <SubtypeId>DSV-TCOTM-InnerTerritory-Manipulation-Frigate-Loot-Common</SubtypeId>
       </Id>
       <Description>
 
@@ -14,7 +14,7 @@
         [ManipulationChance:90]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Frigate-LootProfile-Common]
+        [LootProfiles:DSV-TCOTM-InnerTerritory-Manipulation-Frigate-LootProfile-Common]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Frigate Hyd]
 
@@ -25,7 +25,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Frigate-Loot-Uncommon</SubtypeId>
+        <SubtypeId>DSV-TCOTM-InnerTerritory-Manipulation-Frigate-Loot-Uncommon</SubtypeId>
       </Id>
       <Description>
 
@@ -34,7 +34,7 @@
         [ManipulationChance:40]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Frigate-LootProfile-Uncommon]
+        [LootProfiles:DSV-TCOTM-InnerTerritory-Manipulation-Frigate-LootProfile-Uncommon]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Frigate Hyd]
 
@@ -45,7 +45,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Frigate-Loot-Rare</SubtypeId>
+        <SubtypeId>DSV-TCOTM-InnerTerritory-Manipulation-Frigate-Loot-Rare</SubtypeId>
       </Id>
       <Description>
 
@@ -54,7 +54,7 @@
         [ManipulationChance:20]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Frigate-LootProfile-Rare]
+        [LootProfiles:DSV-TCOTM-InnerTerritory-Manipulation-Frigate-LootProfile-Rare]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Frigate Hyd]
 
@@ -65,7 +65,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Frigate-Loot-Exotic</SubtypeId>
+        <SubtypeId>DSV-TCOTM-InnerTerritory-Manipulation-Frigate-Loot-Exotic</SubtypeId>
       </Id>
       <Description>
 
@@ -74,7 +74,7 @@
         [ManipulationChance:5]
 
         [UseLootProfiles:true]
-        [LootProfiles:DSV-TCOTM-InnerCore-Manipulation-Frigate-LootProfile-Exotic]
+        [LootProfiles:DSV-TCOTM-InnerTerritory-Manipulation-Frigate-LootProfile-Exotic]
 
         [ManipulationAllowedPrefabNames:[TCOTM] Frigate Hyd]
 
