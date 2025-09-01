@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-OuterCore-Manipulation-Destroyer-Loot-Common</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationChance:90]
+
+        [UseLootProfiles:true]
+        [LootProfiles:DSV-TCOTM-OuterCore-Manipulation-Destroyer-LootProfile-Common]
+
+        [ManipulationAllowedPrefabNames:[TCOTM] Destroyer Hyd]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-OuterCore-Manipulation-Destroyer-Loot-Uncommon</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationChance:40]
+
+        [UseLootProfiles:true]
+        [LootProfiles:DSV-TCOTM-OuterCore-Manipulation-Destroyer-LootProfile-Uncommon]
+
+        [ManipulationAllowedPrefabNames:[TCOTM] Destroyer Hyd]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-OuterCore-Manipulation-Destroyer-Loot-Rare</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationChance:20]
+
+        [UseLootProfiles:true]
+        [LootProfiles:DSV-TCOTM-OuterCore-Manipulation-Destroyer-LootProfile-Rare]
+
+        [ManipulationAllowedPrefabNames:[TCOTM] Destroyer Hyd]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-OuterCore-Manipulation-Destroyer-Loot-Exotic</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [ManipulationChance:5]
+
+        [UseLootProfiles:true]
+        [LootProfiles:DSV-TCOTM-OuterCore-Manipulation-Destroyer-LootProfile-Exotic]
+
+        [ManipulationAllowedPrefabNames:[TCOTM] Destroyer Hyd]
+
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

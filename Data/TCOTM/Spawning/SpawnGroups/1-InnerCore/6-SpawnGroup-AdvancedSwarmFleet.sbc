@@ -25,6 +25,7 @@
 			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-Loot-Common]
 			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-Loot-Uncommon]
 			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-Loot-Rare]
+			[ManipulationProfiles:DSV-TCOTM-InnerCore-Manipulation-Battlecruiser-Loot-Exotic]
 			
 
 			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_InnerCore]

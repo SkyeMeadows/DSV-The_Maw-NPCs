@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ContainerTypes>
+	
+		<ContainerType CountMin="3" CountMax="7">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Battleship-LootTable-Uncommon</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="400" AmountMax="1000">
+					<Frequency>2.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-HardenedPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5" AmountMax="10">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-KarnyxiumCore</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1500" AmountMax="3000">
+					<Frequency>1.5</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-EchoSeal</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="100" AmountMax="500">
+					<Frequency>1.25</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>DSV-EntropyMatrix</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="5000">
+					<Frequency>2</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>Uranium</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="5000" AmountMax="10000">
+					<Frequency>1.5</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SteelPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="4000" AmountMax="6000">
+					<Frequency>1</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Construction</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="250" AmountMax="300">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>MetalGrid</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1000" AmountMax="1500">
+					<Frequency>1</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>InteriorPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="500" AmountMax="2500">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Motor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="500" AmountMax="2000">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Superconductor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1000" AmountMax="7000">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Reactor</SubtypeId>
+					</Id>
+				</Item>
+			</Items>
+		</ContainerType>
+
+	</ContainerTypes>																									
+</Definitions>				
