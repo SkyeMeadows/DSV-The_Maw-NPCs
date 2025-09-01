@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-TCOTM-FarReaches-ScoutDrone</SubtypeId>
+				<SubtypeId>DSV-TCOTM-InnerTerritory-SpawnGroup-ScoutCraft</SubtypeId>
 			</Id>
 			<Description>
 
@@ -17,26 +17,24 @@
 			[RivalAiReplaceRemoteControl:true]
 			[ManipulationProfiles:GLOBAL-Manipulation]
 			
+			[ManipulationProfiles:DSV-TCOTM-InnerTerritory-Manipulation-Frigate-Loot-Common]
+			[ManipulationProfiles:DSV-TCOTM-InnerTerritory-Manipulation-Frigate-Loot-Uncommon]
 
-			[ManipulationProfiles:DSV-TCOTM-Manipulation-FarReaches-Loot-Common]
-			[ManipulationProfiles:DSV-TCOTM-Manipulation-FarReaches-Loot-Uncommon]
-			[ManipulationProfiles:DSV-TCOTM-Manipulation-FarReaches-Loot-Rare]
-			[ManipulationProfiles:DSV-TCOTM-Manipulation-FarReaches-Loot-Exotic]
 
-			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_FarReaches]
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_InnerTerritory]
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
-			<Frequency>20.0</Frequency>
+			<Frequency>10.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="[TCOTM] Drone Hyd">
+				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
 					<Position>
 						<X>0.0</X>
 						<Y>0.0</Y>
 						<Z>0.0</Z>
 					</Position>
 					<Speed>20</Speed>
-					<Behaviour>DSV-TCOTM-FarReaches-Drone-Behavior-Scout</Behaviour>
+					<Behaviour>DSV-TCOTM-InnerTerritory-Frigate-Behavior-Scout</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>

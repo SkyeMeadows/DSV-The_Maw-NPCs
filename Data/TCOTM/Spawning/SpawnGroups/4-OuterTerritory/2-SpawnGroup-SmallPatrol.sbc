@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>DSV-TCOTM-OuterTerritory-SpawnGroup-SmallPatrol</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+				
+			[FactionOverride:TCOTM]
+			[ReplenishSystems:true]
+			[UseRivalAi:true]
+			[RivalAiReplaceRemoteControl:true]
+			[ManipulationProfiles:GLOBAL-Manipulation]
+			
+			[ManipulationProfiles:DSV-TCOTM-OuterTerritory-Manipulation-Frigate-Loot-Common]
+			[ManipulationProfiles:DSV-TCOTM-OuterTerritory-Manipulation-Frigate-Loot-Uncommon]
+
+			[ManipulationProfiles:DSV-TCOTM-OuterTerritory-Manipulation-Destroyer-Loot-Common]
+
+
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_OuterTerritory]
+
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>6.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="[TCOTM] Destroyer Hyd">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-OuterTerritory-Destroyer-Behavior-Patrol-Lead</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
+					<Position>
+						<X>250.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-OuterTerritory-Frigate-Behavior-Patrol</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="[TCOTM] Frigate Hyd">
+					<Position>
+						<X>-250.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>20</Speed>
+					<Behaviour>DSV-TCOTM-OuterTerritory-Frigate-Behavior-Patrol</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+	</SpawnGroups>
+</Definitions>
