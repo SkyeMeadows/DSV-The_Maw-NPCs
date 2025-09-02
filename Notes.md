@@ -1,3 +1,12 @@
+# IMPORTANT
+### Naming Scheme
+DSV-<Faction>-<Sector>-<Ship>-<Sub-Behavior>-<TypeOfProfile>-<DescriptionOfProfile>
+
+Examples:
+`DSV-TCOTM-InnerCore-Battleship-Patrol-Target-LongRangeEngagement`
+`DSV-LNTRI-FarReaches-CargoHauler-Cargo-Autopilot-SlowboatTransit`
+
+
 ## Troubleshooting in game:
 /MES.Info.GetAllProfiles
 /MES.Info.GetGridBehavior
