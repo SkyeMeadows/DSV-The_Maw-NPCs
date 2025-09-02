@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Destroyer-Autopilot-Patrol-CargoShip</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Destroyer-Autopilot-Patrol-CargoShip</SubtypeId>
       </Id>
       <Description>
 
@@ -32,7 +32,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Destroyer-Autopilot-Patrol-Fighter</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Destroyer-Autopilot-Patrol-Fighter</SubtypeId>
       </Id>
       <Description>
 

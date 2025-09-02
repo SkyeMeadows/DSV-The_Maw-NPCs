@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Battlecruiser-Autopilot-Patrol-CargoShip</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Frigate-Autopilot-CargoShip</SubtypeId>
       </Id>
       <Description>
 
@@ -17,8 +17,8 @@
       [WaypointWaitTimeTrigger:15]
 
       [UseVelocityCollisionEvasion:true]
-      [CollisionEvasionWaypointDistance:400]
-      [CollisionEvasionResumeDistance:400]
+      [CollisionEvasionWaypointDistance:300]
+      [CollisionEvasionResumeDistance:300]
       [CollisionEvasionResumeTime:15]
 
       [IdealMaxSpeed:30]
@@ -32,7 +32,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Battlecruiser-Autopilot-Patrol-Horsefly</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Frigate-Autopilot-Fighter</SubtypeId>
       </Id>
       <Description>
 
@@ -41,24 +41,29 @@
       [SlowDownOnWaypointApproach:false]
 
       [UseVelocityCollisionEvasion:true]
-      [CollisionEvasionWaypointDistance:400]
-      [CollisionEvasionResumeDistance:400]
+      [CollisionEvasionWaypointDistance:300]
+      [CollisionEvasionResumeDistance:300]
       [CollisionEvasionResumeTime:15]
 
-      [EngageDistanceSpace:10000]
-      [DisengageDistanceSpace:15000]
+      [PadDistanceFromTarget:1000]
+      [OffsetSpaceMinDistFromTarget:1000]
 
-      [OffsetSpaceMinDistFromTarget:2000]
-      [OffsetSpaceMaxDistFromTarget:5000]
+      [EngageDistanceSpace:15000]
+      [DisengageDistanceSpace:18000]
 
-      [PadDistanceFromTarget:2000]
+      [AllowStrafing:true]
+      [StrafeMinDurationMs:10000]
+      [StrafeMaxDurationMs:15000]
 
-      [UseProjectileLeadPrediction:true]
+      [StrafeMinCooldownMs:20000]
+      [StrafeMaxCooldownMs:30000]
 
-      [IdealMaxSpeed:150]
-      [IdealMinSpeed:100]
-      [MaxSpeedTolerance:15]
-      
+      [StrafeMinimumTargetDistance:500]
+
+      [IdealMaxSpeed:300]
+      [IdealMinSpeed:200]
+      [MaxSpeedTolerance:25]
+
       </Description>
       
     </EntityComponent>

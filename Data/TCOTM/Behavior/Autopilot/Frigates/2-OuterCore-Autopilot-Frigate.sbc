@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Frigate-Autopilot-Scout-CargoShip</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterCore-Frigate-Autopilot-CargoShip</SubtypeId>
       </Id>
       <Description>
 
@@ -32,7 +32,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Frigate-Autopilot-Scout-Fighter</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterCore-Frigate-Autopilot-Fighter</SubtypeId>
       </Id>
       <Description>
 
@@ -63,64 +63,6 @@
       [IdealMaxSpeed:300]
       [IdealMinSpeed:200]
       [MaxSpeedTolerance:25]
-
-      </Description>
-      
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Frigate-Autopilot-Patrol-CargoShip</SubtypeId>
-      </Id>
-      <Description>
-
-      [RivalAI Autopilot]
-      
-      [SlowDownOnWaypointApproach:true]
-      [ExtraSlowDownDistance:300]
-
-      [WaypointWaitTimeTrigger:15]
-
-      [UseVelocityCollisionEvasion:true]
-      [CollisionEvasionWaypointDistance:300]
-      [CollisionEvasionResumeDistance:300]
-      [CollisionEvasionResumeTime:15]
-
-      [IdealMaxSpeed:30]
-      [IdealMinSpeed:20]
-      [MaxSpeedTolerance:5]
-
-      </Description>
-      
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Frigate-Autopilot-Patrol-Fighter</SubtypeId>
-      </Id>
-      <Description>
-
-      [RivalAI Autopilot]
-      
-      [IdealMaxSpeed:200]
-      [IdealMinSpeed:170]
-      [MaxSpeedTolerance:20]
-
-      [OffsetSpaceMinDistFromTarget:3000]
-      [OffsetSpaceMaxDistFromTarget:5000]
-      
-      [SlowDownOnWaypointApproach:true]
-      [ExtraSlowDownDistance:1500]
-      [FlyLevelWithGravity:false]
-
-      [UseVelocityCollisionEvasion:true]
-      [CollisionEvasionWaypointDistance:1500]
-      
-      [AllowStrafing:true]
-      [StrafeMinDurationMs:1000]
-      [StrafeMaxDurationMs:1500]
 
       </Description>
       

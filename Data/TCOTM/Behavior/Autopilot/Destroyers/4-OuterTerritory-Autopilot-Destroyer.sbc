@@ -5,20 +5,20 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Drone-Autopilot-Scout-CargoShip</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Destroyer-Autopilot-Patrol-CargoShip</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Autopilot]
       
       [SlowDownOnWaypointApproach:true]
-      [ExtraSlowDownDistance:150]
+      [ExtraSlowDownDistance:300]
 
       [WaypointWaitTimeTrigger:15]
 
       [UseVelocityCollisionEvasion:true]
-      [CollisionEvasionWaypointDistance:150]
-      [CollisionEvasionResumeDistance:150]
+      [CollisionEvasionWaypointDistance:400]
+      [CollisionEvasionResumeDistance:400]
       [CollisionEvasionResumeTime:15]
 
       [IdealMaxSpeed:30]
@@ -32,48 +32,21 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Drone-Autopilot-Patrol-CargoShip</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Destroyer-Autopilot-Patrol-Fighter</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Autopilot]
       
-      [SlowDownOnWaypointApproach:true]
-      [ExtraSlowDownDistance:250]
-
-      [WaypointWaitTimeTrigger:15]
-
-      [UseVelocityCollisionEvasion:true]
-      [CollisionEvasionWaypointDistance:150]
-      [CollisionEvasionResumeDistance:150]
-      [CollisionEvasionResumeTime:15]
-
-      [IdealMaxSpeed:30]
-      [IdealMinSpeed:20]
-      [MaxSpeedTolerance:5]
-
-      </Description>
-      
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Drone-Autopilot-General-Fighter</SubtypeId>
-      </Id>
-      <Description>
-
-      [RivalAI Autopilot]
-
       [IdealMaxSpeed:200]
       [IdealMinSpeed:170]
       [MaxSpeedTolerance:20]
 
-      [OffsetSpaceMinDistFromTarget:300]
-      [OffsetSpaceMaxDistFromTarget:1000]
+      [OffsetSpaceMinDistFromTarget:2000]
+      [OffsetSpaceMaxDistFromTarget:4000]
       
       [SlowDownOnWaypointApproach:true]
-      [ExtraSlowDownDistance:150]
+      [ExtraSlowDownDistance:2500]
       [FlyLevelWithGravity:false]
       
       [AllowStrafing:true]

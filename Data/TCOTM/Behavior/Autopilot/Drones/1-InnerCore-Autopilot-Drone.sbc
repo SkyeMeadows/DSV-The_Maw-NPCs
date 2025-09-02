@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Drone-Autopilot-Scout-CargoShip</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Autopilot]
+      
+      [SlowDownOnWaypointApproach:true]
+      [ExtraSlowDownDistance:150]
+
+      [WaypointWaitTimeTrigger:15]
+
+      [UseVelocityCollisionEvasion:true]
+      [CollisionEvasionWaypointDistance:150]
+      [CollisionEvasionResumeDistance:150]
+      [CollisionEvasionResumeTime:15]
+
+      [IdealMaxSpeed:30]
+      [IdealMinSpeed:20]
+      [MaxSpeedTolerance:5]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Drone-Autopilot-Patrol-CargoShip</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Autopilot]
+      
+      [SlowDownOnWaypointApproach:true]
+      [ExtraSlowDownDistance:250]
+
+      [WaypointWaitTimeTrigger:15]
+
+      [UseVelocityCollisionEvasion:true]
+      [CollisionEvasionWaypointDistance:150]
+      [CollisionEvasionResumeDistance:150]
+      [CollisionEvasionResumeTime:15]
+
+      [IdealMaxSpeed:30]
+      [IdealMinSpeed:20]
+      [MaxSpeedTolerance:5]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Drone-Autopilot-General-Fighter</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Autopilot]
+
+      [IdealMaxSpeed:200]
+      [IdealMinSpeed:170]
+      [MaxSpeedTolerance:20]
+
+      [OffsetSpaceMinDistFromTarget:300]
+      [OffsetSpaceMaxDistFromTarget:1000]
+      
+      [SlowDownOnWaypointApproach:true]
+      [ExtraSlowDownDistance:150]
+      [FlyLevelWithGravity:false]
+      
+      [AllowStrafing:true]
+      [StrafeMinDurationMs:1000]
+      [StrafeMaxDurationMs:1500]
+      
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>
