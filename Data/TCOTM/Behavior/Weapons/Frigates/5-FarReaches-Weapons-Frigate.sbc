@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>DSV-TCOTM-FarReaches-Frigate-Weapons</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Weapons]
+
+        [UseStaticGuns:true]
+        [UseTurrets:true]
+
+        [UseAmmoReplenish:true]
+        [AmmoReplenishClipAmount:10]
+        [MaxAmmoReplenishments:15]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

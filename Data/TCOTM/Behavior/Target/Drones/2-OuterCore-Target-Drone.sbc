@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Frigate-Target-Scout</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterCore-Drone-Target-Scout</SubtypeId>
       </Id>
       <Description>
 
@@ -16,7 +16,7 @@
       [BlockTargets:Beacons]
       [BlockTargets:Antennas]
       
-      [MaxDistance:10000]
+      [MaxDistance:4000]
       [MaxExistingTargetDistance:15000]
       
       [MatchAllFilters:OutsideOfSafezone]
@@ -34,7 +34,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Frigate-Target-Fighter</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterCore-Drone-Target-Fighter</SubtypeId>
       </Id>
       <Description>
 
@@ -42,42 +42,12 @@
       
       [UseCustomTargeting:true]
       [Target:Block]
+      [BlockTargets:Beacons]
+      [BlockTargets:Antennas]
       [BlockTargets:Turrets]
       [BlockTargets:JumpDrives]
       [BlockTargets:Thrusters]
       [BlockTargets:Power]
-      
-      [MaxDistance:10000]
-      [MaxExistingTargetDistance:15000]
-      
-      [MatchAllFilters:OutsideOfSafezone]
-      [MatchAllFilters:Owner]
-      [MatchAllFilters:Relation]
-      [GetTargetBy:ClosestDistance]
-      
-      [Owners:Player]
-      [Relations:Enemy]
-
-      </Description>
-      
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Frigate-Target-Patrol</SubtypeId>
-      </Id>
-      <Description>
-
-      [RivalAI Target]
-      
-      [UseCustomTargeting:true]
-      [Target:Block]
-      [BlockTargets:Controller]
-      [BlockTargets:Guns]
-      [BlockTargets:Turrets]
-      [BlockTargets:Power]
-      [BlockTargets:JumpDrives]
       
       [MaxDistance:10000]
       [MaxExistingTargetDistance:15000]

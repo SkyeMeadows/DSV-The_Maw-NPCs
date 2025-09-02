@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-Frigate-Weapons</SubtypeId>
+        <SubtypeId>DSV-TCOTM-InnerTerritory-Battleship-Weapons</SubtypeId>
       </Id>
       <Description>
 
@@ -16,7 +16,7 @@
 
         [UseAmmoReplenish:true]
         [AmmoReplenishClipAmount:10]
-        [MaxAmmoReplenishments:30]
+        [MaxAmmoReplenishments:100]
 
       </Description>
     </EntityComponent>

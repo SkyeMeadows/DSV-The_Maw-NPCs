@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Drone-Target-Scout</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Battlecruiser-Target-Fighter</SubtypeId>
       </Id>
       <Description>
 
@@ -13,10 +13,12 @@
       
       [UseCustomTargeting:true]
       [Target:Block]
-      [BlockTargets:Beacons]
-      [BlockTargets:Antennas]
+      [BlockTargets:Turrets]
+      [BlockTargets:JumpDrives]
+      [BlockTargets:Thrusters]
+      [BlockTargets:Power]
       
-      [MaxDistance:4000]
+      [MaxDistance:10000]
       [MaxExistingTargetDistance:15000]
       
       [MatchAllFilters:OutsideOfSafezone]
@@ -34,7 +36,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Drone-Target-Fighter</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Battlecruiser-Target-Patrol</SubtypeId>
       </Id>
       <Description>
 
@@ -42,12 +44,11 @@
       
       [UseCustomTargeting:true]
       [Target:Block]
-      [BlockTargets:Beacons]
-      [BlockTargets:Antennas]
+      [BlockTargets:Controller]
+      [BlockTargets:Guns]
       [BlockTargets:Turrets]
-      [BlockTargets:JumpDrives]
-      [BlockTargets:Thrusters]
       [BlockTargets:Power]
+      [BlockTargets:JumpDrives]
       
       [MaxDistance:10000]
       [MaxExistingTargetDistance:15000]

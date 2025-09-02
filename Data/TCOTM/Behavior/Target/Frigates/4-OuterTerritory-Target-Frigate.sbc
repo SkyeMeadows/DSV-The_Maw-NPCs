@@ -5,7 +5,36 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Battlecruiser-Target-Fighter</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Frigate-Target-Scout</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Target]
+      
+      [UseCustomTargeting:true]
+      [Target:Block]
+      [BlockTargets:Beacons]
+      [BlockTargets:Antennas]
+      
+      [MaxDistance:10000]
+      [MaxExistingTargetDistance:15000]
+      
+      [MatchAllFilters:OutsideOfSafezone]
+      [MatchAllFilters:Owner]
+      [MatchAllFilters:Relation]
+      [GetTargetBy:ClosestDistance]
+      
+      [Owners:Player]
+      [Relations:Enemy]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Frigate-Target-Fighter</SubtypeId>
       </Id>
       <Description>
 
@@ -36,7 +65,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Battlecruiser-Target-Patrol</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Frigate-Target-Patrol</SubtypeId>
       </Id>
       <Description>
 

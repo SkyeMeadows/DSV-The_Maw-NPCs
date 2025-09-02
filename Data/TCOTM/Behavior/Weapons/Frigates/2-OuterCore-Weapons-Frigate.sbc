@@ -5,18 +5,18 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>DSV-TCOTM-Drone-Weapons</SubtypeId>
+        <SubtypeId>DSV-TCOTM-OuterCore-Frigate-Weapons</SubtypeId>
       </Id>
       <Description>
 
         [RivalAI Weapons]
 
         [UseStaticGuns:true]
-        [UseTurrets:false]
+        [UseTurrets:true]
 
         [UseAmmoReplenish:true]
-        [AmmoReplenishClipAmount:5]
-        [MaxAmmoReplenishments:5]
+        [AmmoReplenishClipAmount:10]
+        [MaxAmmoReplenishments:15]
 
       </Description>
     </EntityComponent>

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-FarReaches-Drone-Target-Scout</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Target]
+      
+      [UseCustomTargeting:true]
+      [Target:Block]
+      [BlockTargets:Beacons]
+      [BlockTargets:Antennas]
+      
+      [MaxDistance:4000]
+      [MaxExistingTargetDistance:15000]
+      
+      [MatchAllFilters:OutsideOfSafezone]
+      [MatchAllFilters:Owner]
+      [MatchAllFilters:Relation]
+      [GetTargetBy:ClosestDistance]
+      
+      [Owners:Player]
+      [Relations:Enemy]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-FarReaches-Drone-Target-Fighter</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Target]
+      
+      [UseCustomTargeting:true]
+      [Target:Block]
+      [BlockTargets:Beacons]
+      [BlockTargets:Antennas]
+      [BlockTargets:Turrets]
+      [BlockTargets:JumpDrives]
+      [BlockTargets:Thrusters]
+      [BlockTargets:Power]
+      
+      [MaxDistance:10000]
+      [MaxExistingTargetDistance:15000]
+      
+      [MatchAllFilters:OutsideOfSafezone]
+      [MatchAllFilters:Owner]
+      [MatchAllFilters:Relation]
+      [GetTargetBy:ClosestDistance]
+      
+      [Owners:Player]
+      [Relations:Enemy]
+
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>
