@@ -45,7 +45,7 @@ Examples:
 > > > > > [3-InnerTerritory.sbc]
 > > > > > [4-OuterTerritory.sbc]
 > > > > > [5-FarReaches.sbc]
-> > > > > <Action>
+> > > > > <`Action`>
 > > > > > > [1-InnerCore.sbc]
 > > > > > > [2-OuterCore.sbc]
 > > > > > > [3-InnerTerritory.sbc]
