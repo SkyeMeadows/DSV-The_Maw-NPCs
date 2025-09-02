@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-FarReaches-Destroyer-Behavior-Patrol-Lead</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:CargoShip]
+
+      [AutopilotData:DSV-TCOTM-FarReaches-Destroyer-Autopilot-Patrol-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-FarReaches-Destroyer-Autopilot-Patrol-Fighter]
+      [TargetData:DSV-TCOTM-FarReaches-Destroyer-Target-Patrol]
+      [WeaponSystem:DSV-TCOTM-FarReaches-Destroyer-Weapons]
+      
+      [Triggers:DSV-TCOTM-FarReaches-Destroyer-Trigger-Patrol-TargetFound]
+      [Triggers:DSV-TCOTM-FarReaches-Destroyer-Trigger-Patrol-SpawnRefreshTarget]
+
+      [UseNoTargetTimer:true]
+      [NoTargetTimerTrigger:300]
+      [UsePlayerDistanceTimer:false]
+      [UseRetreatTimer:false]
+      [RetreatDespawnDistance:20000]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-FarReaches-Destroyer-Behavior-Patrol</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:CargoShip]
+
+      [AutopilotData:DSV-TCOTM-FarReaches-Destroyer-Autopilot-Patrol-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-FarReaches-Destroyer-Autopilot-Patrol-Fighter]
+      [TargetData:DSV-TCOTM-FarReaches-Destroyer-Target-Patrol]
+      [WeaponSystem:DSV-TCOTM-FarReaches-Destroyer-Weapons]
+      
+      [Triggers:DSV-TCOTM-FarReaches-Destroyer-Trigger-Patrol-SpawnRefreshTarget]
+      [Triggers:DSV-TCOTM-FarReaches-Destroyer-Trigger-Scout-CommandReceive-CommandFocusFire]
+
+      [UseNoTargetTimer:true]
+      [NoTargetTimerTrigger:300]
+      [UsePlayerDistanceTimer:false]
+      [UseRetreatTimer:false]
+      [RetreatDespawnDistance:20000]
+
+      </Description>
+    </EntityComponent>
+	
+  </EntityComponents>
+</Definitions>

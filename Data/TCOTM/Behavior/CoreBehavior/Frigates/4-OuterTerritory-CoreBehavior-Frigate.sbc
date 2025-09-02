@@ -5,19 +5,19 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Frigate-Behavior-Scout</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Frigate-Behavior-Scout</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Behavior]
       [BehaviorName:CargoShip]
 
-      [AutopilotData:DSV-TCOTM-Frigate-Autopilot-Scout-CargoShip]
-      [SecondaryAutopilotData:DSV-TCOTM-Frigate-Autopilot-Patrol-Fighter]
-      [TargetData:DSV-TCOTM-Frigate-Target-Scout]
-      [WeaponSystem:DSV-TCOTM-Frigate-Weapons]
+      [AutopilotData:DSV-TCOTM-OuterTerritory-Frigate-Autopilot-Scout-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-OuterTerritory-Frigate-Autopilot-Patrol-Fighter]
+      [TargetData:DSV-TCOTM-OuterTerritory-Frigate-Target-Scout]
+      [WeaponSystem:DSV-TCOTM-OuterTerritory-Frigate-Weapons]
       
-      [Triggers:DSV-TCOTM-Frigate-Trigger-Scout-TargetFound]
+      [Triggers:DSV-TCOTM-OuterTerritory-Frigate-Trigger-Scout-TargetFound]
 
       [UseNoTargetTimer:true]
       [NoTargetTimerTrigger:300]
@@ -31,19 +31,19 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Frigate-Behavior-Patrol</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Frigate-Behavior-Patrol</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Behavior]
       [BehaviorName:CargoShip]
 
-      [AutopilotData:DSV-TCOTM-Frigate-Autopilot-Patrol-CargoShip]
-      [SecondaryAutopilotData:DSV-TCOTM-Frigate-Autopilot-Patrol-Fighter]
-      [TargetData:DSV-TCOTM-Frigate-Target-Patrol]
-      [WeaponSystem:DSV-TCOTM-Frigate-Weapons]
+      [AutopilotData:DSV-TCOTM-OuterTerritory-Frigate-Autopilot-Patrol-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-OuterTerritory-Frigate-Autopilot-Patrol-Fighter]
+      [TargetData:DSV-TCOTM-OuterTerritory-Frigate-Target-Patrol]
+      [WeaponSystem:DSV-TCOTM-OuterTerritory-Frigate-Weapons]
       
-      [Triggers:DSV-TCOTM-Frigate-Trigger-Scout-CommandReceive-CommandFocusFire]
+      [Triggers:DSV-TCOTM-OuterTerritory-Frigate-Trigger-Scout-CommandReceive-CommandFocusFire]
 
       [UseNoTargetTimer:true]
       [NoTargetTimerTrigger:300]

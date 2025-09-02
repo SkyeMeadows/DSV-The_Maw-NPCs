@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Frigate-Behavior-Scout</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:CargoShip]
+
+      [AutopilotData:DSV-TCOTM-InnerCore-Frigate-Autopilot-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-InnerCore-Frigate-Autopilot-Patrol-Fighter]
+      [TargetData:DSV-TCOTM-InnerCore-Frigate-Target-Scout]
+      [WeaponSystem:DSV-TCOTM-InnerCore-Frigate-Weapons]
+      
+      [Triggers:DSV-TCOTM-InnerCore-Frigate-Trigger-Scout-TargetFound]
+
+      [UseNoTargetTimer:true]
+      [NoTargetTimerTrigger:300]
+      [UsePlayerDistanceTimer:false]
+      [UseRetreatTimer:false]
+      [RetreatDespawnDistance:20000]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:CargoShip]
+
+      [AutopilotData:DSV-TCOTM-InnerCore-Frigate-Autopilot-CargoShip]
+      [SecondaryAutopilotData:DSV-InnerCore-TCOTM-Frigate-Autopilot-Patrol-Fighter]
+      [TargetData:DSV-TCOTM-InnerCore-Frigate-Target-Patrol]
+      [WeaponSystem:DSV-TCOTM-InnerCore-Frigate-Weapons]
+      
+      [Triggers:DSV-TCOTM-InnerCore-Frigate-Trigger-Scout-CommandReceive-CommandFocusFire]
+
+      [UseNoTargetTimer:true]
+      [NoTargetTimerTrigger:300]
+      [UsePlayerDistanceTimer:false]
+      [UseRetreatTimer:false]
+      [RetreatDespawnDistance:20000]
+
+      </Description>
+    </EntityComponent>
+	
+  </EntityComponents>
+</Definitions>

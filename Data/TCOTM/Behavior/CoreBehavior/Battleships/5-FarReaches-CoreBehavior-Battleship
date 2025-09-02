@@ -5,20 +5,20 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Battleship-Behavior-Patrol-Lead</SubtypeId>
+          <SubtypeId>DSV-TCOTM-FarReaches-Battleship-Behavior-Patrol-Lead</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Behavior]
       [BehaviorName:CargoShip]
 
-      [AutopilotData:DSV-TCOTM-Battleship-Autopilot-Patrol-CargoShip]
-      [SecondaryAutopilotData:DSV-TCOTM-Battleship-Autopilot-Patrol-Horsefly]
-      [TargetData:DSV-TCOTM-Battleship-Target-Patrol]
-      [WeaponSystem:DSV-TCOTM-Battleship-Weapons]
+      [AutopilotData:DSV-TCOTM-FarReaches-Battleship-Autopilot-Patrol-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-FarReaches-Battleship-Autopilot-Patrol-Horsefly]
+      [TargetData:DSV-TCOTM-FarReaches-Battleship-Target-Patrol]
+      [WeaponSystem:DSV-TCOTM-FarReaches-Battleship-Weapons]
       
-      [Triggers:DSV-TCOTM-Battleship-Trigger-Patrol-TargetFound]
-      [Triggers:DSV-TCOTM-Battleship-Trigger-Patrol-SpawnRefreshTarget]
+      [Triggers:DSV-TCOTM-FarReaches-Battleship-Trigger-Patrol-TargetFound]
+      [Triggers:DSV-TCOTM-FarReaches-Battleship-Trigger-Patrol-SpawnRefreshTarget]
 
       [UseNoTargetTimer:true]
       [NoTargetTimerTrigger:300]

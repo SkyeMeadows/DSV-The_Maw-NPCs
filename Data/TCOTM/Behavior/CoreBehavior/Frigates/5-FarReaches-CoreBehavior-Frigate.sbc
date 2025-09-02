@@ -5,19 +5,19 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-InnerCore-Frigate-Behavior-Scout</SubtypeId>
+          <SubtypeId>DSV-TCOTM-FarReaches-Frigate-Behavior-Scout</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Behavior]
       [BehaviorName:CargoShip]
 
-      [AutopilotData:DSV-TCOTM-InnerCore-Frigate-Autopilot-CargoShip]
-      [SecondaryAutopilotData:DSV-TCOTM-Frigate-InnerCore-Autopilot-Patrol-Fighter]
-      [TargetData:DSV-TCOTM-InnerCore-Frigate-Target-Scout]
-      [WeaponSystem:DSV-TCOTM-InnerCore-Frigate-Weapons]
+      [AutopilotData:DSV-TCOTM-FarReaches-Frigate-Autopilot-Scout-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-FarReaches-Frigate-Autopilot-Patrol-Fighter]
+      [TargetData:DSV-TCOTM-FarReaches-Frigate-Target-Scout]
+      [WeaponSystem:DSV-TCOTM-FarReaches-Frigate-Weapons]
       
-      [Triggers:DSV-TCOTM-InnerCore-Frigate-Trigger-Scout-TargetFound]
+      [Triggers:DSV-TCOTM-FarReaches-Frigate-Trigger-Scout-TargetFound]
 
       [UseNoTargetTimer:true]
       [NoTargetTimerTrigger:300]
@@ -31,19 +31,19 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-InnerCore-Frigate-Behavior-Patrol</SubtypeId>
+          <SubtypeId>DSV-TCOTM-FarReaches-Frigate-Behavior-Patrol</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Behavior]
       [BehaviorName:CargoShip]
 
-      [AutopilotData:DSV-TCOTM-InnerCore-Frigate-Autopilot-CargoShip]
-      [SecondaryAutopilotData:DSV-InnerCore-TCOTM-Frigate-Autopilot-Patrol-Fighter]
-      [TargetData:DSV-TCOTM-InnerCore-Frigate-Target-Patrol]
-      [WeaponSystem:DSV-TCOTM-InnerCore-Frigate-Weapons]
+      [AutopilotData:DSV-TCOTM-FarReaches-Frigate-Autopilot-Patrol-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-FarReaches-Frigate-Autopilot-Patrol-Fighter]
+      [TargetData:DSV-TCOTM-FarReaches-Frigate-Target-Patrol]
+      [WeaponSystem:DSV-TCOTM-FarReaches-Frigate-Weapons]
       
-      [Triggers:DSV-TCOTM-InnerCore-Frigate-Trigger-Scout-CommandReceive-CommandFocusFire]
+      [Triggers:DSV-TCOTM-FarReaches-Frigate-Trigger-Scout-CommandReceive-CommandFocusFire]
 
       [UseNoTargetTimer:true]
       [NoTargetTimerTrigger:300]

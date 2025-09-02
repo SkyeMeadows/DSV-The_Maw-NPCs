@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Frigate-Behavior-Scout</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:CargoShip]
+
+      [AutopilotData:DSV-TCOTM-InnerTerritory-Frigate-Autopilot-Scout-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-InnerTerritory-Frigate-Autopilot-Patrol-Fighter]
+      [TargetData:DSV-TCOTM-InnerTerritory-Frigate-Target-Scout]
+      [WeaponSystem:DSV-TCOTM-InnerTerritory-Frigate-Weapons]
+      
+      [Triggers:DSV-TCOTM-InnerTerritory-Frigate-Trigger-Scout-TargetFound]
+
+      [UseNoTargetTimer:true]
+      [NoTargetTimerTrigger:300]
+      [UsePlayerDistanceTimer:false]
+      [UseRetreatTimer:false]
+      [RetreatDespawnDistance:20000]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Frigate-Behavior-Patrol</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:CargoShip]
+
+      [AutopilotData:DSV-TCOTM-InnerTerritory-Frigate-Autopilot-Patrol-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-InnerTerritory-Frigate-Autopilot-Patrol-Fighter]
+      [TargetData:DSV-TCOTM-InnerTerritory-Frigate-Target-Patrol]
+      [WeaponSystem:DSV-TCOTM-InnerTerritory-Frigate-Weapons]
+      
+      [Triggers:DSV-TCOTM-InnerTerritory-Frigate-Trigger-Scout-CommandReceive-CommandFocusFire]
+
+      [UseNoTargetTimer:true]
+      [NoTargetTimerTrigger:300]
+      [UsePlayerDistanceTimer:false]
+      [UseRetreatTimer:false]
+      [RetreatDespawnDistance:20000]
+
+      </Description>
+    </EntityComponent>
+	
+  </EntityComponents>
+</Definitions>

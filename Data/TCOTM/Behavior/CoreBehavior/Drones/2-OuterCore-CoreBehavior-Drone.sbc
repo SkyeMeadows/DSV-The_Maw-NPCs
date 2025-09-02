@@ -5,20 +5,18 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Destroyer-Behavior-Patrol-Lead</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterCore-Drone-Behavior-Scout</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Behavior]
       [BehaviorName:CargoShip]
 
-      [AutopilotData:DSV-TCOTM-Destroyer-Autopilot-Patrol-CargoShip]
-      [SecondaryAutopilotData:DSV-TCOTM-Destroyer-Autopilot-Patrol-Fighter]
-      [TargetData:DSV-TCOTM-Destroyer-Target-Patrol]
-      [WeaponSystem:DSV-TCOTM-Destroyer-Weapons]
+      [AutopilotData:DSV-TCOTM-OuterCore-Drone-Autopilot-Scout-CargoShip]
+      [TargetData:DSV-TCOTM-OuterCore-Drone-Target-Scout]
+      [WeaponSystem:DSV-TCOTM-OuterCore-Drone-Weapons]
       
-      [Triggers:DSV-TCOTM-Destroyer-Trigger-Patrol-TargetFound]
-      [Triggers:DSV-TCOTM-Destroyer-Trigger-Patrol-SpawnRefreshTarget]
+      [Triggers:DSV-TCOTM-OuterCore-Drone-Trigger-Scout-TargetFound]
 
       [UseNoTargetTimer:true]
       [NoTargetTimerTrigger:300]
@@ -32,23 +30,21 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Destroyer-Behavior-Patrol</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterCore-Drone-Behavior-Patrol</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Behavior]
       [BehaviorName:CargoShip]
 
-      [AutopilotData:DSV-TCOTM-Destroyer-Autopilot-Patrol-CargoShip]
-      [SecondaryAutopilotData:DSV-TCOTM-Destroyer-Autopilot-Patrol-Fighter]
-      [TargetData:DSV-TCOTM-Destroyer-Target-Patrol]
-      [WeaponSystem:DSV-TCOTM-Destroyer-Weapons]
-      
-      [Triggers:DSV-TCOTM-Destroyer-Trigger-Patrol-SpawnRefreshTarget]
-      [Triggers:DSV-TCOTM-Destroyer-Trigger-Scout-CommandReceive-CommandFocusFire]
+      [AutopilotData:DSV-TCOTM-OuterCore-Drone-Autopilot-Patrol-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-OuterCore-Drone-Autopilot-General-Fighter]
+      [TargetData:DSV-TCOTM-OuterCore-Drone-Target-Scout]
+      [WeaponSystem:DSV-TCOTM-OuterCore-Drone-Weapons]
 
-      [UseNoTargetTimer:true]
-      [NoTargetTimerTrigger:300]
+      [Triggers:DSV-TCOTM-Drone-Trigger-Patrol-CommandReceive-CommandFocusFire]
+
+      [UseNoTargetTimer:false]
       [UsePlayerDistanceTimer:false]
       [UseRetreatTimer:false]
       [RetreatDespawnDistance:20000]

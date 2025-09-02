@@ -5,18 +5,18 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Drone-Behavior-Scout</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Drone-Behavior-Scout</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Behavior]
       [BehaviorName:CargoShip]
 
-      [AutopilotData:DSV-TCOTM-Drone-Autopilot-Scout-CargoShip]
-      [TargetData:DSV-TCOTM-Drone-Target-Scout]
-      [WeaponSystem:DSV-TCOTM-Drone-Weapons]
+      [AutopilotData:DSV-TCOTM-InnerCore-Drone-Autopilot-Scout-CargoShip]
+      [TargetData:DSV-TCOTM-InnerCore-Drone-Target-Scout]
+      [WeaponSystem:DSV-TCOTM-InnerCore-Drone-Weapons]
       
-      [Triggers:DSV-TCOTM-Drone-Trigger-Scout-TargetFound]
+      [Triggers:DSV-TCOTM-InnerCore-Drone-Trigger-Scout-TargetFound]
 
       [UseNoTargetTimer:true]
       [NoTargetTimerTrigger:300]
@@ -30,19 +30,19 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Drone-Behavior-Patrol</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Drone-Behavior-Patrol</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Behavior]
       [BehaviorName:CargoShip]
 
-      [AutopilotData:DSV-TCOTM-Drone-Autopilot-Patrol-CargoShip]
-      [SecondaryAutopilotData:DSV-TCOTM-Drone-Autopilot-General-Fighter]
-      [TargetData:DSV-TCOTM-Drone-Target-Scout]
-      [WeaponSystem:DSV-TCOTM-Drone-Weapons]
+      [AutopilotData:DSV-TCOTM-InnerCore-Drone-Autopilot-Patrol-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-InnerCore-Drone-Autopilot-General-Fighter]
+      [TargetData:DSV-TCOTM-InnerCore-Drone-Target-Scout]
+      [WeaponSystem:DSV-TCOTM-InnerCore-Drone-Weapons]
 
-      [Triggers:DSV-TCOTM-Drone-Trigger-Patrol-CommandReceive-CommandFocusFire]
+      [Triggers:DSV-TCOTM-InnerCore-Drone-Trigger-Patrol-CommandReceive-CommandFocusFire]
 
       [UseNoTargetTimer:false]
       [UsePlayerDistanceTimer:false]

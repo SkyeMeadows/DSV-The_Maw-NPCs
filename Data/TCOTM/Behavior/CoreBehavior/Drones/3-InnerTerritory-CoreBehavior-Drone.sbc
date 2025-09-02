@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Drone-Behavior-Scout</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:CargoShip]
+
+      [AutopilotData:DSV-TCOTM-InnerTerritory-Drone-Autopilot-Scout-CargoShip]
+      [TargetData:DSV-TCOTM-InnerTerritory-Drone-Target-Scout]
+      [WeaponSystem:DSV-TCOTM-InnerTerritory-Drone-Weapons]
+      
+      [Triggers:DSV-TCOTM-InnerTerritory-Drone-Trigger-Scout-TargetFound]
+
+      [UseNoTargetTimer:true]
+      [NoTargetTimerTrigger:300]
+      [UsePlayerDistanceTimer:false]
+      [UseRetreatTimer:false]
+      [RetreatDespawnDistance:20000]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Drone-Behavior-Patrol</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Behavior]
+      [BehaviorName:CargoShip]
+
+      [AutopilotData:DSV-TCOTM-InnerTerritory-Drone-Autopilot-Patrol-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-InnerTerritory-Drone-Autopilot-General-Fighter]
+      [TargetData:DSV-TCOTM-InnerTerritory-Drone-Target-Scout]
+      [WeaponSystem:DSV-TCOTM-InnerTerritory-Drone-Weapons]
+
+      [Triggers:DSV-TCOTM-InnerTerritory-Drone-Trigger-Patrol-CommandReceive-CommandFocusFire]
+
+      [UseNoTargetTimer:false]
+      [UsePlayerDistanceTimer:false]
+      [UseRetreatTimer:false]
+      [RetreatDespawnDistance:20000]
+
+      </Description>
+    </EntityComponent>
+	
+  </EntityComponents>
+</Definitions>
