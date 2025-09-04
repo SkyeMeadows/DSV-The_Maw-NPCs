@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-FarReaches-Drone-Action-Scout-TargetFound</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      
+      [UseChatBroadcast:true]
+      [ChatData:DSV-TCOTM-FarReaches-Drone-Chat-Scout-TargetFound]
+	
+      [Retreat:true]
+
+      [ChangeAutopilotSpeed:true]
+      [NewAutopilotSpeed:300]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-FarReaches-Drone-Chat-Scout-TargetFound</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+      
+      [UseChat:true]
+      [StartsReady:true]
+      [Chance:100]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:20000]
+      
+      [Author:TCOTM Drone]
+      [Color:Red]
+      
+      [ChatMessages:Enemy detected, informing command...]
+      [ChatAudio:ArcDroneSmallStart]
+      [BroadcastChatType:Chat]
+      
+      [ChatMessages:Hostile found, returning to safety]
+      [ChatAudio:ArcDroneSmallStart]
+      [BroadcastChatType:Chat]
+
+      [ChatMessages:Hostile located, leaving vicinity]
+      [ChatAudio:ArcDroneSmallStart]
+      [BroadcastChatType:Chat]
+
+      [ChatMessages:Enemy located, preparing to broadcast position]
+      [ChatAudio:ArcDroneSmallStart]
+      [BroadcastChatType:Chat]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-FarReaches-Drone-Action-Patrol-CommandReceiveAggressTarget</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+
+      [ChangeTargetProfile:true]
+      [NewTargetProfileId:DSV-TCOTM-FarReaches-Drone-Target-Fighter]
+      
+      [SwitchToReceivedTarget:true]
+
+      [ChangeBehaviorSubclass:true]
+      [NewBehaviorSubclass:Fighter]
+      
+      [ChangeAutopilotProfile:true]
+      [AutopilotProfile:Secondary]
+
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

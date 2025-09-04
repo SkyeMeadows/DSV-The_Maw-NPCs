@@ -5,14 +5,14 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Destroyer-Action-Patrol-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterCore-Destroyer-Action-Patrol-TargetFound</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Action]
       
       [UseChatBroadcast:true]
-      [ChatData:DSV-TCOTM-Destroyer-Chat-Patrol-TargetFound]
+      [ChatData:DSV-TCOTM-OuterCore-Destroyer-Chat-Patrol-TargetFound]
 	
       [ChangeBehaviorSubclass:true]
       [NewBehaviorSubclass:Horsefly]
@@ -24,10 +24,10 @@
       [NewAutopilotSpeed:250]
 
       [ChangeTargetProfile:true]
-      [NewTargetProfileId:DSV-TCOTM-Destroyer-Target-Fighter]
+      [NewTargetProfileId:DSV-TCOTM-OuterCore-Destroyer-Target-Fighter]
 
       [DisableTriggers:true]
-      [DisableTriggerNames:DSV-TCOTM-Destroyer-Trigger-Patrol-TargetFound]
+      [DisableTriggerNames:DSV-TCOTM-OuterCore-Destroyer-Trigger-Patrol-TargetFound]
 
       </Description>
       
@@ -36,7 +36,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Destroyer-Chat-Patrol-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterCore-Destroyer-Chat-Patrol-TargetFound</SubtypeId>
       </Id>
       <Description>
 
@@ -76,7 +76,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Destroyer-Action-Patrol-SpawnRefreshTarget</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterCore-Destroyer-Action-Patrol-SpawnRefreshTarget</SubtypeId>
       </Id>
       <Description>
 
@@ -85,7 +85,7 @@
       [RefreshTarget:true]
 
       [DisableTriggers:true]
-      [DisableTriggerNames:DSV-TCOTM-Destroyer-Trigger-Patrol-SpawnRefreshTarget]
+      [DisableTriggerNames:DSV-TCOTM-OuterCore-Destroyer-Trigger-Patrol-SpawnRefreshTarget]
 
 
       </Description>
@@ -95,14 +95,14 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Destroyer-Action-Patrol-CommandFocusFire</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterCore-Destroyer-Action-Patrol-CommandFocusFire</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Action]
       
       [BroadcastCommandProfiles:true]
-      [CommandProfileIds:DSV-TCOTM-Destroyer-Command-Patrol-CommandFocusFire]
+      [CommandProfileIds:DSV-TCOTM-OuterCore-Destroyer-Command-Patrol-CommandFocusFire]
 
       </Description>
       
@@ -111,7 +111,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Destroyer-Action-Scout-CommandReceiveAggressTarget</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterCore-Destroyer-Action-Scout-CommandReceiveAggressTarget</SubtypeId>
       </Id>
       <Description>
 

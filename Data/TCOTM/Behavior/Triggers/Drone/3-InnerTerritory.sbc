@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Drone-Trigger-Scout-TargetFound</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+
+      [Type:HasTarget]
+
+      [UseTrigger:true]
+      [StartsReady:true]
+
+      [ActionExecution:Sequential]
+      [Actions:DSV-TCOTM-InnerTerritory-Drone-Action-Scout-TargetFound]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Drone-Trigger-Patrol-CommandReceive-CommandFocusFire</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+
+      [Type:CommandReceived]
+
+      [CommandReceiveCode:DSV-TCOTM-GLOBAL-CommandCode-AggressTarget]
+
+      [UseTrigger:true]
+      [StartsReady:true]
+
+      [Actions:DSV-TCOTM-InnerTerritory-Drone-Action-Patrol-CommandReceiveAggressTarget]
+
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

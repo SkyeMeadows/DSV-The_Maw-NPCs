@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-OuterCore-Destroyer-Trigger-Patrol-TargetFound</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+
+      [Type:HasTarget]
+
+      [UseTrigger:true]
+      [StartsReady:true]
+
+      [ActionExecution:All]
+      [Actions:DSV-TCOTM-OuterCore-Destroyer-Action-Patrol-TargetFound]
+      [Actions:DSV-TCOTM-OuterCore-Destroyer-Action-Patrol-CommandFocusFire]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-OuterCore-Destroyer-Trigger-Patrol-SpawnRefreshTarget</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+
+      [Type:Timer]
+
+      [UseTrigger:true]
+      [StartsReady:false]
+
+      [MinCooldownMs:1000]
+      [MaxCooldownMs:2000]
+
+      [ActionExecution:All]
+      [Actions:DSV-TCOTM-OuterCore-Destroyer-Action-Patrol-SpawnRefreshTarget]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-OuterCore-Destroyer-Trigger-Scout-CommandReceive-CommandFocusFire</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+
+      [Type:CommandReceived]
+
+      [CommandReceiveCode:DSV-TCOTM-GLOBAL-CommandCode-AggressTarget]
+
+      [UseTrigger:true]
+      [StartsReady:true]
+
+      [ActionExecution:All]
+      [Actions:DSV-TCOTM-OuterCore-Destroyer-Action-Scout-CommandReceiveAggressTarget]
+
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

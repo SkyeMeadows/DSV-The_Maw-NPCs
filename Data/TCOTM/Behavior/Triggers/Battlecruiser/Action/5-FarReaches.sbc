@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-FarReaches-Battlecruiser-Action-Patrol-TargetFound</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+
+      [ChangeAutopilotProfile:true]
+      [AutopilotProfile:Secondary]
+
+      [UseChatBroadcast:true]
+      [ChatData:DSV-TCOTM-FarReaches-Battlecruiser-Chat-Patrol-TargetFound]
+
+      [ChangeBehaviorSubclass:true]
+      [NewBehaviorSubclass:Horsefly]
+
+      [ChangeAutopilotSpeed:true]
+      [NewAutopilotSpeed:150]
+
+      [ChangeTargetProfile:true]
+      [NewTargetProfileId:DSV-TCOTM-FarReaches-Battlecruiser-Target-Fighter]
+
+      [DisableTriggers:true]
+      [DisableTriggerNames:DSV-TCOTM-FarReaches-Battlecruiser-Trigger-Patrol-TargetFound]
+
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-FarReaches-Battlecruiser-Chat-Patrol-TargetFound</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+      
+      [UseChat:true]
+      [StartsReady:true]
+      [Chance:100]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:20000]
+
+      
+      [Author:TCOTM Battlecruiser]
+      [Color:Red]
+      
+      [ChatMessages:Enemy detected, engaging.]
+      [ChatAudio:ArcDroneSmallStart]
+      [BroadcastChatType:Chat]
+      
+      [ChatMessages:Hostile found, eliminating.]
+      [ChatAudio:ArcDroneSmallStart]
+      [BroadcastChatType:Chat]
+
+      [ChatMessages:Hostile located, executing.]
+      [ChatAudio:ArcDroneSmallStart]
+      [BroadcastChatType:Chat]
+
+      [ChatMessages:Enemy located, removing.]
+      [ChatAudio:ArcDroneSmallStart]
+      [BroadcastChatType:Chat]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-FarReaches-Battlecruiser-Action-Patrol-SpawnRefreshTarget</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      
+      [RefreshTarget:true]
+
+      [DisableTriggers:true]
+      [DisableTriggerNames:DSV-TCOTM-FarReaches-Battlecruiser-Trigger-Patrol-SpawnRefreshTarget]
+
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-FarReaches-Battlecruiser-Action-Patrol-CommandFocusFire</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      
+      [BroadcastCommandProfiles:true]
+      [CommandProfileIds:DSV-TCOTM-FarReaches-Battlecruiser-Command-Patrol-CommandFocusFire]
+
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

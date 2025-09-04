@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Battleship-Trigger-Patrol-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Battleship-Trigger-Patrol-TargetFound</SubtypeId>
       </Id>
       <Description>
 
@@ -16,8 +16,8 @@
       [UseTrigger:true]
       [StartsReady:true]
 
-      [Actions:DSV-TCOTM-Battleship-Action-Patrol-TargetFound]
-      [Actions:DSV-TCOTM-Battleship-Action-Patrol-CommandFocusFire]
+      [Actions:DSV-TCOTM-InnerTerritory-Battleship-Action-Patrol-TargetFound]
+      [Actions:DSV-TCOTM-InnerTerritory-Battleship-Action-Patrol-CommandFocusFire]
 
       </Description>
       
@@ -26,7 +26,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Battleship-Trigger-Patrol-SpawnRefreshTarget</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Battleship-Trigger-Patrol-SpawnRefreshTarget</SubtypeId>
       </Id>
       <Description>
 
@@ -40,7 +40,7 @@
       [MinCooldownMs:1000]
       [MaxCooldownMs:2000]
 
-      [Actions:DSV-TCOTM-Battleship-Action-Patrol-SpawnRefreshTarget]
+      [Actions:DSV-TCOTM-InnerTerritory-Battleship-Action-Patrol-SpawnRefreshTarget]
 
       </Description>
       

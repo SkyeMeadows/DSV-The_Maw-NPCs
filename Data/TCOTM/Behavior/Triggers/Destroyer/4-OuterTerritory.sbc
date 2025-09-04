@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Destroyer-Trigger-Patrol-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Destroyer-Trigger-Patrol-TargetFound</SubtypeId>
       </Id>
       <Description>
 
@@ -17,8 +17,8 @@
       [StartsReady:true]
 
       [ActionExecution:All]
-      [Actions:DSV-TCOTM-Destroyer-Action-Patrol-TargetFound]
-      [Actions:DSV-TCOTM-Destroyer-Action-Patrol-CommandFocusFire]
+      [Actions:DSV-TCOTM-OuterTerritory-Destroyer-Action-Patrol-TargetFound]
+      [Actions:DSV-TCOTM-OuterTerritory-Destroyer-Action-Patrol-CommandFocusFire]
 
       </Description>
       
@@ -27,7 +27,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Destroyer-Trigger-Patrol-SpawnRefreshTarget</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Destroyer-Trigger-Patrol-SpawnRefreshTarget</SubtypeId>
       </Id>
       <Description>
 
@@ -42,7 +42,7 @@
       [MaxCooldownMs:2000]
 
       [ActionExecution:All]
-      [Actions:DSV-TCOTM-Destroyer-Action-Patrol-SpawnRefreshTarget]
+      [Actions:DSV-TCOTM-OuterTerritory-Destroyer-Action-Patrol-SpawnRefreshTarget]
 
       </Description>
       
@@ -51,7 +51,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Destroyer-Trigger-Scout-CommandReceive-CommandFocusFire</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Destroyer-Trigger-Scout-CommandReceive-CommandFocusFire</SubtypeId>
       </Id>
       <Description>
 
@@ -65,7 +65,7 @@
       [StartsReady:true]
 
       [ActionExecution:All]
-      [Actions:DSV-TCOTM-Destroyer-Action-Scout-CommandReceiveAggressTarget]
+      [Actions:DSV-TCOTM-OuterTerritory-Destroyer-Action-Scout-CommandReceiveAggressTarget]
 
       </Description>
       

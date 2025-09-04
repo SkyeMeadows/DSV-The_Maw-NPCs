@@ -5,14 +5,14 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Drone-Action-Scout-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Drone-Action-Scout-TargetFound</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Action]
       
       [UseChatBroadcast:true]
-      [ChatData:DSV-TCOTM-Drone-Chat-Scout-TargetFound]
+      [ChatData:DSV-TCOTM-InnerCore-Drone-Chat-Scout-TargetFound]
 	
       [Retreat:true]
 
@@ -26,7 +26,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Drone-Chat-Scout-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Drone-Chat-Scout-TargetFound</SubtypeId>
       </Id>
       <Description>
 
@@ -66,14 +66,14 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Drone-Action-Patrol-CommandReceiveAggressTarget</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerCore-Drone-Action-Patrol-CommandReceiveAggressTarget</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Action]
 
       [ChangeTargetProfile:true]
-      [NewTargetProfileId:DSV-TCOTM-Drone-Target-Fighter]
+      [NewTargetProfileId:DSV-TCOTM-InnerCore-Drone-Target-Fighter]
       
       [SwitchToReceivedTarget:true]
 

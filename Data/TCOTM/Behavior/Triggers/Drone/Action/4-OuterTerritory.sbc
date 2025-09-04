@@ -5,30 +5,19 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Battleship-Action-Patrol-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Drone-Action-Scout-TargetFound</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Action]
-
-      [ChangeAutopilotProfile:true]
-      [AutopilotProfile:Secondary]
-
+      
       [UseChatBroadcast:true]
-      [ChatData:DSV-TCOTM-Battleship-Chat-Patrol-TargetFound]
-
-      [ChangeBehaviorSubclass:true]
-      [NewBehaviorSubclass:Horsefly]
+      [ChatData:DSV-TCOTM-OuterTerritory-Drone-Chat-Scout-TargetFound]
+	
+      [Retreat:true]
 
       [ChangeAutopilotSpeed:true]
-      [NewAutopilotSpeed:150]
-
-      [ChangeTargetProfile:true]
-      [NewTargetProfileId:DSV-TCOTM-Battleship-Target-Fighter]
-
-      [DisableTriggers:true]
-      [DisableTriggerNames:DSV-TCOTM-Battleship-Trigger-Patrol-TargetFound]
-
+      [NewAutopilotSpeed:300]
 
       </Description>
       
@@ -37,7 +26,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Battleship-Chat-Patrol-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Drone-Chat-Scout-TargetFound</SubtypeId>
       </Id>
       <Description>
 
@@ -50,24 +39,23 @@
       [BroadcastRandomly:true]
       [IgnoreAntennaRequirement:true]
       [IgnoredAntennaRangeOverride:20000]
-
       
-      [Author:TCOTM Battleship]
+      [Author:TCOTM Drone]
       [Color:Red]
       
-      [ChatMessages:Enemy detected, engaging.]
+      [ChatMessages:Enemy detected, informing command...]
       [ChatAudio:ArcDroneSmallStart]
       [BroadcastChatType:Chat]
       
-      [ChatMessages:Hostile found, eliminating.]
+      [ChatMessages:Hostile found, returning to safety]
       [ChatAudio:ArcDroneSmallStart]
       [BroadcastChatType:Chat]
 
-      [ChatMessages:Hostile located, executing.]
+      [ChatMessages:Hostile located, leaving vicinity]
       [ChatAudio:ArcDroneSmallStart]
       [BroadcastChatType:Chat]
 
-      [ChatMessages:Enemy located, removing.]
+      [ChatMessages:Enemy located, preparing to broadcast position]
       [ChatAudio:ArcDroneSmallStart]
       [BroadcastChatType:Chat]
 
@@ -78,33 +66,22 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Battleship-Action-Patrol-SpawnRefreshTarget</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Drone-Action-Patrol-CommandReceiveAggressTarget</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Action]
+
+      [ChangeTargetProfile:true]
+      [NewTargetProfileId:DSV-TCOTM-OuterTerritory-Drone-Target-Fighter]
       
-      [RefreshTarget:true]
+      [SwitchToReceivedTarget:true]
 
-      [DisableTriggers:true]
-      [DisableTriggerNames:DSV-TCOTM-Battleship-Trigger-Patrol-SpawnRefreshTarget]
-
-
-      </Description>
+      [ChangeBehaviorSubclass:true]
+      [NewBehaviorSubclass:Fighter]
       
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Battleship-Action-Patrol-CommandFocusFire</SubtypeId>
-      </Id>
-      <Description>
-
-      [RivalAI Action]
-      
-      [BroadcastCommandProfiles:true]
-      [CommandProfileIds:DSV-TCOTM-Battleship-Command-Patrol-CommandFocusFire]
+      [ChangeAutopilotProfile:true]
+      [AutopilotProfile:Secondary]
 
       </Description>
       

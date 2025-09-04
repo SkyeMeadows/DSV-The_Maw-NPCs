@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Drone-Trigger-Scout-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Drone-Trigger-Scout-TargetFound</SubtypeId>
       </Id>
       <Description>
 
@@ -17,7 +17,7 @@
       [StartsReady:true]
 
       [ActionExecution:Sequential]
-      [Actions:DSV-TCOTM-Drone-Action-Scout-TargetFound]
+      [Actions:DSV-TCOTM-OuterTerritory-Drone-Action-Scout-TargetFound]
 
       </Description>
       
@@ -26,7 +26,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Drone-Trigger-Patrol-CommandReceive-CommandFocusFire</SubtypeId>
+          <SubtypeId>DSV-TCOTM-OuterTerritory-Drone-Trigger-Patrol-CommandReceive-CommandFocusFire</SubtypeId>
       </Id>
       <Description>
 
@@ -39,7 +39,7 @@
       [UseTrigger:true]
       [StartsReady:true]
 
-      [Actions:DSV-TCOTM-Drone-Action-Patrol-CommandReceiveAggressTarget]
+      [Actions:DSV-TCOTM-OuterTerritory-Drone-Action-Patrol-CommandReceiveAggressTarget]
 
       </Description>
       

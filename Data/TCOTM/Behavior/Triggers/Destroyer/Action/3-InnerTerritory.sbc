@@ -5,30 +5,29 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Battlecruiser-Action-Patrol-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Destroyer-Action-Patrol-TargetFound</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Action]
-
-      [ChangeAutopilotProfile:true]
-      [AutopilotProfile:Secondary]
-
+      
       [UseChatBroadcast:true]
-      [ChatData:DSV-TCOTM-Battlecruiser-Chat-Patrol-TargetFound]
-
+      [ChatData:DSV-TCOTM-InnerTerritory-Destroyer-Chat-Patrol-TargetFound]
+	
       [ChangeBehaviorSubclass:true]
       [NewBehaviorSubclass:Horsefly]
 
+      [ChangeAutopilotProfile:true]
+      [AutopilotProfile:Secondary]
+      
       [ChangeAutopilotSpeed:true]
-      [NewAutopilotSpeed:150]
+      [NewAutopilotSpeed:250]
 
       [ChangeTargetProfile:true]
-      [NewTargetProfileId:DSV-TCOTM-Battlecruiser-Target-Fighter]
+      [NewTargetProfileId:DSV-TCOTM-InnerTerritory-Destroyer-Target-Fighter]
 
       [DisableTriggers:true]
-      [DisableTriggerNames:DSV-TCOTM-Battlecruiser-Trigger-Patrol-TargetFound]
-
+      [DisableTriggerNames:DSV-TCOTM-InnerTerritory-Destroyer-Trigger-Patrol-TargetFound]
 
       </Description>
       
@@ -37,7 +36,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Battlecruiser-Chat-Patrol-TargetFound</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Destroyer-Chat-Patrol-TargetFound</SubtypeId>
       </Id>
       <Description>
 
@@ -50,9 +49,8 @@
       [BroadcastRandomly:true]
       [IgnoreAntennaRequirement:true]
       [IgnoredAntennaRangeOverride:20000]
-
       
-      [Author:TCOTM Battlecruiser]
+      [Author:TCOTM Destroyer]
       [Color:Red]
       
       [ChatMessages:Enemy detected, engaging.]
@@ -78,7 +76,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Battlecruiser-Action-Patrol-SpawnRefreshTarget</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Destroyer-Action-Patrol-SpawnRefreshTarget</SubtypeId>
       </Id>
       <Description>
 
@@ -87,7 +85,7 @@
       [RefreshTarget:true]
 
       [DisableTriggers:true]
-      [DisableTriggerNames:DSV-TCOTM-Battlecruiser-Trigger-Patrol-SpawnRefreshTarget]
+      [DisableTriggerNames:DSV-TCOTM-InnerTerritory-Destroyer-Trigger-Patrol-SpawnRefreshTarget]
 
 
       </Description>
@@ -97,14 +95,35 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Battlecruiser-Action-Patrol-CommandFocusFire</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Destroyer-Action-Patrol-CommandFocusFire</SubtypeId>
       </Id>
       <Description>
 
       [RivalAI Action]
       
       [BroadcastCommandProfiles:true]
-      [CommandProfileIds:DSV-TCOTM-Battlecruiser-Command-Patrol-CommandFocusFire]
+      [CommandProfileIds:DSV-TCOTM-InnerTerritory-Destroyer-Command-Patrol-CommandFocusFire]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Destroyer-Action-Scout-CommandReceiveAggressTarget</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      
+      [SwitchToReceivedTarget:true]
+
+      [ChangeBehaviorSubclass:true]
+      [NewBehaviorSubclass:Horsefly]
+
+      [ChangeAutopilotProfile:true]
+      [AutopilotProfile:Secondary]
 
       </Description>
       

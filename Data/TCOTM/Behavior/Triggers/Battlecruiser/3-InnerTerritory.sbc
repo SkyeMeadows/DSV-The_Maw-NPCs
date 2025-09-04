@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Battlecruiser-Trigger-Patrol-TargetFound</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+
+      [Type:HasTarget]
+
+      [UseTrigger:true]
+      [StartsReady:true]
+
+      [Actions:DSV-TCOTM-InnerTerritory-Battlecruiser-Action-Patrol-TargetFound]
+      [Actions:DSV-TCOTM-InnerTerritory-Battlecruiser-Action-Patrol-CommandFocusFire]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Battlecruiser-Trigger-Patrol-SpawnRefreshTarget</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+
+      [Type:Timer]
+
+      [UseTrigger:true]
+      [StartsReady:false]
+
+      [MinCooldownMs:1000]
+      [MaxCooldownMs:2000]
+
+      [Actions:DSV-TCOTM-InnerTerritory-Battlecruiser-Action-Patrol-SpawnRefreshTarget]
+
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>
