@@ -12,8 +12,8 @@
       [RivalAI Behavior]
       [BehaviorName:CargoShip]
 
-      [AutopilotData:DSV-TCOTM-InnerTerritory-Frigate-Autopilot-Scout-CargoShip]
-      [SecondaryAutopilotData:DSV-TCOTM-InnerTerritory-Frigate-Autopilot-Patrol-Fighter]
+      [AutopilotData:DSV-TCOTM-InnerTerritory-Frigate-Autopilot-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-InnerTerritory-Frigate-Autopilot-Fighter]
       [TargetData:DSV-TCOTM-InnerTerritory-Frigate-Target-Scout]
       [WeaponSystem:DSV-TCOTM-InnerTerritory-Frigate-Weapons]
       
@@ -38,8 +38,8 @@
       [RivalAI Behavior]
       [BehaviorName:CargoShip]
 
-      [AutopilotData:DSV-TCOTM-InnerTerritory-Frigate-Autopilot-Patrol-CargoShip]
-      [SecondaryAutopilotData:DSV-TCOTM-InnerTerritory-Frigate-Autopilot-Patrol-Fighter]
+      [AutopilotData:DSV-TCOTM-InnerTerritory-Frigate-Autopilot-CargoShip]
+      [SecondaryAutopilotData:DSV-TCOTM-InnerTerritory-Frigate-Autopilot-Fighter]
       [TargetData:DSV-TCOTM-InnerTerritory-Frigate-Target-Patrol]
       [WeaponSystem:DSV-TCOTM-InnerTerritory-Frigate-Weapons]
       

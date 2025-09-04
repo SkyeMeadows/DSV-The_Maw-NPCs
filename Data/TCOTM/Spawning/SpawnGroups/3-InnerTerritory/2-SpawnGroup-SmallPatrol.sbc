@@ -24,7 +24,7 @@
 			[ManipulationProfiles:DSV-TCOTM-InnerTerritory-Manipulation-Destroyer-Loot-Uncommon]
 
 
-			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-InnerTerritory]
+			[SpawnConditionsProfiles:DSV-TCOTM-SpawnConditions-InZone-TCOTM_InnerTerritory]
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->

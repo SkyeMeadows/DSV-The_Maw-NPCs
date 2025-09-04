@@ -15,7 +15,7 @@
       [AutopilotProfile:Secondary]
 
       [UseChatBroadcast:true]
-      [ChatData:DSV-TCOTM-InnerOuterTerritoryCore-Battleship-Chat-Patrol-TargetFound]
+      [ChatData:DSV-TCOTM-OuterTerritory-Battleship-Chat-Patrol-TargetFound]
 
       [ChangeBehaviorSubclass:true]
       [NewBehaviorSubclass:Horsefly]

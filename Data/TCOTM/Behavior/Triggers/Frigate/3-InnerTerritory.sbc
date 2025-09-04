@@ -51,7 +51,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>DSV-TCOTM-Frigate-InnerTerritory-Trigger-Scout-CommandReceive-CommandFocusFire</SubtypeId>
+          <SubtypeId>DSV-TCOTM-InnerTerritory-Frigate-Trigger-Scout-CommandReceive-CommandFocusFire</SubtypeId>
       </Id>
       <Description>
 
