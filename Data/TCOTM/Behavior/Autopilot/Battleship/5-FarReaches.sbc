@@ -55,8 +55,8 @@
 
       [UseProjectileLeadPrediction:true]
 
-      [IdealMaxSpeed:100]
-      [IdealMinSpeed:75]
+      [IdealMaxSpeed:150]
+      [IdealMinSpeed:50]
       [MaxSpeedTolerance:15]
       
       </Description>

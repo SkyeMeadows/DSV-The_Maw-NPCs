@@ -79,6 +79,10 @@
       [AllowStrafing:true]
       [StrafeMinDurationMs:1000]
       [StrafeMaxDurationMs:1500]
+
+      [IdealMaxSpeed:400]
+      [IdealMinSpeed:200]
+      [MaxSpeedTolerance:25]
       
       </Description>
       
