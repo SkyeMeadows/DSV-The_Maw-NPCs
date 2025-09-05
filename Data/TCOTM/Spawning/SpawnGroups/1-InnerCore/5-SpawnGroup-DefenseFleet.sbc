@@ -6,7 +6,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-TCOTM-InnerCore-DefenseFleet</SubtypeId>
+				<SubtypeId>DSV-TCOTM-InnerCore-SpawnGroup-DefenseFleet</SubtypeId>
 			</Id>
 			<Description>
 

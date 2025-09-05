@@ -5,7 +5,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>DSV-TCOTM-InnerCore-LargePatrol</SubtypeId>
+				<SubtypeId>DSV-TCOTM-InnerCore-SpawnGroup-LargePatrol</SubtypeId>
 			</Id>
 			<Description>
 
