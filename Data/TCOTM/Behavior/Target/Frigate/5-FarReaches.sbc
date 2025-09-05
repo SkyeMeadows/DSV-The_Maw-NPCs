@@ -22,6 +22,7 @@
       [MatchAllFilters:OutsideOfSafezone]
       [MatchAllFilters:Owner]
       [MatchAllFilters:Relation]
+      [MatchNoneFilters:Static]
       [GetTargetBy:ClosestDistance]
       
       [Owners:Player]
@@ -53,6 +54,7 @@
       [MatchAllFilters:OutsideOfSafezone]
       [MatchAllFilters:Owner]
       [MatchAllFilters:Relation]
+      [MatchNoneFilters:Static]
       [GetTargetBy:ClosestDistance]
       
       [Owners:Player]
@@ -85,6 +87,7 @@
       [MatchAllFilters:OutsideOfSafezone]
       [MatchAllFilters:Owner]
       [MatchAllFilters:Relation]
+      [MatchNoneFilters:Static]
       [GetTargetBy:ClosestDistance]
       
       [Owners:Player]
