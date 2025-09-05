@@ -102,7 +102,7 @@
       [RivalAI Action]
       
       [BroadcastCommandProfiles:true]
-      [CommandProfileIds:DSV-TCOTM-InnerTerritory-Destroyer-Command-Patrol-CommandFocusFire]
+      [CommandProfileIds:DSV-TCOTM-GLOBAL-Destroyer-Command-Patrol-CommandFocusFire]
 
       </Description>
       

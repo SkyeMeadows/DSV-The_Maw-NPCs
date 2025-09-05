@@ -104,7 +104,7 @@
       [RivalAI Action]
       
       [BroadcastCommandProfiles:true]
-      [CommandProfileIds:DSV-TCOTM-InnerTerritory-Battlecruiser-Command-Patrol-CommandFocusFire]
+      [CommandProfileIds:DSV-TCOTM-GLOBAL-Battlecruiser-Command-Patrol-CommandFocusFire]
 
       </Description>
       
