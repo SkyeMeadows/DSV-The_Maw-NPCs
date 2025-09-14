@@ -8,60 +8,11 @@
 				<SubtypeId>DSV-TCOTM-InnerCore-Manipulation-Frigate-LootTable-Common</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="200" AmountMax="500">
-					<Frequency>2</Frequency>
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>1</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>Uranium</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="500" AmountMax="1000">
-					<Frequency>1.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>SteelPlate</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="400" AmountMax="600">
-					<Frequency>1</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>Construction</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="250" AmountMax="300">
-					<Frequency>0.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>MetalGrid</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="1000" AmountMax="1500">
-					<Frequency>1</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>InteriorPlate</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="500" AmountMax="1000">
-					<Frequency>0.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>Motor</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="200" AmountMax="500">
-					<Frequency>0.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>Superconductor</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="200" AmountMax="500">
-					<Frequency>0.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>Reactor</SubtypeId>
 					</Id>
 				</Item>
 			</Items>

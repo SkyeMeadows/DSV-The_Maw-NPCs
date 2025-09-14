@@ -8,88 +8,11 @@
 				<SubtypeId>DSV-TCOTM-OuterCore-Manipulation-Destroyer-LootTable-Uncommon</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="50" AmountMax="250">
-					<Frequency>2.0</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>DSV-HardenedPlate</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="3" AmountMax="5">
-					<Frequency>0.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>DSV-KarnyxiumCore</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="150" AmountMax="300">
-					<Frequency>1.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>DSV-EchoSeal</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="10" AmountMax="50">
-					<Frequency>1.25</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>DSV-EntropyMatrix</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="200" AmountMax="500">
-					<Frequency>2</Frequency>
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>1</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>Uranium</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="500" AmountMax="1000">
-					<Frequency>1.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>SteelPlate</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="400" AmountMax="600">
-					<Frequency>1</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>Construction</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="250" AmountMax="300">
-					<Frequency>0.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>MetalGrid</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="1000" AmountMax="1500">
-					<Frequency>1</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>InteriorPlate</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="500" AmountMax="1000">
-					<Frequency>0.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>Motor</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="500" AmountMax="1000">
-					<Frequency>0.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>Superconductor</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="500" AmountMax="2000">
-					<Frequency>0.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>Reactor</SubtypeId>
 					</Id>
 				</Item>
 			</Items>

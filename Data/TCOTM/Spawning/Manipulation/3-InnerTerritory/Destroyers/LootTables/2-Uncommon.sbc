@@ -8,88 +8,11 @@
 				<SubtypeId>DSV-TCOTM-InnerTerritory-Manipulation-Destroyer-LootTable-Uncommon</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="150" AmountMax="500">
-					<Frequency>2.0</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>DSV-HardenedPlate</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="5" AmountMax="8">
-					<Frequency>0.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>DSV-KarnyxiumCore</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="550" AmountMax="600">
-					<Frequency>1.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>DSV-EchoSeal</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="20" AmountMax="50">
-					<Frequency>1.25</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>DSV-EntropyMatrix</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="500" AmountMax="1500">
-					<Frequency>2</Frequency>
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>1</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>Uranium</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="800" AmountMax="1000">
-					<Frequency>1.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>SteelPlate</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="600" AmountMax="800">
-					<Frequency>1</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>Construction</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="500" AmountMax="800">
-					<Frequency>0.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>MetalGrid</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="1000" AmountMax="1500">
-					<Frequency>1</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>InteriorPlate</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="500" AmountMax="1000">
-					<Frequency>0.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>Motor</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="800" AmountMax="3000">
-					<Frequency>0.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>Superconductor</SubtypeId>
-					</Id>
-				</Item>
-				<Item AmountMin="800" AmountMax="3000">
-					<Frequency>0.5</Frequency>
-					<Id>
-						<TypeId>Component</TypeId>
-						<SubtypeId>Reactor</SubtypeId>
 					</Id>
 				</Item>
 			</Items>
