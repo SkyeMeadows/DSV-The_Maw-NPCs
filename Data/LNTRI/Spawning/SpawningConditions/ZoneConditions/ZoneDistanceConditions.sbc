@@ -14,7 +14,7 @@
         [ZoneName:LNTRI Umbris Trade Station]
 
         [MinDistanceFromZoneCenter:3000]
-        [MaxDistanceFromZoneCenter:60000]
+        [MaxDistanceFromZoneCenter:40000]
 
       </Description>
 
@@ -32,7 +32,7 @@
         [ZoneName:LNTRI Theros Trade Station]
 
         [MinDistanceFromZoneCenter:3000]
-        [MaxDistanceFromZoneCenter:60000]
+        [MaxDistanceFromZoneCenter:40000]
 
       </Description>
 
@@ -50,7 +50,7 @@
         [ZoneName:Tharsis Asteroid Cluster]
 
         [MinDistanceFromZoneCenter:3000]
-        [MaxDistanceFromZoneCenter:100000]
+        [MaxDistanceFromZoneCenter:80000]
 
       </Description>
 
@@ -68,7 +68,7 @@
         [ZoneName:Theros Asteroid Cluster]
 
         [MinDistanceFromZoneCenter:3000]
-        [MaxDistanceFromZoneCenter:100000]
+        [MaxDistanceFromZoneCenter:80000]
 
       </Description>
 

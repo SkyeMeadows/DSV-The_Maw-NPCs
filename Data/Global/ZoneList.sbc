@@ -141,7 +141,7 @@
         [Active:true]
         [Persistent:true]
 
-        [Coordinates:{X:2487854 Y:-956699 Z:-859778}]
+        [Coordinates:{X:2487839 Y:-956706 Z:-859773}]
         [Radius:50000]
 
         [UseZoneAnnounce:false]
@@ -164,7 +164,7 @@
         [Active:true]
         [Persistent:true]
 
-        [Coordinates:{X:2689172 Y:-809940 Z:-625011}]
+        [Coordinates:{X:2689158 Y:-809948 Z:-625006}]
         [Radius:50000]
 
         [UseZoneAnnounce:false]

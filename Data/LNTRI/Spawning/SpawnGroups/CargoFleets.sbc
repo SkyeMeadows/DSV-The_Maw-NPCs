@@ -19,10 +19,9 @@
 			
 			[ManipulationProfiles:DSV-LNTRI-Manipulation-Loot-Common]
 
-			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-LNTRI-TherosTradeStation]
-			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-LNTRI-TharsisTradeStation]
-			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-TharsisAsteroidCluster]
-			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-TherosAsteroidCluster]
+			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-LNTRI_TherosTradeStation]
+			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-LNTRI_UmbrisTradeStation]
+			
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
@@ -66,10 +65,8 @@
 			
 			[ManipulationProfiles:DSV-LNTRI-Manipulation-Loot-Rare]
 
-			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-LNTRI-TherosTradeStation]
-			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-LNTRI-TharsisTradeStation]
-			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-TharsisAsteroidCluster]
-			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-TherosAsteroidCluster]
+			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-LNTRI_TherosTradeStation]
+			[SpawnConditionsProfiles:DSV-LNTRI-SpawnConditions-InZone-LNTRI_UmbrisTradeStation]
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
