@@ -2,7 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<ContainerTypes>
 	
-		<ContainerType CountMin="5" CountMax="10">
+		<ContainerType CountMin="3" CountMax="5">
 			<Id>
 				<TypeId>ContainerTypeDefinition</TypeId>
 				<SubtypeId>DSV-TCOTM-OuterCore-Manipulation-Battlecruiser-LootTable-Exotic</SubtypeId>

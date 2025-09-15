@@ -79,6 +79,36 @@ Examples:
 > > > > <`ZoneConditions`>
 > > > > > [ZoneDistanceConditions.sbc]
 
+## Loot
+Inner Core:      `0/4` ships
+- Frigate: `0/4` profiles
+- Destroyer: `0/4` profiles
+- Battlecruiser: `0/4` profiles
+- Battleship: `0/4` profiles
+
+Outer Core:      `0/4` ships
+- Frigate: `0/4` profiles
+- Destroyer: `0/4` profiles
+- Battlecruiser: `0/4` profiles
+- Battleship: `0/4` profiles
+
+Inner Territory: `1/4` ships
+- Frigate: `0/4` profiles
+- Destroyer: `0/4` profiles
+- Battlecruiser: `0/4` profiles
+- Battleship: `Not Used`
+
+Outer Territory: `2/4` ships
+- Frigate: `0/4` profiles
+- Destroyer: `0/4` profiles
+- Battlecruiser: `Not Used`
+- Battleship: `Not Used`
+
+Far Reaches:     `4/4` ships
+- Frigate: `Not Used` profiles
+- Destroyer: `Not Used`
+- Battlecruiser: `Not Used`
+- Battleship: `Not Used`
 
 
 ## Troubleshooting in game:
@@ -100,6 +130,7 @@ Z = Backwards (+) / Forwards (-)
 - Defense Shields
 - Jump Drive Inhibitor
 - AQD Conveyor Expansion
+- AQD Armor Expansion
 
 
 ## Other Notes
@@ -110,7 +141,3 @@ Don't forget to spawn in all NPCs and BP again so they start with full shields
 ## Ideas for "Smart" Actions
 - Call For reinforcements when taking too much damage (threshold, could be multi-layered and/or set up on a delay)
 - Switch between strafe and orbiting attack patterns
-
-
-## Fight Style
-- Attempt to disable ships rather than destroy
