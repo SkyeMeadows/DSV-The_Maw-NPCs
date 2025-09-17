@@ -10,7 +10,6 @@
       <Description>
 
       [MES Loot]
-      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
       [ContainerTypes:DSV-TCOTM-OuterTerritory-Manipulation-Destroyer-LootTable-Common]
@@ -29,7 +28,6 @@
       <Description>
 
       [MES Loot]
-      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
       [ContainerTypes:DSV-TCOTM-OuterTerritory-Manipulation-Destroyer-LootTable-Uncommon]
@@ -48,7 +46,6 @@
       <Description>
 
       [MES Loot]
-      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
       [ContainerTypes:DSV-TCOTM-OuterTerritory-Manipulation-Destroyer-LootTable-Rare]
@@ -67,7 +64,6 @@
       <Description>
 
       [MES Loot]
-      [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeContainer]
       [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
       [ContainerTypes:DSV-TCOTM-OuterTerritory-Manipulation-Destroyer-LootTable-Exotic]

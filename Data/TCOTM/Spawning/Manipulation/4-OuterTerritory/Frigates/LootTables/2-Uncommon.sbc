@@ -8,11 +8,32 @@
 				<SubtypeId>DSV-TCOTM-OuterTerritory-Manipulation-Frigate-LootTable-Uncommon</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="1" AmountMax="1">
+				<Item AmountMin="250" AmountMax="1250">
 					<Frequency>1</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>Uranium</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="1500" AmountMax="2500">
+					<Frequency>3</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>Uranium</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="120" AmountMax="150">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Shield</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="400" AmountMax="600">
+					<Frequency>1</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>ShieldComponent</SubtypeId>
 					</Id>
 				</Item>
 			</Items>

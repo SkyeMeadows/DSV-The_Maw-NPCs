@@ -8,11 +8,46 @@
 				<SubtypeId>DSV-TCOTM-OuterTerritory-Manipulation-Frigate-LootTable-Common</SubtypeId>
 			</Id>
 			<Items>
-				<Item AmountMin="1" AmountMax="1">
+				<Item AmountMin="250" AmountMax="750">
+					<Frequency>3</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>Uranium</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="500" AmountMax="1500">
 					<Frequency>1</Frequency>
 					<Id>
 						<TypeId>Ingot</TypeId>
 						<SubtypeId>Uranium</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="2000" AmountMax="3500">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SteelPlate</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="200" AmountMax="500">
+					<Frequency>0.25</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Reactor</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="20" AmountMax="50">
+					<Frequency>1</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>AryxRailgunMagDef</SubtypeId>
+					</Id>
+				</Item>
+				<Item AmountMin="50" AmountMax="100">
+					<Frequency>1.25</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>AryxRailgunMagDef</SubtypeId>
 					</Id>
 				</Item>
 			</Items>

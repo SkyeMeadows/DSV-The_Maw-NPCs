@@ -98,9 +98,9 @@ Inner Territory: `1/4` ships
 - Battlecruiser: `0/4` profiles
 - Battleship: `Not Used`
 
-Outer Territory: `2/4` ships
-- Frigate: `0/4` profiles
-- Destroyer: `0/4` profiles
+Outer Territory: `4/4` ships
+- Frigate: `2/2` profiles
+- Destroyer: `1/1` profiles
 - Battlecruiser: `Not Used`
 - Battleship: `Not Used`
 
